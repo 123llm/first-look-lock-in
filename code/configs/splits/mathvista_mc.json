@@ -1,0 +1,2786 @@
+{
+ "name": "mathvista_mc",
+ "protocol": "v2",
+ "seed": 0,
+ "note": "150 of 540 multi-choice testmini, stratified by task",
+ "n": 150,
+ "n_images": 149,
+ "n_clusters": 149,
+ "items": [
+  {
+   "qid": "mathvista/25",
+   "dataset": "mathvista_mc",
+   "question": "Is Medium Periwinkle the smoothest?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 1,
+   "image_key": "25",
+   "image_sha256": "44f9a43cf735fbeefd09262c2b5e57bf712dbfc46c0b61dd40c8d9c2627ea642",
+   "image_cluster": "44f9a43cf735fbee",
+   "category": "figure question answering",
+   "w": 770,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/58",
+   "dataset": "mathvista_mc",
+   "question": "Does Firebrick have the maximum area under the curve?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 0,
+   "image_key": "58",
+   "image_sha256": "bb7888bcd81174bc5c8cb6ba02efae66a9ea6c90bf73c8540d9bb89b0b0030b5",
+   "image_cluster": "bb7888bcd81174bc",
+   "category": "figure question answering",
+   "w": 760,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/66",
+   "dataset": "mathvista_mc",
+   "question": "Choose the answer for the missing picture.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "answer_idx": 0,
+   "image_key": "66",
+   "image_sha256": "0c9580e5866a3756fa138112d6efcfe966c5e60d8b68fdbeba2b9961facc0881",
+   "image_cluster": "0c9580e5866a3756",
+   "category": "figure question answering",
+   "w": 320,
+   "h": 562,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/73",
+   "dataset": "mathvista_mc",
+   "question": "Complete the matrix.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "answer_idx": 3,
+   "image_key": "73",
+   "image_sha256": "9fd4308c2b85c4ba880dddaebc1b05062f2e3eab9a14e18f2032b5acffa46bab",
+   "image_cluster": "9fd4308c2b85c4ba",
+   "category": "figure question answering",
+   "w": 387,
+   "h": 654,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/166",
+   "dataset": "mathvista_mc",
+   "question": "Which Shape is missing?",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "answer_idx": 1,
+   "image_key": "166",
+   "image_sha256": "14886892a2b5ee40cc41d4c184361cddbda1f661bfd6909ac9eb19771527db46",
+   "image_cluster": "14886892a2b5ee40",
+   "category": "figure question answering",
+   "w": 2028,
+   "h": 816,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/291",
+   "dataset": "mathvista_mc",
+   "question": "In which period the number of full time employees is the maximum?",
+   "options": [
+    "Jul '21",
+    "Jun '21",
+    "Mar '21",
+    "May '21",
+    "Apr '21"
+   ],
+   "answer_idx": 3,
+   "image_key": "291",
+   "image_sha256": "0b778e9fb2aab32692ac3335e309685484868e88f37abc071d77f2bcccb09a24",
+   "image_cluster": "0b778e9fb2aab326",
+   "category": "figure question answering",
+   "w": 800,
+   "h": 557,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/314",
+   "dataset": "mathvista_mc",
+   "question": "Is Crimson the minimum?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 1,
+   "image_key": "314",
+   "image_sha256": "2ea6263d775a6bef98fe7cfc30ec9f0090546dfeb99a716404ef60d684caae08",
+   "image_cluster": "2ea6263d775a6bef",
+   "category": "figure question answering",
+   "w": 522,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/340",
+   "dataset": "mathvista_mc",
+   "question": "Which of the following domains has the most number of BPE Tokens?",
+   "options": [
+    "Legal ",
+    "Code ",
+    "Conversational ",
+    "Math ",
+    "Science",
+    "Books ",
+    "News ",
+    "Encyclopedic"
+   ],
+   "answer_idx": 4,
+   "image_key": "340",
+   "image_sha256": "4b62c4a4def80a4a0e01d6dd67edeb1e381a5884ab1e21b9da99faa04f9b842b",
+   "image_cluster": "4b62c4a4def80a4a",
+   "category": "figure question answering",
+   "w": 2142,
+   "h": 1176,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/357",
+   "dataset": "mathvista_mc",
+   "question": "Is Salmon the roughest?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 1,
+   "image_key": "357",
+   "image_sha256": "13a18a81067b9c1b825e67839850fd8de0f0261f038276c963a9a21e10ebc11c",
+   "image_cluster": "13a18a81067b9c1b",
+   "category": "figure question answering",
+   "w": 677,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/385",
+   "dataset": "mathvista_mc",
+   "question": "Does Cyan have the minimum area under the curve?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 0,
+   "image_key": "385",
+   "image_sha256": "c5d48eb0b0ee473b77201adcd699bfdb8797c44d8ac16abedbebbb6c4cec73d9",
+   "image_cluster": "c5d48eb0b0ee473b",
+   "category": "figure question answering",
+   "w": 771,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/394",
+   "dataset": "mathvista_mc",
+   "question": "Which of the following environments has the least GPU days for training?",
+   "options": [
+    "HomeGrid",
+    "Msgr S1",
+    "Msgr S2",
+    "Msgr S3",
+    "VLN",
+    "LangRoom"
+   ],
+   "answer_idx": 5,
+   "image_key": "394",
+   "image_sha256": "6adcfc5d68b1be367e328bc856835819f57fadfbe1452a60aa30b74deb4cfb41",
+   "image_cluster": "6adcfc5d68b1be36",
+   "category": "figure question answering",
+   "w": 1854,
+   "h": 858,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/423",
+   "dataset": "mathvista_mc",
+   "question": "Is Deep Pink less than Dark Gray?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 1,
+   "image_key": "423",
+   "image_sha256": "92f1cd3ef5c42b2c960cb3bdad97fbdac7473becb433cb972a8b989a09b65f4c",
+   "image_cluster": "92f1cd3ef5c42b2c",
+   "category": "figure question answering",
+   "w": 577,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/445",
+   "dataset": "mathvista_mc",
+   "question": "Is Light Slate less than Saddle Brown?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 0,
+   "image_key": "445",
+   "image_sha256": "f221ef8c3df7d8901d57e72887e65d653d30946d77f03a5a35b5e08f743913b9",
+   "image_cluster": "f221ef8c3df7d890",
+   "category": "figure question answering",
+   "w": 436,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/513",
+   "dataset": "mathvista_mc",
+   "question": "What is the highest value in states that border West Virginia ?",
+   "options": [
+    "43.2%-63.6%",
+    "45.2%-65.6%",
+    "42.2%-62.6%",
+    "41.2%-61.6%",
+    "44.2%-64.6%"
+   ],
+   "answer_idx": 2,
+   "image_key": "513",
+   "image_sha256": "faf81b57d846a61a6a1d62ebe67bd0d6d41c38eb9c8c3f1c2d59c5304a41f454",
+   "image_cluster": "faf81b57d846a61a",
+   "category": "figure question answering",
+   "w": 700,
+   "h": 500,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/520",
+   "dataset": "mathvista_mc",
+   "question": "Does Dark Magenta have the maximum area under the curve?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 0,
+   "image_key": "520",
+   "image_sha256": "27b9fdac74bf35c008db231d3fa14a84f7ea19aaabc7439572897b8377a62c9e",
+   "image_cluster": "27b9fdac74bf35c0",
+   "category": "figure question answering",
+   "w": 741,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/541",
+   "dataset": "mathvista_mc",
+   "question": "Which of the cubes is not identical to the unfolded net?",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "answer_idx": 3,
+   "image_key": "541",
+   "image_sha256": "800bc3fce46a20b9cee605a6baf474e78831ed2e432930737e0bd1c1866ed6f0",
+   "image_cluster": "800bc3fce46a20b9",
+   "category": "figure question answering",
+   "w": 280,
+   "h": 560,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/545",
+   "dataset": "mathvista_mc",
+   "question": "Is Violet Red less than Crimson?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 0,
+   "image_key": "545",
+   "image_sha256": "852ff3d316ea731dc7ecab98070f519967f4e1c930aff5919a2216394a2db0b8",
+   "image_cluster": "852ff3d316ea731d",
+   "category": "figure question answering",
+   "w": 764,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/604",
+   "dataset": "mathvista_mc",
+   "question": "Is Dark Orchid the roughest?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 1,
+   "image_key": "604",
+   "image_sha256": "002ef6c24597549cefc127421f78b04fa06c19352ec1549098c927277879c754",
+   "image_cluster": "002ef6c24597549c",
+   "category": "figure question answering",
+   "w": 700,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/608",
+   "dataset": "mathvista_mc",
+   "question": "Does South Carolina have the highest value in the South ?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "608",
+   "image_sha256": "6a935a2a2772f0a6c894998a0c547fef347636de98a9d7997409fa2ba44bfd25",
+   "image_cluster": "69d42f3f5c9545e5",
+   "category": "figure question answering",
+   "w": 775,
+   "h": 560,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/670",
+   "dataset": "mathvista_mc",
+   "question": "On which date of Meeting was the most number of shares transferred?",
+   "options": [
+    "04/06/2005",
+    "04/02/2005",
+    "04/05/2005",
+    "04/03/2005",
+    "04/04/2005"
+   ],
+   "answer_idx": 1,
+   "image_key": "670",
+   "image_sha256": "7acf6ff2baab95bd0f8bf7bc267267a9ab6e3cab38e19e5d95c9070dbc2e1941",
+   "image_cluster": "7acf6ff2baab95bd",
+   "category": "figure question answering",
+   "w": 1582,
+   "h": 2135,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/695",
+   "dataset": "mathvista_mc",
+   "question": "Is Dark Salmon greater than Dark Orchid?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 0,
+   "image_key": "695",
+   "image_sha256": "b5daec6b4c2ae52dfcccbfb0a49b67809f0b87c2644504c15e03562a9bbe3c4b",
+   "image_cluster": "b5daec6b4c2ae52d",
+   "category": "figure question answering",
+   "w": 734,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/722",
+   "dataset": "mathvista_mc",
+   "question": "Is Deep Sky Blue the high median?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 0,
+   "image_key": "722",
+   "image_sha256": "2d94f6d5ca7d4a9c59d038b402bf9092e5e2aa9e8af6cedfebd7d4aee15d9ace",
+   "image_cluster": "2d94f6d5ca7d4a9c",
+   "category": "figure question answering",
+   "w": 677,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/797",
+   "dataset": "mathvista_mc",
+   "question": "What is the missing pattern in the picture?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer_idx": 1,
+   "image_key": "797",
+   "image_sha256": "ab4e1ce91cee7661028042d51ca7e95347b082ffe1250689b0c435fe99262a35",
+   "image_cluster": "ab4e1ce91cee7661",
+   "category": "figure question answering",
+   "w": 386,
+   "h": 291,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/812",
+   "dataset": "mathvista_mc",
+   "question": "Does the gray bar always have smaller value?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "812",
+   "image_sha256": "50edf58f75df95a444774b73527455fad1b1531c58ab3a72625b59395d843b58",
+   "image_cluster": "50edf58f75df95a4",
+   "category": "figure question answering",
+   "w": 840,
+   "h": 1286,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/843",
+   "dataset": "mathvista_mc",
+   "question": "Is Aqua greater than Red?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 1,
+   "image_key": "843",
+   "image_sha256": "d969f8ad650cbad6866b2a1d4f7a09ea56bb0216b43d8fb10be39f9f2c223c5c",
+   "image_cluster": "d969f8ad650cbad6",
+   "category": "figure question answering",
+   "w": 752,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/861",
+   "dataset": "mathvista_mc",
+   "question": "Is Crimson less than Gray?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 1,
+   "image_key": "861",
+   "image_sha256": "20a3cd2770f33d0625b3ba865d9253bb8296b964b562f475c5325c5e84fc47f3",
+   "image_cluster": "20a3cd2770f33d06",
+   "category": "figure question answering",
+   "w": 680,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/872",
+   "dataset": "mathvista_mc",
+   "question": "Determine the next shape.",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "answer_idx": 3,
+   "image_key": "872",
+   "image_sha256": "b7291c3e7ebac153268d97668838fdc9175b79301636e396937d033c91ad47c8",
+   "image_cluster": "b7291c3e7ebac153",
+   "category": "figure question answering",
+   "w": 1472,
+   "h": 496,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/896",
+   "dataset": "mathvista_mc",
+   "question": "Approximately, what percentage of jewelry sales in January were Rings?",
+   "options": [
+    "Around 21%",
+    "Around 27%",
+    "Around 31%",
+    "Around 37%"
+   ],
+   "answer_idx": 2,
+   "image_key": "896",
+   "image_sha256": "0f1700389b26169b375829af34d91d842621e2a67924f7ad40cb8db909b3d3a4",
+   "image_cluster": "0f1700389b26169b",
+   "category": "figure question answering",
+   "w": 758,
+   "h": 464,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/906",
+   "dataset": "mathvista_mc",
+   "question": "Is the sum of smallest two value is greater then then largest value?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "906",
+   "image_sha256": "9884f77d80be810c83ff88d986295abf521d0f4af03aea4c0403b7c1aaa7d8c9",
+   "image_cluster": "818baa5e0cdcf04d",
+   "category": "figure question answering",
+   "w": 850,
+   "h": 600,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/913",
+   "dataset": "mathvista_mc",
+   "question": "Does Dark Cyan have the maximum area under the curve?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 0,
+   "image_key": "913",
+   "image_sha256": "ea9f6c1a5069fe72a02945b92b89025c983a89524f41a0838be22f9aa71ee44d",
+   "image_cluster": "ea9f6c1a5069fe72",
+   "category": "figure question answering",
+   "w": 763,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/923",
+   "dataset": "mathvista_mc",
+   "question": "Which model achieves the highest score in terms of Rec?",
+   "options": [
+    "Transformers Agent (GPT-4)",
+    "LLaMA-Adapter v2-7B",
+    "LLaVA-7B",
+    "Otter-9B ",
+    "MM-ReAct-GPT-3.5",
+    "LLaVA-13B (LLaMA-2)",
+    "MM-ReAct-GPT-4"
+   ],
+   "answer_idx": 5,
+   "image_key": "923",
+   "image_sha256": "fb64765139564cebba4ef7d466f4460692d9ec179db19cc9d97780ed094ad00e",
+   "image_cluster": "fb64765139564ceb",
+   "category": "figure question answering",
+   "w": 1910,
+   "h": 1056,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/994",
+   "dataset": "mathvista_mc",
+   "question": "Is Magenta greater than Web Maroon?",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 0,
+   "image_key": "994",
+   "image_sha256": "43b4112a21b905d907916b8bc812849827076e259e12547e8c39414e55a33b1f",
+   "image_cluster": "43b4112a21b905d9",
+   "category": "figure question answering",
+   "w": 548,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/9",
+   "dataset": "mathvista_mc",
+   "question": "如图是一株美丽的勾股树，其中所有四边形都是正方形，所有的三角形都是直角三角形，若正方形A、B的面积分别为5、3，则最大正方形C的面积是（）",
+   "options": [
+    "15",
+    "13",
+    "11",
+    "8"
+   ],
+   "answer_idx": 3,
+   "image_key": "9",
+   "image_sha256": "5778acf94c3dd91a12018842e999650098b20e590313d633bd9083e2791fa95f",
+   "image_cluster": "5778acf94c3dd91a",
+   "category": "geometry problem solving",
+   "w": 134,
+   "h": 155,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/17",
+   "dataset": "mathvista_mc",
+   "question": "如图，在Rt△ABC中，∠ACB＝90°，D是AB的中点，AB＝10，则CD的长为（）",
+   "options": [
+    "5",
+    "6",
+    "8",
+    "10"
+   ],
+   "answer_idx": 0,
+   "image_key": "17",
+   "image_sha256": "16a911644262005e59c2e4022da13aa00fca3d473b6fcb2aadec89a9467d6af5",
+   "image_cluster": "16a911644262005e",
+   "category": "geometry problem solving",
+   "w": 125,
+   "h": 172,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/68",
+   "dataset": "mathvista_mc",
+   "question": "将一根长度为16cm自然伸直的弹性皮筋AB两端固定在水平的桌面上，然后把中点C竖直向上拉升6cm至D点（如图），则该弹性皮筋被拉长了（）",
+   "options": [
+    "2cm",
+    "4cm",
+    "6cm",
+    "8cm"
+   ],
+   "answer_idx": 1,
+   "image_key": "68",
+   "image_sha256": "c00be865f72abc093f6818fb73e17051ee03fb63f6ff2c32975c2dccb6cdb540",
+   "image_cluster": "c00be865f72abc09",
+   "category": "geometry problem solving",
+   "w": 252,
+   "h": 84,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/79",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, points A, B, C, and D are on circle O, and point E is on the extended line of AD. If ∠ABC = 60.0, then the degree of ∠CDE is ()",
+   "options": [
+    "30°",
+    "45°",
+    "60°",
+    "70°"
+   ],
+   "answer_idx": 2,
+   "image_key": "79",
+   "image_sha256": "548d3c594c66600305780975ed97b96454f89549e265c5524dc719f045bc916f",
+   "image_cluster": "548d3c594c666003",
+   "category": "geometry problem solving",
+   "w": 123,
+   "h": 104,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/82",
+   "dataset": "mathvista_mc",
+   "question": "A square is inscribed in a circle of area 18$\\pi$ square units. Find the length of a side of the square.",
+   "options": [
+    "3",
+    "3 \\sqrt 2",
+    "6",
+    "6 \\sqrt 2"
+   ],
+   "answer_idx": 2,
+   "image_key": "82",
+   "image_sha256": "955d298fcd837fd4fa8144e68fe413b1d015a3f48796eed670d41955abbaa9ae",
+   "image_cluster": "955d298fcd837fd4",
+   "category": "geometry problem solving",
+   "w": 200,
+   "h": 202,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/114",
+   "dataset": "mathvista_mc",
+   "question": "In the figure, KL is tangent to $\\odot M$ at K. Find the value of x.",
+   "options": [
+    "6.00",
+    "9.45",
+    "18.9",
+    "37.8"
+   ],
+   "answer_idx": 1,
+   "image_key": "114",
+   "image_sha256": "bfcd7a02296aa64ee692e5387c507540d3b6b34574835571a45bfb8cb1b52eec",
+   "image_cluster": "bfcd7a02296aa64e",
+   "category": "geometry problem solving",
+   "w": 347,
+   "h": 273,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/132",
+   "dataset": "mathvista_mc",
+   "question": "如图，在4×4的正方形网格中，每个小正方形的边长均为1，点A，B，C都在格点上，AD⊥BC于D，则AD的长为（）",
+   "options": [
+    "1",
+    "1.5",
+    "2",
+    "\\frac{7}{3}"
+   ],
+   "answer_idx": 2,
+   "image_key": "132",
+   "image_sha256": "740bdb167f7433dc48a67bfaa1778eff23b7698d12e8c9dfe2616dedf85a2bf5",
+   "image_cluster": "740bdb167f7433dc",
+   "category": "geometry problem solving",
+   "w": 155,
+   "h": 160,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/143",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, in the parallelogram ABCD, CE bisects ∠BCD and it intersects the AD edge at point E, and DE = 3.0, then the length of AB is ()",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "6"
+   ],
+   "answer_idx": 2,
+   "image_key": "143",
+   "image_sha256": "c9ee9ef9de62fa6922bd7fcdac8a89535325cc34648f05a70afa03ad411bf6b3",
+   "image_cluster": "c9ee9ef9de62fa69",
+   "category": "geometry problem solving",
+   "w": 204,
+   "h": 85,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/164",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, in ▱ABCD, CE ⊥ AB, point E is the foot of perpendicular, if ∠D = 55.0, then ∠BCE = ()",
+   "options": [
+    "55°",
+    "35°",
+    "25°",
+    "30°"
+   ],
+   "answer_idx": 1,
+   "image_key": "164",
+   "image_sha256": "5d629854adf635b644aa8e31eb5627167504f35a0942c813278ea19f33210ece",
+   "image_cluster": "5d629854adf635b6",
+   "category": "geometry problem solving",
+   "w": 161,
+   "h": 84,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/242",
+   "dataset": "mathvista_mc",
+   "question": "Find $m \\angle A$ of quadrilateral ABCD",
+   "options": [
+    "45",
+    "90",
+    "135",
+    "180"
+   ],
+   "answer_idx": 2,
+   "image_key": "242",
+   "image_sha256": "c89ef89d821152b51777c4c596540ca66267bc92972d10057df8bc59be8e52ca",
+   "image_cluster": "c89ef89d821152b5",
+   "category": "geometry problem solving",
+   "w": 621,
+   "h": 381,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/250",
+   "dataset": "mathvista_mc",
+   "question": "The area $A$ of the shaded region is given. Find $x$. $A = 66$ cm$^2$ .",
+   "options": [
+    "4.6",
+    "6.5",
+    "13.0",
+    "26.0"
+   ],
+   "answer_idx": 2,
+   "image_key": "250",
+   "image_sha256": "d1d4227626964fd4d296b00051bff2b5e76e410515cab9fa11a92465efa8183a",
+   "image_cluster": "d1d4227626964fd4",
+   "category": "geometry problem solving",
+   "w": 303,
+   "h": 286,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/310",
+   "dataset": "mathvista_mc",
+   "question": "Find z",
+   "options": [
+    "10",
+    "\\frac { 32 } { 3 }",
+    "\\frac { 40 } { 3 }",
+    "\\frac { 50 } { 3 }"
+   ],
+   "answer_idx": 2,
+   "image_key": "310",
+   "image_sha256": "c1dfd288f25137df89a827c4f04268ec86ea7d5a2396d141b23447449fd75fb0",
+   "image_cluster": "c1dfd288f25137df",
+   "category": "geometry problem solving",
+   "w": 350,
+   "h": 218,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/339",
+   "dataset": "mathvista_mc",
+   "question": "如图，在⊙O中，AB=AC，∠BAC＝70°，则∠AEC的度数是（）",
+   "options": [
+    "65°",
+    "75°",
+    "50°",
+    "55°"
+   ],
+   "answer_idx": 3,
+   "image_key": "339",
+   "image_sha256": "a2f0672c8961045a275b7e5bf9a78a942779c8672c8395055ee81f3a811540ff",
+   "image_cluster": "a2f0672c8961045a",
+   "category": "geometry problem solving",
+   "w": 115,
+   "h": 112,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/360",
+   "dataset": "mathvista_mc",
+   "question": "If $\\frac{I J}{X J}=\\frac{HJ}{YJ}, m \\angle W X J=130$\r\nand $m \\angle WZG=20,$ find $m \\angle YIZ$",
+   "options": [
+    "40",
+    "50",
+    "65",
+    "110"
+   ],
+   "answer_idx": 1,
+   "image_key": "360",
+   "image_sha256": "6387ed1337173466d6609810f205dd8b7e5f8a590898665c7e3531ed8160a076",
+   "image_cluster": "6387ed1337173466",
+   "category": "geometry problem solving",
+   "w": 721,
+   "h": 370,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/371",
+   "dataset": "mathvista_mc",
+   "question": "如图，在Rt△ABC中，∠ABC＝90°，点D、E、F分别是边AB、BC、CA的中点，若DE+BF＝8，则BF的值为（）",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer_idx": 1,
+   "image_key": "371",
+   "image_sha256": "103f21adbc23c3e31535531e14c9ebf74e2678c09281cc3ba85b7fa92cd15889",
+   "image_cluster": "103f21adbc23c3e3",
+   "category": "geometry problem solving",
+   "w": 109,
+   "h": 146,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/373",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, in the quadrilateral ABCD, ∠BAD = 120.0, ∠B = ∠D = 90.0, if you find a point M on BC and CD respectively, so that the perimeter of △AMN is the smallest, then the degree of ∠AMN + ∠ANM is ()",
+   "options": [
+    "110°",
+    "120°",
+    "140°",
+    "150°"
+   ],
+   "answer_idx": 1,
+   "image_key": "373",
+   "image_sha256": "264e78b2a97a92f9eb3895693f1d5008da8485d36b6cac42833f7028a018cf07",
+   "image_cluster": "264e78b2a97a92f9",
+   "category": "geometry problem solving",
+   "w": 122,
+   "h": 161,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/378",
+   "dataset": "mathvista_mc",
+   "question": "如图，AD是△ABC的中线，E为AD的中点，△ABE的面积为2，则△ABC的面积为（）",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "answer_idx": 3,
+   "image_key": "378",
+   "image_sha256": "59a1bd47fbe4623cb1244054010980d649ad4a4a86df80a8b22fa76103d4f674",
+   "image_cluster": "59a1bd47fbe4623c",
+   "category": "geometry problem solving",
+   "w": 118,
+   "h": 111,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/391",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, point O is the center of ⊙O, points A, B, and C are on ⊙O, AO ∥ BC, ∠AOB = 40.0, then the degree of ∠OAC is equal to ()",
+   "options": [
+    "40°",
+    "60°",
+    "50°",
+    "20°"
+   ],
+   "answer_idx": 3,
+   "image_key": "391",
+   "image_sha256": "e6401a1e249f292d31be6d13a1c405272e6fc31a5e42cf7f4587e0c2e7d28363",
+   "image_cluster": "e6401a1e249f292d",
+   "category": "geometry problem solving",
+   "w": 96,
+   "h": 96,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/407",
+   "dataset": "mathvista_mc",
+   "question": "如图，点B，D，E，C在同一条直线上，若△ABD≌△ACE，∠AEC＝110°，则∠DAE的度数为（）",
+   "options": [
+    "30°",
+    "40°",
+    "50°",
+    "60°"
+   ],
+   "answer_idx": 1,
+   "image_key": "407",
+   "image_sha256": "2dd884ae10cebe6df6963aa9a87baaf6acaaf7a7564a133cb9165c065298fc16",
+   "image_cluster": "2dd884ae10cebe6d",
+   "category": "geometry problem solving",
+   "w": 76,
+   "h": 67,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/408",
+   "dataset": "mathvista_mc",
+   "question": "Find z.",
+   "options": [
+    "6",
+    "6 \\sqrt { 2 }",
+    "6 \\sqrt { 3 }",
+    "6 \\sqrt { 5 }"
+   ],
+   "answer_idx": 3,
+   "image_key": "408",
+   "image_sha256": "f01f4efccceedf972c2c0ea5242d5881406e87c1af760b46639c91d325a88958",
+   "image_cluster": "f01f4efccceedf97",
+   "category": "geometry problem solving",
+   "w": 362,
+   "h": 238,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/414",
+   "dataset": "mathvista_mc",
+   "question": "If $ST=8, TR=4$, and $PT=6$, find $QR$.",
+   "options": [
+    "6",
+    "8",
+    "9",
+    "10"
+   ],
+   "answer_idx": 2,
+   "image_key": "414",
+   "image_sha256": "23e2fe3996c4aaca6581dd1424ce32fb09919935b314a123440acbf86c5549a8",
+   "image_cluster": "23e2fe3996c4aaca",
+   "category": "geometry problem solving",
+   "w": 509,
+   "h": 386,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/434",
+   "dataset": "mathvista_mc",
+   "question": "In the figure above, side AC of triangle ABC is on line l. What is x in terms of k?",
+   "options": [
+    "60-k",
+    "k",
+    "60+k",
+    "120-k",
+    "120-2*k"
+   ],
+   "answer_idx": 0,
+   "image_key": "434",
+   "image_sha256": "15f13bb2bf0229cccd4153825d91ff6a78a45f875eebe468279ab8710c6f6e61",
+   "image_cluster": "15f13bb2bf0229cc",
+   "category": "geometry problem solving",
+   "w": 215,
+   "h": 157,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/510",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, in Rt△ABC, ∠C = 90.0, AC = 4.0, AB = 5.0, then the value of sinB is ()",
+   "options": [
+    "\\frac{2}{3}",
+    "\\frac{3}{5}",
+    "\\frac{3}{4}",
+    "\\frac{4}{5}"
+   ],
+   "answer_idx": 3,
+   "image_key": "510",
+   "image_sha256": "4f3ab90466b910515d5e7e3ebd48ab78a3f874ee0338cecc1da06b726a809873",
+   "image_cluster": "4f3ab90466b91051",
+   "category": "geometry problem solving",
+   "w": 119,
+   "h": 186,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/523",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, a teaching interest group wants to measure the height of a tree CD. They firstly measured the elevation angle of the tree top C at point A as 30.0, and then proceeded 10.0 along the direction of AD to point B, and the elevation angle of tree top C measured at B is 60.0  (the three points A, B, and D are on the same straight line), then the height of the tree CD is ()",
+   "options": [
+    "10m",
+    "5m",
+    "5√{3}m",
+    "10√{3}m"
+   ],
+   "answer_idx": 2,
+   "image_key": "523",
+   "image_sha256": "2a6e9b87c4e152dda6c6a0aaca204867a8788f6e0fb1e890e2fa1c9ac22bfc74",
+   "image_cluster": "2a6e9b87c4e152dd",
+   "category": "geometry problem solving",
+   "w": 285,
+   "h": 179,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/539",
+   "dataset": "mathvista_mc",
+   "question": "如图，在△ABC中，点D、E分别是边AB、BC的中点，若△BDE的周长是6，则△ABC的周长是（）",
+   "options": [
+    "8",
+    "10",
+    "12",
+    "14"
+   ],
+   "answer_idx": 2,
+   "image_key": "539",
+   "image_sha256": "de51872e2954d78ca0640588adaae1653f8baa36b3d9da3acce6b8476c05ca4e",
+   "image_cluster": "de51872e2954d78c",
+   "category": "geometry problem solving",
+   "w": 149,
+   "h": 71,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/557",
+   "dataset": "mathvista_mc",
+   "question": "如图，在Rt△ABC中，∠BAC＝90°，以Rt△ABC的三边为边分别向外作等边三角形△A'BC，△AB'C，△ABC'，若△A'BC，△AB'C的面积分别是10和4，则△ABC'的面积是（）",
+   "options": [
+    "4",
+    "6",
+    "8",
+    "9"
+   ],
+   "answer_idx": 1,
+   "image_key": "557",
+   "image_sha256": "25f80c0389bc32ce2a91e7e3a97fa63811651fc61e47a5c90e9a133209fe2c89",
+   "image_cluster": "25f80c0389bc32ce",
+   "category": "geometry problem solving",
+   "w": 155,
+   "h": 130,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/566",
+   "dataset": "mathvista_mc",
+   "question": "如图，已知△ABC≌△DEF，CD平分∠BCA，若∠A＝22°，∠CGF＝88°，则∠E的度数是（）",
+   "options": [
+    "26°",
+    "28°",
+    "30°",
+    "34°"
+   ],
+   "answer_idx": 0,
+   "image_key": "566",
+   "image_sha256": "2662b1c882f14c83bcd9df10ce3d1a68e44a422aee653debf1cc36f2227311f3",
+   "image_cluster": "2662b1c882f14c83",
+   "category": "geometry problem solving",
+   "w": 89,
+   "h": 89,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/587",
+   "dataset": "mathvista_mc",
+   "question": "At 9.0 in the morning, a ship departs from point A and sails in the direction due east at a speed of 40.0 nautical miles per hour, and arrives at point B at 9.0 and 30.0 minutes. As shown in the figure, the island M is measured from A and B. In the direction of 45.0 north by east and 15.0 north by east, then the distance between B and island M is ()",
+   "options": [
+    "20海里",
+    "20√{2}海里",
+    "15海里",
+    "20海里"
+   ],
+   "answer_idx": 1,
+   "image_key": "587",
+   "image_sha256": "5996305bb3a93e8dc19fd315aa015d91f531fab50fd38524a442720698ceeb69",
+   "image_cluster": "5996305bb3a93e8d",
+   "category": "geometry problem solving",
+   "w": 144,
+   "h": 124,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/599",
+   "dataset": "mathvista_mc",
+   "question": "In the figure above, AC = 6 and BC = 3. Point P lies on line AB between A and B such that line CP is perpendicular to line AB. Which of the following could be the length of line CP?",
+   "options": [
+    "2",
+    "4",
+    "5",
+    "7",
+    "8"
+   ],
+   "answer_idx": 0,
+   "image_key": "599",
+   "image_sha256": "d37162bb159903b43aca3d53bbc19300a613d38812009a43c48fd7bbffa772f3",
+   "image_cluster": "d37162bb159903b4",
+   "category": "geometry problem solving",
+   "w": 393,
+   "h": 340,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/621",
+   "dataset": "mathvista_mc",
+   "question": "The figure above is composed of 25 small triangles that are congruent and equilateral. If the area of triangle DFH is 10, what is the area of triangle AFK?",
+   "options": [
+    "40",
+    "42.5",
+    "50",
+    "52.5",
+    "62.5"
+   ],
+   "answer_idx": 4,
+   "image_key": "621",
+   "image_sha256": "3febb87d33fba80b380e4251a9e6c4ff1fb4e5cead6529a270e8c9c91a7bc82e",
+   "image_cluster": "3febb87d33fba80b",
+   "category": "geometry problem solving",
+   "w": 397,
+   "h": 315,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/628",
+   "dataset": "mathvista_mc",
+   "question": "如图，在ABCD中，∠ABC的平分线交AD于点E，∠BCD的平分线交AD于点F，若AB＝3，AD＝4，则EF的长是（）",
+   "options": [
+    "1",
+    "2",
+    "2.5",
+    "3"
+   ],
+   "answer_idx": 1,
+   "image_key": "628",
+   "image_sha256": "b50782956ef61cef6393428dd87dc9b564ba8d1d7c3c201e88f78303162f0fa5",
+   "image_cluster": "b50782956ef61cef",
+   "category": "geometry problem solving",
+   "w": 151,
+   "h": 111,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/674",
+   "dataset": "mathvista_mc",
+   "question": "In the figure above, CDE is an equilateral triangle and ABCE is a square with an area of 1. What is the perimeter of polygon ABCDE?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "answer_idx": 1,
+   "image_key": "674",
+   "image_sha256": "0054c8ce64944f6441cd12573aa9b0f68270ab0b6e27b51b5ba266b2fa0d52b1",
+   "image_cluster": "0054c8ce64944f64",
+   "category": "geometry problem solving",
+   "w": 125,
+   "h": 89,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/679",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, in ▱ABCD, the diagonal AC and BD intersect at point O, if AC = 12.0, BD = 8.0, AB = 7.0, then the perimeter of △OAB is ()",
+   "options": [
+    "15",
+    "17",
+    "21",
+    "27"
+   ],
+   "answer_idx": 1,
+   "image_key": "679",
+   "image_sha256": "bd3258bf9bf7f198822925a4ac5f75963d5154efa0eea3578ab0f7f0a917524e",
+   "image_cluster": "bd3258bf9bf7f198",
+   "category": "geometry problem solving",
+   "w": 173,
+   "h": 73,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/698",
+   "dataset": "mathvista_mc",
+   "question": "In the triangle in the figure above, what is the value of x?",
+   "options": [
+    "2*\\sqrt{3}",
+    "6*\\sqrt{2}",
+    "6*\\sqrt{3}",
+    "6",
+    "12"
+   ],
+   "answer_idx": 0,
+   "image_key": "698",
+   "image_sha256": "5160bbbfa16232a34eb8cf7cc04c9b50a3bf6a92dec798be7b8f7aba173cda17",
+   "image_cluster": "5160bbbfa16232a3",
+   "category": "geometry problem solving",
+   "w": 615,
+   "h": 376,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/708",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, the light source P is directly above the crossbar AB, the shadow of AB under the light is CD, AB ∥ CD, AB = 2.0, CD = 5.0, the distance between point P and CD is 3.0, then the distance between AB and CD is ().",
+   "options": [
+    "\\frac{6}{5}",
+    "\\frac{7}{6}",
+    "\\frac{9}{5}",
+    "\\frac{15}{2}"
+   ],
+   "answer_idx": 2,
+   "image_key": "708",
+   "image_sha256": "36b86bf98873d0317b5f66c6b8745e3cbfaee51d40a9e6ff81caa8e1f589a846",
+   "image_cluster": "36b86bf98873d031",
+   "category": "geometry problem solving",
+   "w": 156,
+   "h": 110,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/716",
+   "dataset": "mathvista_mc",
+   "question": "Find y.",
+   "options": [
+    "16 \\sqrt { 2 }",
+    "16 \\sqrt { 3 }",
+    "32",
+    "16 \\sqrt { 5 }"
+   ],
+   "answer_idx": 3,
+   "image_key": "716",
+   "image_sha256": "98311b4053b4fd40ef8847fd4c6bb55ae548ef57aadf4e1ebb131d0fc574085a",
+   "image_cluster": "98311b4053b4fd40",
+   "category": "geometry problem solving",
+   "w": 427,
+   "h": 196,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/726",
+   "dataset": "mathvista_mc",
+   "question": "Find x. Assume that any segment that appears to be tangent is tangent.",
+   "options": [
+    "10",
+    "30",
+    "90",
+    "120"
+   ],
+   "answer_idx": 0,
+   "image_key": "726",
+   "image_sha256": "c304a74388651411d0b6abfb495ebdda2572f6ab65eff275af8e875993a63ea6",
+   "image_cluster": "c304a74388651411",
+   "category": "geometry problem solving",
+   "w": 228,
+   "h": 199,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/737",
+   "dataset": "mathvista_mc",
+   "question": "Find the perimeter of the parallelogram.",
+   "options": [
+    "32",
+    "39",
+    "46",
+    "78"
+   ],
+   "answer_idx": 3,
+   "image_key": "737",
+   "image_sha256": "2cead9367fe92a4c54a4ac4966488db4c1468f9b4d2036a219d22e7b25f8ac68",
+   "image_cluster": "2cead9367fe92a4c",
+   "category": "geometry problem solving",
+   "w": 352,
+   "h": 179,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/744",
+   "dataset": "mathvista_mc",
+   "question": "If RL = 5, RT = 9, and WS = 6, find RW.",
+   "options": [
+    "5.4",
+    "6",
+    "6.6",
+    "7.5"
+   ],
+   "answer_idx": 3,
+   "image_key": "744",
+   "image_sha256": "1c29a398d7000b4495d74c85a51e42bc13b294c0a06e313454c3c28ac5ca07ea",
+   "image_cluster": "1c29a398d7000b44",
+   "category": "geometry problem solving",
+   "w": 404,
+   "h": 199,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/747",
+   "dataset": "mathvista_mc",
+   "question": "In $\\odot M$, $FL=24,HJ=48$, and $m \\widehat {HP}=65$. Find $m \\widehat {HJ}$.",
+   "options": [
+    "65",
+    "120",
+    "130",
+    "155"
+   ],
+   "answer_idx": 2,
+   "image_key": "747",
+   "image_sha256": "e0d19f0e530045b1cc7522acae46eaaec03ca1897029dbb7b0cde3494e392232",
+   "image_cluster": "e0d19f0e530045b1",
+   "category": "geometry problem solving",
+   "w": 507,
+   "h": 467,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/748",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, PA and PB are tangents of ⊙O, the tangent point of point A and B, AC is the diameter of ⊙O, given that ∠P = 50.0, then the size of ∠ACB is ()",
+   "options": [
+    "65°",
+    "60°",
+    "55°",
+    "50°"
+   ],
+   "answer_idx": 0,
+   "image_key": "748",
+   "image_sha256": "b208b6de48592d82112eb2c981ce8c46bb60426c98baa694ba22d44063725d65",
+   "image_cluster": "b208b6de48592d82",
+   "category": "geometry problem solving",
+   "w": 207,
+   "h": 117,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/752",
+   "dataset": "mathvista_mc",
+   "question": "如图，PA是⊙O的切线，切点为A，OP＝4，∠APO＝30°，则⊙O的半径长为（）",
+   "options": [
+    "1",
+    "√{3}",
+    "2",
+    "3"
+   ],
+   "answer_idx": 2,
+   "image_key": "752",
+   "image_sha256": "4b2055163668da52d712ad15ca333d280d7b8410d9578a6af8d84118dc0d7c4d",
+   "image_cluster": "4b2055163668da52",
+   "category": "geometry problem solving",
+   "w": 122,
+   "h": 87,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/757",
+   "dataset": "mathvista_mc",
+   "question": "Find x to the nearest tenth. Assume that segments that appear to be tangent are tangent.",
+   "options": [
+    "7.2",
+    "8",
+    "12",
+    "15"
+   ],
+   "answer_idx": 0,
+   "image_key": "757",
+   "image_sha256": "102f0408f9c40acee5bf92aea7941e8cb28e0ab2a47110e4420fabc7e7614c57",
+   "image_cluster": "102f0408f9c40ace",
+   "category": "geometry problem solving",
+   "w": 220,
+   "h": 165,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/773",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, AB is the diameter of ⊙O, point D is on the extended line of AB, passing point D is the tangent of ⊙O, and the tangent point is C, if ∠A = 25.0, then ∠D = ()",
+   "options": [
+    "25°",
+    "40°",
+    "50°",
+    "65°"
+   ],
+   "answer_idx": 1,
+   "image_key": "773",
+   "image_sha256": "6098074f5a1d0b2a56eef4727d9a87210c51ca70c8e5b81749f11f8505472b65",
+   "image_cluster": "6098074f5a1d0b2a",
+   "category": "geometry problem solving",
+   "w": 163,
+   "h": 117,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/776",
+   "dataset": "mathvista_mc",
+   "question": "Find $JQ$ if $Q$ is the incenter of $\\triangle JLN$.  Rounded to the nearest hundredth.",
+   "options": [
+    "16.50",
+    "18.79",
+    "20.32",
+    "25.50"
+   ],
+   "answer_idx": 1,
+   "image_key": "776",
+   "image_sha256": "3fc4608e6ff78b5c5636a5081db02d4107ec81e0399dc249892a915ee15b6c4a",
+   "image_cluster": "3fc4608e6ff78b5c",
+   "category": "geometry problem solving",
+   "w": 589,
+   "h": 424,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/777",
+   "dataset": "mathvista_mc",
+   "question": "In rhombus LMPQ, $m \\angle Q L M=2 x^{2}-10$, $m \\angle Q P M=8 x$,  and $M P=10$ . \r\nFind the perimeter of $LMPQ$",
+   "options": [
+    "10",
+    "40",
+    "70",
+    "140"
+   ],
+   "answer_idx": 1,
+   "image_key": "777",
+   "image_sha256": "1cce41bf9992d2e99b0027ee1912ce54793b244695acc822c8a600ab8509a347",
+   "image_cluster": "1cce41bf9992d2e9",
+   "category": "geometry problem solving",
+   "w": 337,
+   "h": 177,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/781",
+   "dataset": "mathvista_mc",
+   "question": "In $\\triangle CDF$, $K$ is the centroid and $DK=16$. Find $CD$.",
+   "options": [
+    "9",
+    "12",
+    "18",
+    "18"
+   ],
+   "answer_idx": 2,
+   "image_key": "781",
+   "image_sha256": "97cabaec54a1e7bfa6b33f51156427605ff37344ed28b93f83dac526f5e11237",
+   "image_cluster": "97cabaec54a1e7bf",
+   "category": "geometry problem solving",
+   "w": 461,
+   "h": 540,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/798",
+   "dataset": "mathvista_mc",
+   "question": "In the figure above, l || m. Which of the following must equal 180?",
+   "options": [
+    "k + n + r",
+    "k + p + s",
+    "n + p + s",
+    "n + p + t",
+    "r + s + t"
+   ],
+   "answer_idx": 1,
+   "image_key": "798",
+   "image_sha256": "bf722b60377e29903612556d031c6459919b40330748e6918254d905c2ef5a5c",
+   "image_cluster": "bf722b60377e2990",
+   "category": "geometry problem solving",
+   "w": 371,
+   "h": 372,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/820",
+   "dataset": "mathvista_mc",
+   "question": "$a=14, b=48,$ and $c=50$ find $cosA$",
+   "options": [
+    "0.14",
+    "0.48",
+    "0.50",
+    "0.96"
+   ],
+   "answer_idx": 3,
+   "image_key": "820",
+   "image_sha256": "f0bce72871eeb4893156654cffefe544996d0127ab6740690e5d7a64c04bead8",
+   "image_cluster": "f0bce72871eeb489",
+   "category": "geometry problem solving",
+   "w": 238,
+   "h": 160,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/853",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, in the diamond ABCD, ∠BAD = 120.0, the length of the diagonal AC is 3.0, then the perimeter of the diamond ABCD is ()",
+   "options": [
+    "3",
+    "6",
+    "9",
+    "12"
+   ],
+   "answer_idx": 3,
+   "image_key": "853",
+   "image_sha256": "d8f6385e02c448d743233ad173823baf27db37b60c939bdb68bfde1c240d62bf",
+   "image_cluster": "d8f6385e02c448d7",
+   "category": "geometry problem solving",
+   "w": 169,
+   "h": 98,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/866",
+   "dataset": "mathvista_mc",
+   "question": "For trapezoid $Q R S T, A$ and $B$ are midpoints of the legs. Find $m \\angle S$",
+   "options": [
+    "45",
+    "60",
+    "120",
+    "135"
+   ],
+   "answer_idx": 3,
+   "image_key": "866",
+   "image_sha256": "ecb674a92979c6f789bd33ab3e873f4b1984af5d9b430d3b8c44a467dc4c3efe",
+   "image_cluster": "ecb674a92979c6f7",
+   "category": "geometry problem solving",
+   "w": 359,
+   "h": 169,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/878",
+   "dataset": "mathvista_mc",
+   "question": "如图，在Rt△ABC中，∠ACB＝90°，以Rt△ABC的三边为边向外作正方形，其面积分别为S1，S2，S3，且S1＝5，S3＝16，则S2＝（）",
+   "options": [
+    "6",
+    "2√{2}",
+    "11",
+    "24"
+   ],
+   "answer_idx": 2,
+   "image_key": "878",
+   "image_sha256": "7aa4901eaef8bd7ffa63567d0d6ea99274ad0d8eef1df1f417fac8926b77ef9c",
+   "image_cluster": "7aa4901eaef8bd7f",
+   "category": "geometry problem solving",
+   "w": 94,
+   "h": 82,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/903",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, if ∠ABC = 30.0, then the degree of ∠AOC is ()",
+   "options": [
+    "30°",
+    "45°",
+    "60°",
+    "70°"
+   ],
+   "answer_idx": 2,
+   "image_key": "903",
+   "image_sha256": "eef42630da1e4d2a851d5c76ee1f08cd7bbeb0cb4b08b02da85833c9885988f6",
+   "image_cluster": "eef42630da1e4d2a",
+   "category": "geometry problem solving",
+   "w": 110,
+   "h": 112,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/931",
+   "dataset": "mathvista_mc",
+   "question": "As shown in the figure, △ABC is the inscribed triangle of ⊙O, AB is the diameter of ⊙O, point D is a point on ⊙O, if ∠ACD = 40.0, then the size of ∠BAD is ()",
+   "options": [
+    "35°",
+    "50°",
+    "40°",
+    "60°"
+   ],
+   "answer_idx": 1,
+   "image_key": "931",
+   "image_sha256": "ac578c702c5d409db4bea44928aac47e7b70b75611e56010d6b4e5b47376563a",
+   "image_cluster": "ac578c702c5d409d",
+   "category": "geometry problem solving",
+   "w": 124,
+   "h": 123,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/951",
+   "dataset": "mathvista_mc",
+   "question": "Find $x$.",
+   "options": [
+    "10.25",
+    "12.75",
+    "18.75",
+    "25.5"
+   ],
+   "answer_idx": 1,
+   "image_key": "951",
+   "image_sha256": "72a3989a2c9b34136cb5120e29a12205d0fcfaa237550a759b11a41cc4aa21d0",
+   "image_cluster": "72a3989a2c9b3413",
+   "category": "geometry problem solving",
+   "w": 487,
+   "h": 427,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/977",
+   "dataset": "mathvista_mc",
+   "question": "如图，已知AB∥CD，AF与CD交于点E，BE⊥AF，∠B＝65°，则∠DEF的度数是（）",
+   "options": [
+    "65°",
+    "5°",
+    "15°",
+    "25°"
+   ],
+   "answer_idx": 3,
+   "image_key": "977",
+   "image_sha256": "df35d8c96c2866cb493987f0dd9b1762c5cc98e8e26680eae079415072b9e08c",
+   "image_cluster": "df35d8c96c2866cb",
+   "category": "geometry problem solving",
+   "w": 250,
+   "h": 129,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/321",
+   "dataset": "mathvista_mc",
+   "question": "Look at the table. Then answer the question. At a price of $330, is there a shortage or a surplus?'",
+   "options": [
+    "shortage",
+    "surplus"
+   ],
+   "answer_idx": 1,
+   "image_key": "321",
+   "image_sha256": "7823bd0171931f26eeceff63f7f7bfc2b6c033817a80cf9f18983a117abd410e",
+   "image_cluster": "3806b7a6d1817450",
+   "category": "math word problem",
+   "w": 353,
+   "h": 187,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/412",
+   "dataset": "mathvista_mc",
+   "question": "Tanner has $35. Does he have enough to buy a black jacket and a pair of shorts?'",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 1,
+   "image_key": "412",
+   "image_sha256": "d8c0f09dc96be63f53fe91f55a62800301af92f9959d0afb17f2db1a4c0c2d4e",
+   "image_cluster": "d8c0f09dc96be63f",
+   "category": "math word problem",
+   "w": 235,
+   "h": 192,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/419",
+   "dataset": "mathvista_mc",
+   "question": "What time is shown? Answer by typing a time word, not a number. It is (_) after nine.",
+   "options": [
+    "half",
+    "quarter",
+    "o'clock",
+    "quarter to",
+    "quarter past"
+   ],
+   "answer_idx": 1,
+   "image_key": "419",
+   "image_sha256": "5bcd3388f009f34bbc7824c4e1d350000e049fc8d9be960149d88b87a666f1df",
+   "image_cluster": "5bcd3388f009f34b",
+   "category": "math word problem",
+   "w": 203,
+   "h": 204,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/531",
+   "dataset": "mathvista_mc",
+   "question": "What time is shown? Answer by typing a time word, not a number. It is (_) to five.",
+   "options": [
+    "half",
+    "quarter",
+    "o'clock",
+    "quarter to",
+    "quarter past"
+   ],
+   "answer_idx": 1,
+   "image_key": "531",
+   "image_sha256": "a15bb02e4c6ca6041c8af6b7c63fddcc04e6a235a7392642027a1cad2a34a95d",
+   "image_cluster": "a15bb02e4c6ca604",
+   "category": "math word problem",
+   "w": 203,
+   "h": 204,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/623",
+   "dataset": "mathvista_mc",
+   "question": "What time is shown? Answer by typing a time word, not a number. It is twelve (_).",
+   "options": [
+    "half",
+    "quarter",
+    "o'clock",
+    "quarter to",
+    "quarter past"
+   ],
+   "answer_idx": 2,
+   "image_key": "623",
+   "image_sha256": "2b16c58ea383f1968e7f16f201debb6008a490195585137278e9747fbd018ab5",
+   "image_cluster": "2b16c58ea383f196",
+   "category": "math word problem",
+   "w": 95,
+   "h": 95,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/696",
+   "dataset": "mathvista_mc",
+   "question": "Erica has $1,525.00. Does she have enough to buy a motorcycle and a canoe?'",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "answer_idx": 1,
+   "image_key": "696",
+   "image_sha256": "a52532e750b3d7f844411feaedb209c9ec48e95baeb3e97260c4bbf2e92ba135",
+   "image_cluster": "a52532e750b3d7f8",
+   "category": "math word problem",
+   "w": 214,
+   "h": 192,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/15",
+   "dataset": "mathvista_mc",
+   "question": "Which organism with be most affected if algae was eliminated?",
+   "options": [
+    "Tilapia",
+    "Common water flea",
+    "Great diving beetle",
+    "Tadpole"
+   ],
+   "answer_idx": 1,
+   "image_key": "15",
+   "image_sha256": "5ea9327c466532c03a6fbb210bf5a5d6b7e04e1d8bde7a05e5e1d528635f3e52",
+   "image_cluster": "5ea9327c466532c0",
+   "category": "textbook question answering",
+   "w": 400,
+   "h": 232,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/34",
+   "dataset": "mathvista_mc",
+   "question": "Is this function continuous at each point?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "34",
+   "image_sha256": "a1d40252df325857990c49d1e6c6787002ef9d202856c55ca1d51f9bb2d4d7ea",
+   "image_cluster": "a1d40252df325857",
+   "category": "textbook question answering",
+   "w": 479,
+   "h": 479,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/76",
+   "dataset": "mathvista_mc",
+   "question": "What happens to fish if pelicans increase?",
+   "options": [
+    "decrease",
+    "nothing",
+    "increase",
+    "none of the above"
+   ],
+   "answer_idx": 0,
+   "image_key": "76",
+   "image_sha256": "fd8c26cbbdd9d45419b18895db6e191f6153b2d68b79bca0a93f179d816b36f9",
+   "image_cluster": "fd8c26cbbdd9d454",
+   "category": "textbook question answering",
+   "w": 850,
+   "h": 947,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/134",
+   "dataset": "mathvista_mc",
+   "question": "People can use the engineering-design process to develop solutions to problems. One step in the process is testing if a potential solution meets the requirements of the design.\nThe passage below describes how the engineering-design process was used to test a solution to a problem. Read the passage. Then answer the question below.\n\nCooper was a landscape architect who was hired to design a new city park. The city council wanted the park to have space for outdoor concerts and to have at least 20% of the park shaded by trees. Cooper thought the concert area should be at least 150 meters from the road so traffic noise didn't interrupt the music. He developed three possible designs for the park with the concert area in a different location in each design. Then, he tested each design by measuring the distance between the road and the concert area.\nFigure: studying an architect's design. Which of the following could Cooper's test show?",
+   "options": [
+    "if at least 20% of the park would be shaded by trees in each design",
+    "which design would have the least traffic noise in the concert area",
+    "which design would have the greatest distance between the concert area and the road"
+   ],
+   "answer_idx": 2,
+   "image_key": "134",
+   "image_sha256": "430f5da4b42adeff65d3d2501a4447e6c7fc718b1af5c16c8754197b694d4d64",
+   "image_cluster": "430f5da4b42adeff",
+   "category": "textbook question answering",
+   "w": 302,
+   "h": 232,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/170",
+   "dataset": "mathvista_mc",
+   "question": "f(-1) is ____ f(0).",
+   "options": [
+    "larger than",
+    "equal to",
+    "smaller than"
+   ],
+   "answer_idx": 2,
+   "image_key": "170",
+   "image_sha256": "6b3038db8d856d49d7bd1079feecbe7256fc7efff41103e4ac60ff35a3e598fb",
+   "image_cluster": "6b3038db8d856d49",
+   "category": "textbook question answering",
+   "w": 600,
+   "h": 296,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/232",
+   "dataset": "mathvista_mc",
+   "question": "The diagram below is a model of two solutions. Each pink ball represents one particle of solute. Which solution has a higher concentration of pink particles?",
+   "options": [
+    "neither; their concentrations are the same",
+    "Solution B",
+    "Solution A"
+   ],
+   "answer_idx": 1,
+   "image_key": "232",
+   "image_sha256": "2c4fbea69363a73e83d7b6099a3ae23b319aa349450dea63c63e2e6f37f3144a",
+   "image_cluster": "2c4fbea69363a73e",
+   "category": "textbook question answering",
+   "w": 378,
+   "h": 251,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/266",
+   "dataset": "mathvista_mc",
+   "question": "Which has the most uneven shape?",
+   "options": [
+    "oblique",
+    "obtuse",
+    "cordate",
+    "truncate"
+   ],
+   "answer_idx": 0,
+   "image_key": "266",
+   "image_sha256": "b38ea6972f5aecc919f6a065dd58af5a7d12f3c10553a6a0f7f6e3d4a6f64432",
+   "image_cluster": "b38ea6972f5aecc9",
+   "category": "textbook question answering",
+   "w": 240,
+   "h": 225,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/267",
+   "dataset": "mathvista_mc",
+   "question": "What shape of a leaf is similar to Serrate, but has smaller, evenly-spaced teeth?",
+   "options": [
+    "Undulate",
+    "Sinuate",
+    "Serrulate",
+    "Entire"
+   ],
+   "answer_idx": 2,
+   "image_key": "267",
+   "image_sha256": "86ac0fdadca0bc015601a866efe49159c3ab3ecee2290242e557ffd82c215a3c",
+   "image_cluster": "86ac0fdadca0bc01",
+   "category": "textbook question answering",
+   "w": 529,
+   "h": 306,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/279",
+   "dataset": "mathvista_mc",
+   "question": "What would be directly affected by a decrease in sunlight?",
+   "options": [
+    "grass",
+    "mouse",
+    "grasshopper",
+    "owl"
+   ],
+   "answer_idx": 0,
+   "image_key": "279",
+   "image_sha256": "ed488d85e546c5ad8129f9f5aaf8c353bf5e6e41ed30326fbb9fcb953ed4cf88",
+   "image_cluster": "ed488d85e546c5ad",
+   "category": "textbook question answering",
+   "w": 600,
+   "h": 423,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/296",
+   "dataset": "mathvista_mc",
+   "question": "The value of f(-3) is ____ the value of f(2)",
+   "options": [
+    "larger than",
+    "equal to",
+    "smaller than"
+   ],
+   "answer_idx": 1,
+   "image_key": "296",
+   "image_sha256": "358189e467fadeb5d60643a543fdb132b336c210204c23d4c6357ad0773b771c",
+   "image_cluster": "358189e467fadeb5",
+   "category": "textbook question answering",
+   "w": 1430,
+   "h": 776,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/298",
+   "dataset": "mathvista_mc",
+   "question": "A decrease in rabbits would affect whose food source?",
+   "options": [
+    "mountain lion",
+    "producer",
+    "decomposer",
+    "energy"
+   ],
+   "answer_idx": 0,
+   "image_key": "298",
+   "image_sha256": "5874e425d8431c9a1da8df28c8c5b99d8991c348cb101a9a67b641f9f979fe29",
+   "image_cluster": "5874e425d8431c9a",
+   "category": "textbook question answering",
+   "w": 768,
+   "h": 699,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/308",
+   "dataset": "mathvista_mc",
+   "question": "What is this function most likely be?",
+   "options": [
+    "a polynomial",
+    "a trigonometric function",
+    "an exponential function",
+    "a logarithmic function"
+   ],
+   "answer_idx": 1,
+   "image_key": "308",
+   "image_sha256": "28664997671a5c2be208009fc87d6f57bcab73cf2ec51a15eaec0f19c6c0b163",
+   "image_cluster": "28664997671a5c2b",
+   "category": "textbook question answering",
+   "w": 482,
+   "h": 276,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/329",
+   "dataset": "mathvista_mc",
+   "question": "The derivative of y at x=6 is ____ that at x=8",
+   "options": [
+    "larger than",
+    "equal to",
+    "smaller than"
+   ],
+   "answer_idx": 0,
+   "image_key": "329",
+   "image_sha256": "853f5340961603c4fc8b40383fc00e00e41b4371e7c7edd64efe189baebe8414",
+   "image_cluster": "853f5340961603c4",
+   "category": "textbook question answering",
+   "w": 2560,
+   "h": 2039,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/370",
+   "dataset": "mathvista_mc",
+   "question": "In the diagram of the food web shown, if the number of ferns decrease, the supply of salmon will most likely?",
+   "options": [
+    "decrease",
+    "can't tell",
+    "stay same",
+    "increase"
+   ],
+   "answer_idx": 0,
+   "image_key": "370",
+   "image_sha256": "66a1a688e035a6f17beec026f0d17afd60a03538348339b4b0f55cd3784da56e",
+   "image_cluster": "66a1a688e035a6f1",
+   "category": "textbook question answering",
+   "w": 880,
+   "h": 680,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/402",
+   "dataset": "mathvista_mc",
+   "question": "From the food chain diagram below, which animal would most directly lack food if Grasshoppers get exterminated?",
+   "options": [
+    "Rabbit",
+    "Deer",
+    "Frogs",
+    "Wolf"
+   ],
+   "answer_idx": 2,
+   "image_key": "402",
+   "image_sha256": "0c01d0798c245bf60e75a9d08b55cff8a778029d92493f06baf994e201869ad6",
+   "image_cluster": "0c01d0798c245bf6",
+   "category": "textbook question answering",
+   "w": 909,
+   "h": 735,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/452",
+   "dataset": "mathvista_mc",
+   "question": "Based on the image, what is the most likely equilibrium population count?",
+   "options": [
+    "40",
+    "60",
+    "80",
+    "100"
+   ],
+   "answer_idx": 2,
+   "image_key": "452",
+   "image_sha256": "a836240cdf6a81ae8393b3c992db5c8664fd8bb252f759ba9b822e0e6687a2a9",
+   "image_cluster": "a836240cdf6a81ae",
+   "category": "textbook question answering",
+   "w": 441,
+   "h": 366,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/460",
+   "dataset": "mathvista_mc",
+   "question": "If there were fewer leaves in this ecosystem, the first organism to experience change as a result would be:",
+   "options": [
+    "Frogs",
+    "Crickets",
+    "Snakes",
+    "Hawks"
+   ],
+   "answer_idx": 1,
+   "image_key": "460",
+   "image_sha256": "4d9b7c982312fae694b5fe57a1e80b3a37b2c5b00fb23376f5d409ad885faa1c",
+   "image_cluster": "4d9b7c982312fae6",
+   "category": "textbook question answering",
+   "w": 960,
+   "h": 720,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/507",
+   "dataset": "mathvista_mc",
+   "question": "What would happen if the hawk population increased?",
+   "options": [
+    "mice would increase",
+    "sparrows increased",
+    "garter snakes would decrease",
+    "grass decreased"
+   ],
+   "answer_idx": 2,
+   "image_key": "507",
+   "image_sha256": "2c2d043d7a7d97288eafb8aab43e6898f34c6f4855a963c2ed277ba3f9f23a1a",
+   "image_cluster": "2c2d043d7a7d9728",
+   "category": "textbook question answering",
+   "w": 600,
+   "h": 375,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/547",
+   "dataset": "mathvista_mc",
+   "question": "Based on the diagram below, which organisms will be most directly affected by a decrease in the amount of grass?",
+   "options": [
+    "Insects",
+    "Hawk and snake",
+    "Snake and raccoon",
+    "Mouse and cricket"
+   ],
+   "answer_idx": 0,
+   "image_key": "547",
+   "image_sha256": "6bf4d1bdb5283eb5437ec9d0034557628452989ae53c082a7185bd7bc0e137c3",
+   "image_cluster": "6bf4d1bdb5283eb5",
+   "category": "textbook question answering",
+   "w": 630,
+   "h": 377,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/576",
+   "dataset": "mathvista_mc",
+   "question": "Which part of the human brain is the largest and most anterior part of each cerebral hemisphere?",
+   "options": [
+    "motor cortex",
+    "occipital lobe",
+    "temporal lobe",
+    "frontal lobe"
+   ],
+   "answer_idx": 3,
+   "image_key": "576",
+   "image_sha256": "ca2aa3bd815eba8a444543f2a9f0ab2c4418c90a4e6c75c34ee2cdf6b33fc5bd",
+   "image_cluster": "ca2aa3bd815eba8a",
+   "category": "textbook question answering",
+   "w": 768,
+   "h": 625,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/687",
+   "dataset": "mathvista_mc",
+   "question": "What could happen that would increase the number of krill?",
+   "options": [
+    "increase in phytoplankton",
+    "decrease in penguins",
+    "increase in fish",
+    "increase in birds"
+   ],
+   "answer_idx": 0,
+   "image_key": "687",
+   "image_sha256": "51719306f49a2beac7cbbbfa7926b104c3f39aaae23561ff1a77360381c24502",
+   "image_cluster": "51719306f49a2bea",
+   "category": "textbook question answering",
+   "w": 576,
+   "h": 396,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/732",
+   "dataset": "mathvista_mc",
+   "question": "Which organism would be most affected if there was a shortage of plants?",
+   "options": [
+    "Grasshopper",
+    "Snake",
+    "Mouse",
+    "Hawk"
+   ],
+   "answer_idx": 0,
+   "image_key": "732",
+   "image_sha256": "5d63babd8368ad4caf263f2cd75b1f3b0b866d24c759599705327a93a0bf0edf",
+   "image_cluster": "5d63babd8368ad4c",
+   "category": "textbook question answering",
+   "w": 1152,
+   "h": 1080,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/738",
+   "dataset": "mathvista_mc",
+   "question": "Is this function continuous?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "738",
+   "image_sha256": "a807b556cca8276d9aec6d50020ccdf9061601c83e93430b1d0c43e88b2a9ae7",
+   "image_cluster": "a807b556cca8276d",
+   "category": "textbook question answering",
+   "w": 383,
+   "h": 268,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/771",
+   "dataset": "mathvista_mc",
+   "question": "Base your answers on the diagram of a food chain below and on your knowledge of science. If the population of snakes increases, the population of frogs will most likely",
+   "options": [
+    "decrease",
+    "remain the same",
+    "increase",
+    "None"
+   ],
+   "answer_idx": 0,
+   "image_key": "771",
+   "image_sha256": "4d9b7c982312fae694b5fe57a1e80b3a37b2c5b00fb23376f5d409ad885faa1c",
+   "image_cluster": "4d9b7c982312fae6",
+   "category": "textbook question answering",
+   "w": 960,
+   "h": 720,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/809",
+   "dataset": "mathvista_mc",
+   "question": "In a group of horses, some individuals have a black coat and others have a reddish-brown coat. In this group, the gene for the coat color trait has two alleles. The allele for a black coat (L) is dominant over the allele for a reddish-brown coat (l).\nThis Punnett square shows a cross between two horses. What is the expected ratio of offspring with a reddish-brown coat to offspring with a black coat? Choose the most likely ratio.",
+   "options": [
+    "1:3",
+    "4:0",
+    "3:1",
+    "0:4",
+    "2:2"
+   ],
+   "answer_idx": 4,
+   "image_key": "809",
+   "image_sha256": "e460482c9621b8205fa84c74856717c3b6dc0c2769e04f7c4a0a98908af00843",
+   "image_cluster": "e460482c9621b820",
+   "category": "textbook question answering",
+   "w": 233,
+   "h": 241,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/826",
+   "dataset": "mathvista_mc",
+   "question": "Which is the largest part of the lung?",
+   "options": [
+    "Inferior lobes",
+    "Cardiac notch",
+    "Superior lobes",
+    "Middle lobe"
+   ],
+   "answer_idx": 2,
+   "image_key": "826",
+   "image_sha256": "87a2786a10fbeca5af76667166623e9c75f1b63347f71b637c536635f09c174b",
+   "image_cluster": "87a2786a10fbeca5",
+   "category": "textbook question answering",
+   "w": 638,
+   "h": 479,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/847",
+   "dataset": "mathvista_mc",
+   "question": "Which function grows the fastest as x increases?",
+   "options": [
+    "red",
+    "purple",
+    "blue"
+   ],
+   "answer_idx": 0,
+   "image_key": "847",
+   "image_sha256": "e096f119e88faeeea81680cd46c55cec3748e0a24e7268b5a5ca06f7bfaffde6",
+   "image_cluster": "e096f119e88faeee",
+   "category": "textbook question answering",
+   "w": 1706,
+   "h": 1294,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/902",
+   "dataset": "mathvista_mc",
+   "question": "If the leaf base has an angle greater than 90 degrees, what is it called?",
+   "options": [
+    "obtuse",
+    "decurrent",
+    "cuneate",
+    "acute"
+   ],
+   "answer_idx": 0,
+   "image_key": "902",
+   "image_sha256": "7578c9315f638b7da70a2783992b6d7fa493cfd63790d08538e4e02c4cf6c926",
+   "image_cluster": "7578c9315f638b7d",
+   "category": "textbook question answering",
+   "w": 1500,
+   "h": 1429,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/915",
+   "dataset": "mathvista_mc",
+   "question": "What would happen to the Lion population if the Gum Tree population decreased?",
+   "options": [
+    "Unable to determine.",
+    "Nothing would happen.",
+    "It would also decrease.",
+    "It would increase."
+   ],
+   "answer_idx": 2,
+   "image_key": "915",
+   "image_sha256": "4e6a7b80b6b03ba50969ad9c7102e17d7b4fc0bfa47547b9a3bc4a02219a197f",
+   "image_cluster": "4e6a7b80b6b03ba5",
+   "category": "textbook question answering",
+   "w": 528,
+   "h": 740,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/997",
+   "dataset": "mathvista_mc",
+   "question": "Is kx^2/2 larger than E at x=0?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "997",
+   "image_sha256": "088e0385a4504a2ca31e18eef5d21825096e89a5212ca8e6b18ca3edee72153b",
+   "image_cluster": "088e0385a4504a2c",
+   "category": "textbook question answering",
+   "w": 537,
+   "h": 197,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/31",
+   "dataset": "mathvista_mc",
+   "question": "Are there more big red rubber double buss in front of the large red double bus than big green things?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "31",
+   "image_sha256": "60cf1f3fc60bddcf7317653f65b6870aeaeb5f23469029e8534405c3ec78ba39",
+   "image_cluster": "60cf1f3fc60bddcf",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/91",
+   "dataset": "mathvista_mc",
+   "question": "Is the number of brown suvs less than the number of brown rubber school buss?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "91",
+   "image_sha256": "be63a72e97aba8d8bdc1815dc079c0074ebabb767aeceddd9b55f29373be9896",
+   "image_cluster": "be63a72e97aba8d8",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/92",
+   "dataset": "mathvista_mc",
+   "question": "Do the windows have a geometric shape that most houses have?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "92",
+   "image_sha256": "66dfed432451213ea90fca3d2c3ce858898e4a0bd55228f8506347323a6cbb71",
+   "image_cluster": "66dfed432451213e",
+   "category": "visual question answering",
+   "w": 500,
+   "h": 375,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/174",
+   "dataset": "mathvista_mc",
+   "question": "Are there fewer tiny cyan suvs that are behind the aeroplane than cyan utility bikes?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "174",
+   "image_sha256": "d15f9363cf8095262de7ee030d3617c9c4b7fdc0211237d7cddc19a3f7808ba3",
+   "image_cluster": "d15f9363cf809526",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/297",
+   "dataset": "mathvista_mc",
+   "question": "Is the number of green buss greater than the number of blue school buss?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "297",
+   "image_sha256": "a881dc6c0f1cb855aefc47a65f833307a45d7e8253f51ee393b546b36620dd57",
+   "image_cluster": "a881dc6c0f1cb855",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/351",
+   "dataset": "mathvista_mc",
+   "question": "Are there fewer purple rubber objects that are to the left of the red object than tiny matte bicycles?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "351",
+   "image_sha256": "e97c02c96f8b23361c985d9a233751abda0a40e0a07bb015ea666f37cfef71ac",
+   "image_cluster": "e97c02c96f8b2336",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/368",
+   "dataset": "mathvista_mc",
+   "question": "Is the number of yellow matte school buss greater than the number of big yellow metal cars?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "368",
+   "image_sha256": "aa40b3cfbf547d4942ee8d55a8a99daa2f3c077dc3ee9f3d3b8eda75ca424be7",
+   "image_cluster": "aa40b3cfbf547d49",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/424",
+   "dataset": "mathvista_mc",
+   "question": "Is the food half eaten?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "424",
+   "image_sha256": "e20887607015deaea940de04d97e3a13fdb78f7f6a3cdd2d6154e0a4f5241208",
+   "image_cluster": "e20887607015deae",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 428,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/487",
+   "dataset": "mathvista_mc",
+   "question": "Are there fewer big cars behind the small brown shiny mountain bike than tiny objects on the right side of the bus?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "487",
+   "image_sha256": "10179af72ac577d4f92f9203261bc7a4fba105a3a2252b86113a24a775a55e1c",
+   "image_cluster": "10179af72ac577d4",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/502",
+   "dataset": "mathvista_mc",
+   "question": "Are there fewer tandem bikes that are behind the brown metal bicycle than matte trucks on the left side of the green object?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "502",
+   "image_sha256": "4d1a609dfe6426519f113430a684a2f069b1e9257892d97e04d2b3e00a336ed1",
+   "image_cluster": "4d1a609dfe642651",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/527",
+   "dataset": "mathvista_mc",
+   "question": "Is the number of big shiny cars in front of the red airliner greater than the number of big purple road bikes?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "527",
+   "image_sha256": "a06d9b3250f50c7d289c1a612628e369c385a62fa06ad286d41cd869e8495ce9",
+   "image_cluster": "a06d9b3250f50c7d",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/555",
+   "dataset": "mathvista_mc",
+   "question": "Is this nest larger than a fist?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "555",
+   "image_sha256": "f2a3b770063a0a3d4920edd5ca1b2957d99a102956cfa20f5e0fb8adf9ac56b3",
+   "image_cluster": "f2a3b770063a0a3d",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 640,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/556",
+   "dataset": "mathvista_mc",
+   "question": "Are there fewer large red metallic things that are on the left side of the cyan shiny scooter than things that are in front of the small jet?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "556",
+   "image_sha256": "ea2123608cf5217c1eb6e53fb2ba32a0904b0518364cbf707317603cb052f875",
+   "image_cluster": "ea2123608cf5217c",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/673",
+   "dataset": "mathvista_mc",
+   "question": "Is the number of large green cars less than the number of brown rubber double buss?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "673",
+   "image_sha256": "fca2f62ece0c73d0eec3c2756b2a994a5b8e85e1737fbf600c110caa88b9385a",
+   "image_cluster": "fca2f62ece0c73d0",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/677",
+   "dataset": "mathvista_mc",
+   "question": "Is the number of dirtbikes right of the large blue object less than the number of small green metallic cars in front of the tiny matte bicycle?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "677",
+   "image_sha256": "491868b5f1483cb14dff32f62911f726c0e3411e0d832406c7b659365459dbe4",
+   "image_cluster": "491868b5f1483cb1",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/689",
+   "dataset": "mathvista_mc",
+   "question": "Are these people sitting in a circle?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "689",
+   "image_sha256": "6986f534e6a0058ef747ab150d65c7e0205e6d39be1f22e8020f44ea69472384",
+   "image_cluster": "6986f534e6a0058e",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/705",
+   "dataset": "mathvista_mc",
+   "question": "Is the heart wider than more than half the width of the thorax?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "705",
+   "image_sha256": "cf6f84e67df2178fa2afcddd4b8d55fec9751aaa3e1db8a8c76389274e4ca98e",
+   "image_cluster": "cf6f84e67df2178f",
+   "category": "visual question answering",
+   "w": 419,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/734",
+   "dataset": "mathvista_mc",
+   "question": "Are there fewer double buss that are behind the aeroplane than things on the left side of the yellow double bus?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "734",
+   "image_sha256": "7c5a32c346d9049ec91a47fd62df13085cec1ccae12ee3155abd7c10a53707a9",
+   "image_cluster": "7c5a32c346d9049e",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/735",
+   "dataset": "mathvista_mc",
+   "question": "Is the number of big cyan things in front of the cyan rubber suv less than the number of big suvs that are behind the red bus?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "735",
+   "image_sha256": "6d783a293446c2f9d7c0af68724a6321b34642859839423d5b57bd33fae35b07",
+   "image_cluster": "6d783a293446c2f9",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/760",
+   "dataset": "mathvista_mc",
+   "question": "Is the number of yellow tandem bikes less than the number of big objects?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "760",
+   "image_sha256": "fa93e467fd913bef59d668dec2aac6715feb16f580cd4d5a619f83b4139c101e",
+   "image_cluster": "fa93e467fd913bef",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/766",
+   "dataset": "mathvista_mc",
+   "question": "Are there fewer tiny red trucks than small blue bicycles?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "766",
+   "image_sha256": "7f0c76648b7bae1a00b2817d9115f9af4aee218cb41b8ae7ea6aeeb84a8aeb7e",
+   "image_cluster": "7f0c76648b7bae1a",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/805",
+   "dataset": "mathvista_mc",
+   "question": "Is the donut more than half eaten?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "805",
+   "image_sha256": "dfd7abc9ecf00127bc1dd5324b16ad39f64d8b86db3a33452bc5606654474e2a",
+   "image_cluster": "dfd7abc9ecf00127",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 434,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/884",
+   "dataset": "mathvista_mc",
+   "question": "What is the blue kite in the lower right corner shaped like?",
+   "options": [
+    "ferret",
+    "cat",
+    "cloud",
+    "octopus"
+   ],
+   "answer_idx": 3,
+   "image_key": "884",
+   "image_sha256": "17f6978732c3000e06b5eed0ca243e6dfe1367d8598863d22616d80d13039fbb",
+   "image_cluster": "17f6978732c3000e",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/900",
+   "dataset": "mathvista_mc",
+   "question": "Is the number of rubber cars less than the number of brown jets?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "900",
+   "image_sha256": "e23279c8d3548c8b056a232480fb6d85e8d8a363b09b87622ef13cda7a4b00f0",
+   "image_cluster": "e23279c8d3548c8b",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/971",
+   "dataset": "mathvista_mc",
+   "question": "Can the boy reach the highest book?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "971",
+   "image_sha256": "57781c6c70a429142788ae0ad4cb512d08e501ac45620be1cbad3f0711279e53",
+   "image_cluster": "57781c6c70a42914",
+   "category": "visual question answering",
+   "w": 700,
+   "h": 400,
+   "meta": {}
+  },
+  {
+   "qid": "mathvista/976",
+   "dataset": "mathvista_mc",
+   "question": "Is the number of metal biplanes behind the purple shiny object less than the number of purple school buss behind the big red object?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "976",
+   "image_sha256": "66c699397eb104703ec8cf92da75757a840c53bd597631e8632cd0fcaa41d4b1",
+   "image_cluster": "66c699397eb10470",
+   "category": "visual question answering",
+   "w": 640,
+   "h": 480,
+   "meta": {}
+  }
+ ]
+}

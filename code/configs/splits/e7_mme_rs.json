@@ -1,0 +1,2011 @@
+{
+ "name": "e7_mme_rs",
+ "protocol": "v2",
+ "seed": 0,
+ "note": "100 of MME-RW-Lite Remote Sensing, one per image, stratified",
+ "n": 100,
+ "n_images": 100,
+ "n_clusters": 100,
+ "items": [
+  {
+   "qid": "mme/perception/remote_sensing/color/2760",
+   "dataset": "mme_rs",
+   "question": "What color is the biggest ship in this picture?",
+   "options": [
+    "White and green",
+    "Red and grey",
+    "Red and white",
+    "Orange and grey",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7623.png",
+   "image_sha256": "015ba42310bbea8f906823864eb15bbaa4a9abff192b384691c2969d14175ae1",
+   "image_cluster": "015ba42310bbea8f",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/3134",
+   "dataset": "mme_rs",
+   "question": "What color is the exterior wall of the building in the upper right corner of the picture?",
+   "options": [
+    "White",
+    "Gray",
+    "Blue",
+    "Red",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8510.png",
+   "image_sha256": "12f47d21578707b8736547250740be1f135bbb058441634cafd95fd3a69aab86",
+   "image_cluster": "12f47d21578707b8",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/0612",
+   "dataset": "mme_rs",
+   "question": "What color is the ship in the upper left corner of the picture?",
+   "options": [
+    "White",
+    "Red",
+    "Black",
+    "Green",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P11163.png",
+   "image_sha256": "25cf5f2f57baca247d6854996475b7325363d66513bdd729d787fe3219155fc7",
+   "image_cluster": "25cf5f2f57baca24",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4097,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2304",
+   "dataset": "mme_rs",
+   "question": "What color is the biggest ship in this picture?",
+   "options": [
+    "White and red",
+    "White and blue",
+    "Green and grey",
+    "Yellow and grey",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6423.png",
+   "image_sha256": "288c7d2d1b34f78fa900407ea78938f54e092018e73703e6c487b7d1526d9907",
+   "image_cluster": "288c7d2d1b34f78f",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/0541",
+   "dataset": "mme_rs",
+   "question": "What color is the letter H inside the square block in the upper left area of the picture?",
+   "options": [
+    "Green",
+    "Blue",
+    "Black",
+    "Red",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P11137.png",
+   "image_sha256": "36d299aadfbd6b79f9a8a46607c5ac6ecb2ce7f19c12e659920e1e82595d92a4",
+   "image_cluster": "36d299aadfbd6b79",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1922",
+   "dataset": "mme_rs",
+   "question": "What color car is next to the red car at the corner of the road in the upper right corner of the picture?",
+   "options": [
+    "Red",
+    "Yellow",
+    "White and black",
+    "Blue",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P5534.png",
+   "image_sha256": "4149c27efa9a50ab9b091b950ee716b0617a5fa4741e04f3ecf4c38dbb209c35",
+   "image_cluster": "4149c27efa9a50ab",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/3374",
+   "dataset": "mme_rs",
+   "question": "What color is the boat in the bottom right corner of the picture?",
+   "options": [
+    "Green",
+    "Yellow",
+    "Black",
+    "White",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P9271.png",
+   "image_sha256": "4f03ece7254520b13617fe2842a73f70987aa80231ce6566a62206b4c5d01f91",
+   "image_cluster": "4f03ece7254520b1",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/3673",
+   "dataset": "mme_rs",
+   "question": "What color is the house in the bottom left corner of the picture?",
+   "options": [
+    "White",
+    "Gray",
+    "Black",
+    "Orange",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 1,
+   "image_key": "top_potsdam_5_10_RGB_Potsdam.png",
+   "image_sha256": "551e97fe62abf1d17e453b51bec0283413bb4574984aac624cbb29021b70d12a",
+   "image_cluster": "551e97fe62abf1d1",
+   "category": "Remote Sensing/Perception/color",
+   "w": 6000,
+   "h": 6000,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/3697",
+   "dataset": "mme_rs",
+   "question": "What color is the house in the bottom right corner of the picture?",
+   "options": [
+    "White",
+    "Gray",
+    "Black",
+    "Orange",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "top_potsdam_6_12_RGB_Potsdam.png",
+   "image_sha256": "560fdac0b1c094fea2b0d07b98159bda03d476580c6403981c32c715e3637cfb",
+   "image_cluster": "560fdac0b1c094fe",
+   "category": "Remote Sensing/Perception/color",
+   "w": 6000,
+   "h": 6000,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1577",
+   "dataset": "mme_rs",
+   "question": "What color is the big ship in the middle of the top of this picture?",
+   "options": [
+    "Brown",
+    "Red and blue",
+    "Green and white",
+    "White",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4568.png",
+   "image_sha256": "62183723fc17791f669127df1df5b2fd6cacc81ff95f0b46cdf91528054a539d",
+   "image_cluster": "62183723fc17791f",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4097,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2442",
+   "dataset": "mme_rs",
+   "question": "What color is the roof of the bottommost building on the right side of the picture?",
+   "options": [
+    "Red",
+    "Gray",
+    "White",
+    "Green",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6817.png",
+   "image_sha256": "62d4a144756adc4e50617f697e30570908f881a8a6d6f636ea06a08f46ba0bd5",
+   "image_cluster": "62d4a144756adc4e",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2637",
+   "dataset": "mme_rs",
+   "question": "What color is the fence in the middle of the bottom area in the picture?",
+   "options": [
+    "Green and blue",
+    "Black and white",
+    "Gold and green",
+    "Violet and white",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7413.png",
+   "image_sha256": "64895ab5afa4f6bc011f0c410ad4d89d9c75c3eb792c8c7f734962b8571e6cfa",
+   "image_cluster": "64895ab5afa4f6bc",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2649",
+   "dataset": "mme_rs",
+   "question": "What color is the U- shaped coastal structure near the red-roofed buildings in the upper right area of the picture?",
+   "options": [
+    "White",
+    "Purple",
+    "Green",
+    "Yellow",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7434.png",
+   "image_sha256": "6e1638f81880372e066a64967fa2c70faa3a4dc51e5f0328449d586d376966c9",
+   "image_cluster": "6e1638f81880372e",
+   "category": "Remote Sensing/Perception/color",
+   "w": 1078,
+   "h": 1627,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1044",
+   "dataset": "mme_rs",
+   "question": "What color is the fourth car in the train on the far right of the picture?",
+   "options": [
+    "White",
+    "Black",
+    "Blue",
+    "Red",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3038.png",
+   "image_sha256": "781c8b7c9d8678b10ad835161c1243f3fe925f27c45161728fea3ca4984ee40c",
+   "image_cluster": "781c8b7c9d8678b1",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1410",
+   "dataset": "mme_rs",
+   "question": "What color is the bottom of the three parallel cargo ships on the far left in the picture?",
+   "options": [
+    "Red",
+    "Black",
+    "Yellow",
+    "Blue",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4109.png",
+   "image_sha256": "79e2ae53939832e02ae76bb6fdc029392eb84898ee625fa97ef5cae58724869f",
+   "image_cluster": "79e2ae53939832e0",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1422",
+   "dataset": "mme_rs",
+   "question": "What color is the car in the lower left corner of the gray rectangular parking lot in the picture?",
+   "options": [
+    "Gray",
+    "White",
+    "Blue",
+    "Pink",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4131.png",
+   "image_sha256": "7cd7edfc7347a524032831d6e3040957cd781105624610764c365d462ae12947",
+   "image_cluster": "7cd7edfc7347a524",
+   "category": "Remote Sensing/Perception/color",
+   "w": 1874,
+   "h": 1660,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2130",
+   "dataset": "mme_rs",
+   "question": "What are the colors of the two boats on the far left side of the water in the picture??",
+   "options": [
+    "Red",
+    "Black",
+    "Green",
+    "Gray",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6061.png",
+   "image_sha256": "9027866d15128720449f5e514dcc5b33f9376f327dccd50ebcf56a33b9c353a5",
+   "image_cluster": "9027866d15128720",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/3313",
+   "dataset": "mme_rs",
+   "question": "What color is the roof in the green forest on the left of the picture?",
+   "options": [
+    "Red",
+    "White",
+    "Yellow",
+    "Brown",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P9086.png",
+   "image_sha256": "919c1c96eb499afbd2fb692922409fc425f76d6c9b758c54049ef26bc811ed6b",
+   "image_cluster": "919c1c96eb499afb",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/3185",
+   "dataset": "mme_rs",
+   "question": "What color is the top car on the road along the river in the picture?",
+   "options": [
+    "Blue",
+    "Black",
+    "Orange",
+    "Red",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8711.png",
+   "image_sha256": "924e14b9bd518fd7c7497022a3a2ff7fd82f377afe22fc5bd099d433924c7ead",
+   "image_cluster": "924e14b9bd518fd7",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1332",
+   "dataset": "mme_rs",
+   "question": "What color is the vehicle driving on the river crossing bridge on the far right side of the picture?",
+   "options": [
+    "light pink",
+    "pale blue",
+    "white",
+    "black",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3869.png",
+   "image_sha256": "9e4cced909ea37d2e3f27d53ac581d3347fe7a9eda9e601667664c785bca002d",
+   "image_cluster": "9e4cced909ea37d2",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2076",
+   "dataset": "mme_rs",
+   "question": "What color is the shed on the right window of the house with solar panels on the roof in the left area of the picture?",
+   "options": [
+    "Red",
+    "White",
+    "Green",
+    "Blue",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P5975.png",
+   "image_sha256": "a1335ff7f25446c418f1f26262e6f9327d70b43f43d013c5cdaa9e8a3976719e",
+   "image_cluster": "a1335ff7f25446c4",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1431",
+   "dataset": "mme_rs",
+   "question": "What color is the conical roof building in the upper area of the picture?",
+   "options": [
+    "Blue",
+    "Yellow",
+    "Light green",
+    "Orange",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4155.png",
+   "image_sha256": "aa22426605ceb3101bb96a0e67232f19fa804068b63d5e490a0a31ae2ecd232d",
+   "image_cluster": "aa22426605ceb310",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2632",
+   "dataset": "mme_rs",
+   "question": "What color are the boats on both sides of the slightly curved pier in the right area of the picture?",
+   "options": [
+    "Purple",
+    "Red",
+    "White",
+    "Blue",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7407.png",
+   "image_sha256": "b1897dc91b48a377979031d794911629f27d11f2e6f53ac0ea4a56a33b86e51e",
+   "image_cluster": "b1897dc91b48a377",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1713",
+   "dataset": "mme_rs",
+   "question": "What color is the farthest ship at the top of the picture?",
+   "options": [
+    "white",
+    "blue",
+    "orange",
+    "gray",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4929.png",
+   "image_sha256": "b47ff4c9b3033ddd2c55ad24740ca680c7f791d067bd0e8ef2fb06723593e19e",
+   "image_cluster": "b47ff4c9b3033ddd",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1284",
+   "dataset": "mme_rs",
+   "question": "What color is the circular object on the right side of the picture?",
+   "options": [
+    "Black",
+    "Blue",
+    "White",
+    "Pink",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3753.png",
+   "image_sha256": "b716f47d36e51b57a3d2aaf75b0fbd421939efd08920c4a9bc4936387d492c46",
+   "image_cluster": "b716f47d36e51b57",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2178",
+   "dataset": "mme_rs",
+   "question": "What color is the ICBC building in the top left area of this picture?",
+   "options": [
+    "Green",
+    "Red and orange",
+    "Black and white",
+    "White and grey",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6164.png",
+   "image_sha256": "bfd2d43aa16dae64ff549c2a88574c7708754beb15c6f5efb91cc57fa7e93527",
+   "image_cluster": "bfd2d43aa16dae64",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2160",
+   "dataset": "mme_rs",
+   "question": "What colors are on both sides of the horizontal gray road at the top left of the picture?",
+   "options": [
+    "White",
+    "Black",
+    "Red",
+    "Green",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6138.png",
+   "image_sha256": "cd0cfdbe0f0592e186c12326943e0b082d17108a9fe44298c04cb0973af4ac23",
+   "image_cluster": "cd0cfdbe0f0592e1",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2697",
+   "dataset": "mme_rs",
+   "question": "What color is the car driving towards the bridge in the left area of the picture?",
+   "options": [
+    "Purple",
+    "Green",
+    "Grey",
+    "White",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7509.png",
+   "image_sha256": "d86c908afbb6f9641948451d9ab75f6b2dc4b149a68cf8094aa1e11def76610a",
+   "image_cluster": "d86c908afbb6f964",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1116",
+   "dataset": "mme_rs",
+   "question": "What's the color of the roof in the picture with a pointy decoration in the upper right of the picture?",
+   "options": [
+    "Green",
+    "Blue",
+    "Yellow",
+    "Gray",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3301.png",
+   "image_sha256": "e56492f7a76bf4944ca11b07ce21bf537786d2b220693b266e4c77a0a1314091",
+   "image_cluster": "e56492f7a76bf494",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2724",
+   "dataset": "mme_rs",
+   "question": "What color is the big ship in the upper area on the far right side of this picture?",
+   "options": [
+    "Green",
+    "Brown",
+    "White",
+    "Blue",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7580.png",
+   "image_sha256": "e5edbb2ebb8c8b4b10d6984b77f92ba7d078662c1e24a2a8595fbc1bb3a4656e",
+   "image_cluster": "e5edbb2ebb8c8b4b",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/1341",
+   "dataset": "mme_rs",
+   "question": "What is the color of the excavator in the middle area of the picture?",
+   "options": [
+    "Yellow",
+    "Red",
+    "Black",
+    "Green",
+    "The image does not feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3891.png",
+   "image_sha256": "e730de759e0aab37c85924fed412859c116bed12a36dc8d90ebe53b5df8e56ab",
+   "image_cluster": "e730de759e0aab37",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/3565",
+   "dataset": "mme_rs",
+   "question": "What color is the building at the end of the path on the grass in the upper right corner of the picture?",
+   "options": [
+    "Orange",
+    "Green",
+    "Black",
+    "White",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P9817.png",
+   "image_sha256": "edf09695c941d873bf1a74ff744777f627b7b6e3da3c068d5367ded0c9e35a1b",
+   "image_cluster": "edf09695c941d873",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/0914",
+   "dataset": "mme_rs",
+   "question": "What color is the ship with a white wake in the center of the picture?",
+   "options": [
+    "Red",
+    "Yellow",
+    "White",
+    "Green",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P11276.png",
+   "image_sha256": "f2366f50fb05ca20cc2f9c0d9059c78dc6e96831b2f219141813be538d7c6c61",
+   "image_cluster": "f2366f50fb05ca20",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/2010",
+   "dataset": "mme_rs",
+   "question": "What color is the roof of the house in the top left corner of the picture?",
+   "options": [
+    "Gray",
+    "White",
+    "Yellow",
+    "Blue",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P5800.png",
+   "image_sha256": "fae1b1a55b22fd8952d6f35b99ec16d8dd4ba2498d7887164fa5e47b067ae838",
+   "image_cluster": "fae1b1a55b22fd89",
+   "category": "Remote Sensing/Perception/color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/color/0949",
+   "dataset": "mme_rs",
+   "question": "What color is the house on the far left of the picture along the edge?",
+   "options": [
+    "White",
+    "Gray",
+    "Black",
+    "Red",
+    "This image doesn't feature the color."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P11288.png",
+   "image_sha256": "ffae3e19177cde2541dad9bf1f94ffc1392764ba52cb31a269e1eb018c3b268d",
+   "image_cluster": "ffae3e19177cde25",
+   "category": "Remote Sensing/Perception/color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/2914",
+   "dataset": "mme_rs",
+   "question": "How many ships are there in the picture?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7944.png",
+   "image_sha256": "044dfbb29f31c566f3492b17e832305d694d53cd0b320bc9ad1ca81436e9bbf2",
+   "image_cluster": "044dfbb29f31c566",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/0107",
+   "dataset": "mme_rs",
+   "question": "How many red cars are there in the first area on the left side of the parking lot in front of the long white building at the top of the picture?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P10199.png",
+   "image_sha256": "071323c3a4b532150ec029cde8f8bc379ae790086f9d6bb2f3d2a1ab6858cee4",
+   "image_cluster": "071323c3a4b53215",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/2413",
+   "dataset": "mme_rs",
+   "question": "How many red cars are there in front of the semi-circular building in the bottom left corner of the picture?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "1",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6744.png",
+   "image_sha256": "0816529223ad1cb129c6424da8fa30c7c74ca2fd64ae11d72c0952672fc694ff",
+   "image_cluster": "0816529223ad1cb1",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/2470",
+   "dataset": "mme_rs",
+   "question": "How many red cars are on the bridge over the water in the picture?",
+   "options": [
+    "1",
+    "6",
+    "9",
+    "2",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6882.png",
+   "image_sha256": "0f203f01a6bc1a210ec35ec40b1a5bcdfca7252cd3633e19745a8c613b1751a5",
+   "image_cluster": "0f203f01a6bc1a21",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1201",
+   "dataset": "mme_rs",
+   "question": "How many cars are there in the upper left corner of the picture?",
+   "options": [
+    "8",
+    "12",
+    "22",
+    "4",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3547.png",
+   "image_sha256": "10ca4cd0b9f56d7f69193c9a2323a02107fee9a60a416e435235fb7b0a8581f5",
+   "image_cluster": "10ca4cd0b9f56d7f",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1336",
+   "dataset": "mme_rs",
+   "question": "How many red cars are there on both sides of the horizontal road below the horizontal river in the picture?",
+   "options": [
+    "2",
+    "3",
+    "9",
+    "4",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3870.png",
+   "image_sha256": "146b500de64f5cfa9f6e35771402d378536676ff02dc196052e97271f22055e8",
+   "image_cluster": "146b500de64f5cfa",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1630",
+   "dataset": "mme_rs",
+   "question": "How many big ships are there on the water on the left side of this picture?",
+   "options": [
+    "5",
+    "4",
+    "2",
+    "0",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4724.png",
+   "image_sha256": "166b42e71429c91aff1d8c7750738c533f9d2065525e48ae9b0fb695950d7019",
+   "image_cluster": "166b42e71429c91a",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/2630",
+   "dataset": "mme_rs",
+   "question": "How many dark gray rectangular buildings are there on the right side of the red roofed house cluster in the middle area of on the right side of the picture?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7400.png",
+   "image_sha256": "1a5a35f83c3a3a21bea7c31c91429375fcede8c27b95c574eb8c05e3e6e81c19",
+   "image_cluster": "1a5a35f83c3a3a21",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4097,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/3431",
+   "dataset": "mme_rs",
+   "question": "How many white containers are there on the big ship in the top right corner of this picture?",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "7",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P9481.png",
+   "image_sha256": "1c0ee9e0ee146c9b8a477a3a83ef64d329dd0eeef8e8b07819e1f38efe2cd43d",
+   "image_cluster": "1c0ee9e0ee146c9b",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4097,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/0973",
+   "dataset": "mme_rs",
+   "question": "How many boats are there in the picture?",
+   "options": [
+    "7",
+    "8",
+    "9",
+    "10",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P2866.png",
+   "image_sha256": "273b400c004af8f3f7f855eacf1b0b80a632c311f29237be25ea57f281162549",
+   "image_cluster": "273b400c004af8f3",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4096,
+   "h": 4097,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/0441",
+   "dataset": "mme_rs",
+   "question": "How many white arched roof structures are there in the upper right corner of the picture?",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P11100.png",
+   "image_sha256": "2f1092ab46fbe8cf575c91ffbbda8b7c2df32fcfa9910f20a55fa6cb46b4f2bb",
+   "image_cluster": "2f1092ab46fbe8cf",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1399",
+   "dataset": "mme_rs",
+   "question": "How many red cars are there in the first parking lot on the far left of the picture, from top to bottom?",
+   "options": [
+    "5",
+    "4",
+    "6",
+    "3",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4077.png",
+   "image_sha256": "35e866ac91c1f728bbd396c7c546640f47f01232d207a81a1dd2cca9f6c9cc0a",
+   "image_cluster": "35e866ac91c1f728",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1515",
+   "dataset": "mme_rs",
+   "question": "How many red cars are there in the parking lot in front of the yellow and white building in the top right area of this picture?",
+   "options": [
+    "2",
+    "3",
+    "5",
+    "7",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4372.png",
+   "image_sha256": "35f688e3f4b0acc4e0e65ecd651d0565548e338c04d666ee5830d9d0f7833fe7",
+   "image_cluster": "35f688e3f4b0acc4",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1093",
+   "dataset": "mme_rs",
+   "question": "How many white trucks are running on the expressway on the right side of this picture?",
+   "options": [
+    "3",
+    "4",
+    "8",
+    "10",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3145.png",
+   "image_sha256": "37480a22784e28ce3eb76df3f84759d393a223a0bfa54d19a28c3db86c732449",
+   "image_cluster": "37480a22784e28ce",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/2848",
+   "dataset": "mme_rs",
+   "question": "How many streetlights are there on the wider road at the bottom left of the river in the upper right corner of the picture?",
+   "options": [
+    "1",
+    "2",
+    "8",
+    "10",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7811.png",
+   "image_sha256": "47559c312b62275a99187f240d550b9a797ca2b6ef2e066562b3454ca6187b01",
+   "image_cluster": "47559c312b62275a",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/3671",
+   "dataset": "mme_rs",
+   "question": "How many blue cars are there at the bottom left road of the picture?",
+   "options": [
+    "1",
+    "3",
+    "5",
+    "9",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 1,
+   "image_key": "top_potsdam_4_15_RGB_Potsdam.png",
+   "image_sha256": "52d98fecc0e7ccac4060716e797e4d811df673697a243a3c32a3bfeac2c61b5b",
+   "image_cluster": "52d98fecc0e7ccac",
+   "category": "Remote Sensing/Perception/count",
+   "w": 6000,
+   "h": 6000,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/3311",
+   "dataset": "mme_rs",
+   "question": "How many white cars are there in the parking lot at the bottom left of the picture?",
+   "options": [
+    "2",
+    "5",
+    "8",
+    "6",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P9085.png",
+   "image_sha256": "589ab78adeec8345b00d49a3152b40568683cc94d79c9d824bf070a4b7e01c4f",
+   "image_cluster": "589ab78adeec8345",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/2467",
+   "dataset": "mme_rs",
+   "question": "How many red cars are there in the parking lot?",
+   "options": [
+    "3",
+    "1",
+    "2",
+    "4",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6874.png",
+   "image_sha256": "59b38135f81ebf8f832515201df56a19ba717a50810cc9b6e3627de14b4e7679",
+   "image_cluster": "59b38135f81ebf8f",
+   "category": "Remote Sensing/Perception/count",
+   "w": 3334,
+   "h": 2244,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/3257",
+   "dataset": "mme_rs",
+   "question": "How many courses are there in the bottom right corner of the picture?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8934.png",
+   "image_sha256": "5a3133e727dffb3893bd968c99034e1b4302e273b9db9d209973dad13b3ebe53",
+   "image_cluster": "5a3133e727dffb38",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1291",
+   "dataset": "mme_rs",
+   "question": "How many cars are parked in the area in the bottom right corner of the picture?",
+   "options": [
+    "7",
+    "8",
+    "9",
+    "10",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3771.png",
+   "image_sha256": "87c680976f6de9f57b484e73ea58c51ace7dba70475cf4fa29beefbad6972628",
+   "image_cluster": "87c680976f6de9f5",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1521",
+   "dataset": "mme_rs",
+   "question": "How many solar panels are there in the bottom left corner of this picture?",
+   "options": [
+    "0",
+    "4",
+    "3",
+    "2",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4388.png",
+   "image_sha256": "922423cbeeaaff002fb416e314c9abb5a3b8ea1a831efec9eff16579d7ecb734",
+   "image_cluster": "922423cbeeaaff00",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1600",
+   "dataset": "mme_rs",
+   "question": "How many cars are parking in front of the square building in the upper right area of this picture?",
+   "options": [
+    "9",
+    "6",
+    "5",
+    "2",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4616.png",
+   "image_sha256": "94b1700dbdfa1a98247b96dfb7661a464a97ea3499f4152d3c8952930dcaa68b",
+   "image_cluster": "94b1700dbdfa1a98",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/3087",
+   "dataset": "mme_rs",
+   "question": "How many red rectangles are there next to the larger cargo ship on the left side of the picture?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "10",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8397.png",
+   "image_sha256": "956551f9326a2d4799a55b10165b925a487e8b1ff9e669cefc8e85082f1538cf",
+   "image_cluster": "956551f9326a2d47",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1357",
+   "dataset": "mme_rs",
+   "question": "How many cars are there in the semi-circular parking lot in the upper right corner of the picture?",
+   "options": [
+    "11",
+    "12",
+    "2",
+    "10",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3938.png",
+   "image_sha256": "a02e873c41f8c94b1eafb21ed629ab83c5b4a59af105d838d724b971551d053d",
+   "image_cluster": "a02e873c41f8c94b",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/2362",
+   "dataset": "mme_rs",
+   "question": "How many red cars are parked in the parking lot by the lake on the right side of the picture?",
+   "options": [
+    "11",
+    "4",
+    "2",
+    "3",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6581.png",
+   "image_sha256": "aeb8b55066aeb416075529a2e5efbd7b0985d2b7727f2d73848565d6e4c058e7",
+   "image_cluster": "aeb8b55066aeb416",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/3171",
+   "dataset": "mme_rs",
+   "question": "How many red cars are there along the slanted road in the bottom right corner of the picture?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8668.png",
+   "image_sha256": "b24acfc2425f8d17c5279751ce9205594f0b29a9fa280d16457bc9b230677676",
+   "image_cluster": "b24acfc2425f8d17",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/0870",
+   "dataset": "mme_rs",
+   "question": "How many blue boats are there in the bay with a colored cargo ship in the picture?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P11259.png",
+   "image_sha256": "c52ed0dad41e8a33fc97a6fb342fc53c3884bbedfc5b490234ae5049c6aa2edf",
+   "image_cluster": "c52ed0dad41e8a33",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/0465",
+   "dataset": "mme_rs",
+   "question": "How many ships with wakes are there in the green water area in the middle of the picture?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P11109.png",
+   "image_sha256": "cb5c7181c63801666287c8b349bef79f471403ef9946febaf02cf451d3121196",
+   "image_cluster": "cb5c7181c6380166",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4096,
+   "h": 4097,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/0059",
+   "dataset": "mme_rs",
+   "question": "How many black cars are there in the parking lot on the left side of the gray building in the upper left corner of the picture?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P10040.png",
+   "image_sha256": "ceb4e1862a4a064c0e2818f61cde52ddc9e2a7a7e9a7aa8ac764452aac9a52ec",
+   "image_cluster": "ceb4e1862a4a064c",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/3677",
+   "dataset": "mme_rs",
+   "question": "How many red cars are there at the upper left road of the picture?",
+   "options": [
+    "3",
+    "33",
+    "5",
+    "9",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 0,
+   "image_key": "top_potsdam_5_11_RGB_Potsdam.png",
+   "image_sha256": "dfe0f40c16f8332d251a4d17eb526d8ab899b52092a026006e858acebca58300",
+   "image_cluster": "dfe0f40c16f8332d",
+   "category": "Remote Sensing/Perception/count",
+   "w": 6000,
+   "h": 6000,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/3078",
+   "dataset": "mme_rs",
+   "question": "How many buildings with a gray pointed roof are there around the green area in the upper right corner of the picture?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8368.png",
+   "image_sha256": "e06159d8290322be52faafec7fe9d0f5d1a7582b6201c4a9487f5bb6d576b3cc",
+   "image_cluster": "e06159d8290322be",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1152",
+   "dataset": "mme_rs",
+   "question": "How many cars are in the parking lot at the top left of the picture?",
+   "options": [
+    "11",
+    "10",
+    "56",
+    "99",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3398.png",
+   "image_sha256": "e69e2044068783865114d64f017f1b3d0c0c2c4511625394259072ebd48b8b3c",
+   "image_cluster": "e69e204406878386",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/2350",
+   "dataset": "mme_rs",
+   "question": "How many straight paths are there inside the grass in the traffic roundabout in the bottom right corner of the picture?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6538.png",
+   "image_sha256": "f12cd7267a1c4fe7e4ebf1a2eb1a15cf872f0fae90abf3e8fa9688851136500c",
+   "image_cluster": "f12cd7267a1c4fe7",
+   "category": "Remote Sensing/Perception/count",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/count/1530",
+   "dataset": "mme_rs",
+   "question": "How many yellow cars are running on the bridge in the top right area of this picture?",
+   "options": [
+    "22",
+    "25",
+    "2",
+    "30",
+    "This image doesn't feature the count."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4399.png",
+   "image_sha256": "ff1181ea0c07bc5b58dc404c745c3fb61626ddd05a2307f96a69b97df19f0022",
+   "image_cluster": "ff1181ea0c07bc5b",
+   "category": "Remote Sensing/Perception/count",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/3151",
+   "dataset": "mme_rs",
+   "question": "Where is the square with colored circular patterns and decorations in the picture?",
+   "options": [
+    "On the lower right edge of the picture.",
+    "At the top left side of the picture.",
+    "In the middle of the picture.",
+    "On the lower left side of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8556.png",
+   "image_sha256": "09aed6539726cc98eb2a0b3f8f2820577eb0efbe86f99d4f92ae44d4741e3c2c",
+   "image_cluster": "09aed6539726cc98",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/3435",
+   "dataset": "mme_rs",
+   "question": "Where is the building with purple roof located in this picture?",
+   "options": [
+    "Beside the water in the lower left area of this picture",
+    "Beside the water in the upper left area of this picture",
+    "Beside the water in the upper right area of this picture",
+    "Beside the water in the lower right area of this picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P9486.png",
+   "image_sha256": "0f1aeaad553204f5c7950817d738f93c1c7cbfc5e5c342ccdeb2e36bd6d7efca",
+   "image_cluster": "0f1aeaad553204f5",
+   "category": "Remote Sensing/Perception/position",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/0003",
+   "dataset": "mme_rs",
+   "question": "Where is the Y-fork cross in the picture?",
+   "options": [
+    "In the upper left area of the picture",
+    "In the upper right area of the picture",
+    "In the lower right area of the picture",
+    "In the left-center area of the picture",
+    "The image does not feature the position."
+   ],
+   "answer_idx": 1,
+   "image_key": "03553_Toronto.png",
+   "image_sha256": "1ee3feb9bb83f5fc8f5d4c668b7f731ed734a99fd2b2fe44e2989c557d01ceca",
+   "image_cluster": "1ee3feb9bb83f5fc",
+   "category": "Remote Sensing/Perception/position",
+   "w": 11500,
+   "h": 7500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/2021",
+   "dataset": "mme_rs",
+   "question": "Where is the playground in the picture?",
+   "options": [
+    "In the upper right corner of the picture",
+    "In the upper left corner of the picture",
+    "In the lower right corner of the picture",
+    "Bottom of the picture, above the stream",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P5804.png",
+   "image_sha256": "206db13c6fa5117c1012600b352fec559970a80d2aad01a3a8222c7d2e763894",
+   "image_cluster": "206db13c6fa5117c",
+   "category": "Remote Sensing/Perception/position",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/3193",
+   "dataset": "mme_rs",
+   "question": "Where is the structure of blue, yellow, and green alternating colors in the picture?",
+   "options": [
+    "In the lower right corner of the picture.",
+    "At the bottom left of the picture",
+    "Inside the heart-shaped water area at the top left of the picture.",
+    "In the upper right corner of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8717.png",
+   "image_sha256": "242fd92e5245fda517f432a0b045e80c57de951ee581d466ebb1440b9e8996e0",
+   "image_cluster": "242fd92e5245fda5",
+   "category": "Remote Sensing/Perception/position",
+   "w": 4096,
+   "h": 4097,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/1235",
+   "dataset": "mme_rs",
+   "question": "Where is the green truck located in the picture?",
+   "options": [
+    "In the upper left area of the picture",
+    "In the upper right area of the picture",
+    "In the lower left area of the picture",
+    "In the lower right area of the picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3653.png",
+   "image_sha256": "28a61d0ead2f25e5f7d8b49cbe14780bcccb775b46efcc562db887e8b4062fcf",
+   "image_cluster": "28a61d0ead2f25e5",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/0290",
+   "dataset": "mme_rs",
+   "question": "In which area is the semi-circular elevated bridge located in the picture?",
+   "options": [
+    "Bottom area of the picture.",
+    "Upper area of the picture.",
+    "Upper left area of the picture.",
+    "Upper right area of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P10722.png",
+   "image_sha256": "39442f11f8efe8770cc79e87f08de54195f6a5e96506a36cc26fd7cb6f51b586",
+   "image_cluster": "39442f11f8efe877",
+   "category": "Remote Sensing/Perception/position",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/3094",
+   "dataset": "mme_rs",
+   "question": "Where is the yellow van in the picture?",
+   "options": [
+    "In the bottom left corner of the picture.",
+    "In the center of the picture.",
+    "In the bottom right corner of the picture.",
+    "On the upper left side of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8409.png",
+   "image_sha256": "47cdaf1ec29b5e5f75308fc50ed4227ade78f334eb711e555161dca266c42486",
+   "image_cluster": "47cdaf1ec29b5e5f",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/0794",
+   "dataset": "mme_rs",
+   "question": "Where is the biggest football field located in the picture?",
+   "options": [
+    "In the upper left area of the picture",
+    "In the upper right area of the picture",
+    "In the lower right area of the picture",
+    "In the lower left area of the picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P11230.png",
+   "image_sha256": "5293f68e6a817fde1c6e2a37f8c96161bb19f5a314b534a25f187139fbf20997",
+   "image_cluster": "5293f68e6a817fde",
+   "category": "Remote Sensing/Perception/position",
+   "w": 4097,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/2527",
+   "dataset": "mme_rs",
+   "question": "Where is the yellow crane in the picture?",
+   "options": [
+    "In the upper right area of the picture",
+    "In the upper left area of the picture",
+    "In the lower right area of the picture",
+    "In the lower left area of the picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7036.png",
+   "image_sha256": "572adb83e85ae01bcd661e46a20217096452366a5a5d55bc2517f2e9f6813225",
+   "image_cluster": "572adb83e85ae01b",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/2213",
+   "dataset": "mme_rs",
+   "question": "Where is the yellow tower crane located in this picture?",
+   "options": [
+    "In the top right area of this picture",
+    "In the middle on the far left side of this picture",
+    "In the bottom right area of this picture",
+    "In the middle on the far right side of this picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6230.png",
+   "image_sha256": "5e826839365773163d883b4a17f5eb3b46b915d13275856bbb63e54e4ad40298",
+   "image_cluster": "5e82683936577316",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/3240",
+   "dataset": "mme_rs",
+   "question": "Where are the white and pink roofs in the picture?",
+   "options": [
+    "In the upper left area of the picture",
+    "In the lower right area of the picture",
+    "In the middle-left area of the picture",
+    "In the lower left area of the picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8890.png",
+   "image_sha256": "67e11266fd0aa99812ca9009a9bf228c0cf123ff92a39952ae248cc55604cfc0",
+   "image_cluster": "67e11266fd0aa998",
+   "category": "Remote Sensing/Perception/position",
+   "w": 4131,
+   "h": 4381,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/3223",
+   "dataset": "mme_rs",
+   "question": "Where is the sky-blue swimming pool in the picture?",
+   "options": [
+    "In the upper right corner of the picture.",
+    "On the lower left side of the picture",
+    "In the center of the bottom of the picture.",
+    "At the top left corner of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8807.png",
+   "image_sha256": "80b41ee69e04769b951260e1429a9aeb6d62abc06b1537d19f288faa70a8a8d8",
+   "image_cluster": "80b41ee69e04769b",
+   "category": "Remote Sensing/Perception/position",
+   "w": 2715,
+   "h": 1100,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/1604",
+   "dataset": "mme_rs",
+   "question": "Where are the white tables and yellow and black chairs located in this picture?",
+   "options": [
+    "In the middle left area of this picture",
+    "Beside the river in the lower left area of this picture",
+    "In the bottom right corner of this picture",
+    "Beside the river in the upper right area of this picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4621.png",
+   "image_sha256": "85c64b9e6dbe1c247ef30c1b0b140474851772b175db9fd1033dd080cb654192",
+   "image_cluster": "85c64b9e6dbe1c24",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/0164",
+   "dataset": "mme_rs",
+   "question": "Where is the green ship in the picture?",
+   "options": [
+    "In the lower right area of the picture",
+    "In the upper left area of the picture",
+    "In the middle of the picture",
+    "In the upper right area of the picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P10337.png",
+   "image_sha256": "8636096900e16727f0ae8591fe52751e0f7a2aececfe2f3e4fe588baf6dd3269",
+   "image_cluster": "8636096900e16727",
+   "category": "Remote Sensing/Perception/position",
+   "w": 4097,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/3471",
+   "dataset": "mme_rs",
+   "question": "Where is the basketball court located in this picture?",
+   "options": [
+    "In the lower right area of this picture",
+    "In the upper right area of this picture",
+    "In the lower left area of this picture",
+    "In the upper left area of this picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P9592.png",
+   "image_sha256": "8de0a6357f874f65a7b6a5ebe70996f8bb735d647d34ee391ef86e518a570085",
+   "image_cluster": "8de0a6357f874f65",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/1205",
+   "dataset": "mme_rs",
+   "question": "Where the river is in the picture?",
+   "options": [
+    "In the right area of the picture.",
+    "In the upper right area of the picture.",
+    "In the upper area of the picture.",
+    "In the left area of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3555.png",
+   "image_sha256": "91aef1352a8e2b9dbced63a0768e73a51fe6bbea2906704099db23ca98aaeedd",
+   "image_cluster": "91aef1352a8e2b9d",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/3591",
+   "dataset": "mme_rs",
+   "question": "Where is the building with a large letter U on the exterior wall in the picture?",
+   "options": [
+    "In the upper right corner of the picture",
+    "To the right of the center of the picture.",
+    "At the bottom of the picture.",
+    "In the lower left corner of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P9877.png",
+   "image_sha256": "97be71fa8e19e1a67348b2e48fb1ea660bacf4c79a1700c56e5e4b73b98a3bb4",
+   "image_cluster": "97be71fa8e19e1a6",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/1826",
+   "dataset": "mme_rs",
+   "question": "Where is the house with a triangular roof in the picture located?",
+   "options": [
+    "In the bottom left of the picture",
+    "In the bottom right of the picture",
+    "In the upper right of the picture",
+    "In the upper left of the picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P5240.png",
+   "image_sha256": "99e21180713da49666984f7da78b65144408d2ada29b03e38e7ea4491efeb868",
+   "image_cluster": "99e21180713da496",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/1829",
+   "dataset": "mme_rs",
+   "question": "Where is the house with a yellow roof in the picture?",
+   "options": [
+    "In the bottom left of the picture",
+    "In the bottom right of the picture",
+    "In the upper right of the picture",
+    "In the upper left of the picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P5243.png",
+   "image_sha256": "a2b06eee83420fc19afc12c7ecef1819e24ad62895e8f64b892af99d937afd8b",
+   "image_cluster": "a2b06eee83420fc1",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/0922",
+   "dataset": "mme_rs",
+   "question": "Where is the cargo ship with a white container in the picture?",
+   "options": [
+    "In the center of the picture.",
+    "To the left of the top of the picture.",
+    "On the upper right side of the picture.",
+    "In the lower left corner of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P11278.png",
+   "image_sha256": "a36cd058d8eb7bfe1a25270c95a966646de798314e84e9dde57cd1f9b1ad8537",
+   "image_cluster": "a36cd058d8eb7bfe",
+   "category": "Remote Sensing/Perception/position",
+   "w": 4097,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/2150",
+   "dataset": "mme_rs",
+   "question": "Where is the elliptical roundabout in the picture?",
+   "options": [
+    "At the bottom of the picture.",
+    "At the top of the picture.",
+    "On the upper right corner of the picture.",
+    "On the left side of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6119.png",
+   "image_sha256": "a37fdb9110f786ab2828a87f2c6b3979876995472b1ace32abeb1e69cc8c4dfa",
+   "image_cluster": "a37fdb9110f786ab",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/2512",
+   "dataset": "mme_rs",
+   "question": "Where are the red and white cell towers in the picture?",
+   "options": [
+    "In the upper left area of the picture",
+    "In the upper right area of the picture",
+    "In the middle-left area of the picture",
+    "In the lower left area of the picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7015.png",
+   "image_sha256": "a750a6af8688925467200b795f2a19713514797e9fd37793b6910e22db49df0f",
+   "image_cluster": "a750a6af86889254",
+   "category": "Remote Sensing/Perception/position",
+   "w": 4096,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/1379",
+   "dataset": "mme_rs",
+   "question": "Where is the white tower in the picture?",
+   "options": [
+    "To the left above the picture, amidst the green trees.",
+    "To the left corner of the picture, amidst the red trees.",
+    "To the right at the bottom in the picture, amidst the green trees.",
+    "To the right above the picture, amidst the green trees.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3979.png",
+   "image_sha256": "a95bba8cbf38e34a9160e8513e87494cba2472284e93fb0955c88bef28d82e3a",
+   "image_cluster": "a95bba8cbf38e34a",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/1037",
+   "dataset": "mme_rs",
+   "question": "Where is the building with black-and-white in the picture?",
+   "options": [
+    "Area on the upper right of the image",
+    "Left area of the image",
+    "At the bottom of the picture",
+    "in the bottom right close to the edge of the picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3016.png",
+   "image_sha256": "b4273f01b5c3c05025793d1074d12d7d2eff28b5aa76957e557914e7c1ce8daf",
+   "image_cluster": "b4273f01b5c3c050",
+   "category": "Remote Sensing/Perception/position",
+   "w": 4097,
+   "h": 4096,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/1199",
+   "dataset": "mme_rs",
+   "question": "Where is the largest vacant lot in the picture?",
+   "options": [
+    "In the upper left area of the picture.",
+    "In the upper right area of the picture.",
+    "In the center area of the picture.",
+    "In the bottom area of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3543.png",
+   "image_sha256": "c0bfd09432450f59a8bd3af7ee8fcf7397bb466100c9d438c6b296327ba8fc98",
+   "image_cluster": "c0bfd09432450f59",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/1373",
+   "dataset": "mme_rs",
+   "question": "Where is the red and white sunshade in the picture?",
+   "options": [
+    "In the middle of the lower part of the picture.",
+    "In the middle of the picture.",
+    "On the left side of the picture.",
+    "In the middle of the upper part of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P3961.png",
+   "image_sha256": "cfbb14e7cf2064b9036eeacc3b6c96ea10de9b67078cb2193b8b52c15d1dab7c",
+   "image_cluster": "cfbb14e7cf2064b9",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/1567",
+   "dataset": "mme_rs",
+   "question": "Where is the tennis court located in this picture?",
+   "options": [
+    "In the middle right area of this picture",
+    "In the top left corner of this picture",
+    "In the top right area of this picture",
+    "In the bottom right corner of this picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 1,
+   "image_key": "dota_v2_dota_v2_dota_v2_P4541.png",
+   "image_sha256": "df96f9edc2fb1bd41ccc194c613672904c438f6fbaf2a07eee2628b4dfc91cc4",
+   "image_cluster": "df96f9edc2fb1bd4",
+   "category": "Remote Sensing/Perception/position",
+   "w": 2432,
+   "h": 3244,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/2518",
+   "dataset": "mme_rs",
+   "question": "Where is the yellow circle icon in the picture?",
+   "options": [
+    "In the upper left area of the picture",
+    "In the lower right area of the picture",
+    "In the middle-left area of the picture",
+    "In the lower left area of the picture",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 3,
+   "image_key": "dota_v2_dota_v2_dota_v2_P7021.png",
+   "image_sha256": "e267784d0bfa84d0eb133716ec7f9d5a517aa58231b49a22740a4bdf68621f9c",
+   "image_cluster": "e267784d0bfa84d0",
+   "category": "Remote Sensing/Perception/position",
+   "w": 1272,
+   "h": 1419,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/2120",
+   "dataset": "mme_rs",
+   "question": "Where is the ground with blue and yellow circular patterns in the picture?",
+   "options": [
+    "At the top of the picture, in front of the buildings with gray roofs.",
+    "At the bottom of the picture, in front of the building with a gray roof.",
+    "On the right side of the picture, in front of the building with a gray roof.",
+    "On the left side of the picture, in front of the building with a gray roof.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 0,
+   "image_key": "dota_v2_dota_v2_dota_v2_P6047.png",
+   "image_sha256": "ec400a7e8d369ab3a93d6b492f511bca917e38910ade254970eb990c6a4c571e",
+   "image_cluster": "ec400a7e8d369ab3",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/remote_sensing/position/3118",
+   "dataset": "mme_rs",
+   "question": "Where is the small green boat in the picture?",
+   "options": [
+    "In the upper left corner of the picture.",
+    "In the bottom right corner of the picture.",
+    "In the center of the bay below the center of the picture.",
+    "In the upper right corner of the picture.",
+    "This image doesn't feature the position."
+   ],
+   "answer_idx": 2,
+   "image_key": "dota_v2_dota_v2_dota_v2_P8467.png",
+   "image_sha256": "f514a4cd4e5934090a61a64fa8ea8a6280166efa394693c21d2dcd4d476ceec3",
+   "image_cluster": "f514a4cd4e593409",
+   "category": "Remote Sensing/Perception/position",
+   "w": 7360,
+   "h": 4912,
+   "meta": {}
+  }
+ ]
+}

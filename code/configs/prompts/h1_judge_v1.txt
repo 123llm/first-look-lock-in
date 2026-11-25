@@ -1,0 +1,13 @@
+You are given two descriptions of images, written by the same model.
+Description A was written for an original image. Description B was written for a possibly modified version of it.
+Rate how well Description B describes the same image content as Description A (same main objects, attributes, counts, spatial layout and scene).
+Use an integer from 1 to 10: 10 = the same content in every respect that matters; 1 = completely different content.
+Ignore differences in wording, length and style.
+
+Description A:
+{caption_clean}
+
+Description B:
+{caption_adv}
+
+Answer with the integer only.

@@ -1,0 +1,13 @@
+{
+ "deepeyes_7b": "BACBAABBBBDBDABAAABADBBAAFAACA",
+ "deepeyes_7b_tool_off": "BACBAABBABDDBACDCABC",
+ "deepeyes_7b_xlrs": "BC",
+ "minio3_7b": "DACBD-BBABDBDABAA-AC-A--C-A--C",
+ "minio3_7b_xlrs": "BC",
+ "qwen25vl_7b": "BACBAABBABEDBACDCABC",
+ "qwen3vl_4b_instruct": "BACBDABBABECCACABAAC",
+ "qwen3vl_4b_thinking": "BACBD-BBABBBAEEDBACC",
+ "qwen3vl_4b_thinking_tool_off": "BACBA-BBABBB-EC-BA-C",
+ "vision_r1_7b": "BACBDCB-ABAADDBDBBBA",
+ "vlaa_thinker_7b": "BACB-CBBABBADFDDBBBA"
+}

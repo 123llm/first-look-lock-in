@@ -1,0 +1,3011 @@
+{
+ "name": "mme_general_eval",
+ "protocol": "v2",
+ "seed": 0,
+ "note": "150, one question per image, stratified by Subtask/Task",
+ "n": 150,
+ "n_images": 150,
+ "n_clusters": 150,
+ "items": [
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_MultiVehicles/0133",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the status of the trailers that are in front of the ego car.",
+   "options": [
+    "Two trailers are moving.",
+    "Three trailers are parked.",
+    "Three of the trailers are moving, and many are parked.",
+    "One of the trailers is moving, and one is parked.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 4,
+   "image_key": "n015-2018-08-01-17-04-15+0800__CAM_FRONT__1533114379662460.jpg",
+   "image_sha256": "3860bce3bcda43403a17f7b8df59a3eb5c0527fd2b531adb88f5fc52740019b4",
+   "image_cluster": "3860bce3bcda4340",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_MultiVehicles",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Object_Count/0414",
+   "dataset": "mme_general",
+   "question": "How many traffic cones are there on the road or around the road?",
+   "options": [
+    "10",
+    "9",
+    "8",
+    "13",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 2,
+   "image_key": "test_0670.jpg",
+   "image_sha256": "4c759cfd86e5e984b7c9b58b0d9e743a03a0c60362597f6ce74f3aa96e7bed4e",
+   "image_cluster": "4c759cfd86e5e984",
+   "category": "Autonomous_Driving/Perception/Object_Count",
+   "w": 1281,
+   "h": 720,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_Pedestrain/0157",
+   "dataset": "mme_general",
+   "question": "What is motion of the pedestrian wearing white top and wearing black bottom on the ego lane?",
+   "options": [
+    "jaywalking (illegally crossing not at pedestrian crossing)",
+    "waiting to cross",
+    "walking on the sidewalk",
+    "crossing the crosswalk",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 3,
+   "image_key": "scenario_554_frame_049.png",
+   "image_sha256": "d2648769f154406c355c8487c3d2f8a61a1063dc685acabdb0ba66e77c587518",
+   "image_cluster": "d2648769f154406c",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_Pedestrain",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Objects_Identify/1061",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What are objects to the front of the ego car?",
+   "options": [
+    "There are many cars and one bus.",
+    "There are many cars, one motorcycle, many traffic cones, one barrier, and one pedestrian.",
+    "There are two cars, many pedestrians, and one truck.",
+    "There are many trucks and trailers.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 4,
+   "image_key": "n015-2018-11-21-19-38-26+0800__CAM_FRONT__1542800471362460.jpg",
+   "image_sha256": "80993c36fc124dba3c521611ce4e97642936995b4126ed29793983dd2b25d947",
+   "image_cluster": "80993c36fc124dba",
+   "category": "Autonomous_Driving/Perception/Objects_Identify",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_Vehicle/0128",
+   "dataset": "mme_general",
+   "question": "What is motion of the white sedan on the left?",
+   "options": [
+    "stopped",
+    "moving",
+    "parked",
+    "other",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 0,
+   "image_key": "scenario_315_frame_029.png",
+   "image_sha256": "c8f50aee4a6910255bc5745d70f6628a596a413911f668c31fcb8cd68ddf3b7d",
+   "image_cluster": "c8f50aee4a691025",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_Vehicle",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_MultiVehicles/0250",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the status of the cars that are to the front of the ego car?",
+   "options": [
+    "Many cars are moving, and one is parked.",
+    "Three of the cars are parked and one is moving.",
+    "Many cars are parked, and three are moving.",
+    "Many cars are parked, and one is moving.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 3,
+   "image_key": "n008-2018-08-28-13-40-50-0400__CAM_FRONT__1535478564412404.jpg",
+   "image_sha256": "be67aaaa6720b6dbbab4385a6616753630e442115d8e14b3c37dc78f5324a36a",
+   "image_cluster": "be67aaaa6720b6db",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_MultiVehicles",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_Pedestrain/0030",
+   "dataset": "mme_general",
+   "question": "What is motion of the pedestrian wearing black top and wearing black bottom on the left?",
+   "options": [
+    "waiting to cross",
+    "crossing the crosswalk",
+    "jaywalking (illegally crossing not at pedestrian crossing)",
+    "standing",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 1,
+   "image_key": "scenario_046_frame_059.png",
+   "image_sha256": "3f78371561ef41dc024aa08c24f4a62e8585ad42d03f2735b2daaa0958eaa9eb",
+   "image_cluster": "3f78371561ef41dc",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_Pedestrain",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Object_Count/0007",
+   "dataset": "mme_general",
+   "question": "How many buses are there on the road or around the road?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 2,
+   "image_key": "val_0159.jpg",
+   "image_sha256": "1d7d93868ae9ba00a78feb4f3c46bb2e911e5519892c8ea208e48fa077374e32",
+   "image_cluster": "1d7d93868ae9ba00",
+   "category": "Autonomous_Driving/Perception/Object_Count",
+   "w": 1355,
+   "h": 720,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Visual_TrafficSignal/0025",
+   "dataset": "mme_general",
+   "question": "What color is the traffic light on the right?",
+   "options": [
+    "red",
+    "yellow",
+    "green",
+    "changing or off",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 0,
+   "image_key": "scenario_010_frame_194.png",
+   "image_sha256": "3af6b690b7b09dbc51ac7004f379e2a531dd54c80276e5ee6c031b689576f0fc",
+   "image_cluster": "3af6b690b7b09dbc",
+   "category": "Autonomous_Driving/Perception/Attribute_Visual_TrafficSignal",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_Pedestrain/0098",
+   "dataset": "mme_general",
+   "question": "What is motion of the pedestrian wearing black bottom on the ego lane?",
+   "options": [
+    "waiting to cross",
+    "standing",
+    "crossing the crosswalk",
+    "jaywalking (illegally crossing not at pedestrian crossing)",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 2,
+   "image_key": "scenario_208_frame_004.png",
+   "image_sha256": "1d50cb606dab31256e2c941c83f29e41f0ca5a6f561b1659515ecfe47ad30ee2",
+   "image_cluster": "1d50cb606dab3125",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_Pedestrain",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Objects_Identify/0409",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What are objects to the front of the ego car?",
+   "options": [
+    "There are many cars, many barriers, three traffic cones, one truck, and two pedestrians.",
+    "There are many pedestrians, one bicycle, and one truck.",
+    "There are many construction vehicles, two cars, and one pedestrian.",
+    "There are two buses and many cars.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 0,
+   "image_key": "n008-2018-08-28-16-16-48-0400__CAM_FRONT__1535487980862404.jpg",
+   "image_sha256": "38cd21667a497d4c49b579ccc54afc1129a995146dbce40212f8a0fb9e52632c",
+   "image_cluster": "38cd21667a497d4c",
+   "category": "Autonomous_Driving/Perception/Objects_Identify",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Objects_Identify/0293",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What are objects to the front of the ego car?",
+   "options": [
+    "There is one bicycle and one car.",
+    "There is one car and one barrier.",
+    "There are two pedestrians and two motorcycles.",
+    "There are many trucks and three trailers.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 0,
+   "image_key": "n015-2018-08-03-15-21-40+0800__CAM_FRONT__1533281206762460.jpg",
+   "image_sha256": "38daf2d4bf5a14fb1de3073950625adb07a695f6c9905628c91365961b7b52e0",
+   "image_cluster": "38daf2d4bf5a14fb",
+   "category": "Autonomous_Driving/Perception/Objects_Identify",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Object_Count/0055",
+   "dataset": "mme_general",
+   "question": "How many buses are there on the road or around the road?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 3,
+   "image_key": "val_0577.jpg",
+   "image_sha256": "56698237f70633e601f090348d89f963cf01c18a80a5288ada36391535d7c51a",
+   "image_cluster": "56698237f70633e6",
+   "category": "Autonomous_Driving/Perception/Object_Count",
+   "w": 1355,
+   "h": 720,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Objects_Identify/0545",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What are objects to the front of the ego car?",
+   "options": [
+    "There is one motorcycle, one construction vehicle, one car, one pedestrian, one trailer, and one truck.",
+    "There is one car and one barrier.",
+    "There are two trailers, two pedestrians, three barriers, many trucks, and two cars.",
+    "There are three cars and three construction vehicles.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 3,
+   "image_key": "n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535659009013051.jpg",
+   "image_sha256": "ea886815caa3768d3c4a4d3b4e5bc6b84a8d44d4a7f0f092655ab545146e2246",
+   "image_cluster": "ea886815caa3768d",
+   "category": "Autonomous_Driving/Perception/Objects_Identify",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_MultiVehicles/0638",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the status of the cars that are to the front of the ego car?",
+   "options": [
+    "Many cars are moving and two are parked.",
+    "Two of the cars are moving, and three are parked.",
+    "Many cars are parked and three are moving.",
+    "Three of the cars are moving, and many are parked.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 3,
+   "image_key": "n008-2018-09-18-14-54-39-0400__CAM_FRONT__1537296961662404.jpg",
+   "image_sha256": "25c0eb7e1b865807f7d21bbe77a5c207a5fa63fa8e42114633ae0f57120b10c9",
+   "image_cluster": "25c0eb7e1b865807",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_MultiVehicles",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_MultiPedestrians/0332",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the status of the pedestrians that are to the front of the ego car?",
+   "options": [
+    "The status of the pedestrians in front of the ego car is that one is standing and one is moving.",
+    "One of the pedestrians is moving, and one is standing.",
+    "Two of the pedestrians are moving, and three are standing.",
+    "Two pedestrians are moving.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 3,
+   "image_key": "n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537292709112404.jpg",
+   "image_sha256": "ac57a5efab9ca15db7a90a6415ac7a09d74cfceabf860ef8c97e666d8f36e7b7",
+   "image_cluster": "ac57a5efab9ca15d",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_MultiPedestrians",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_MultiPedestrians/0067",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the status of the pedestrians that are to the front of the ego car?",
+   "options": [
+    "The status of the pedestrians in front of the ego car is that one is standing and one is moving.",
+    "Two pedestrians are moving.",
+    "Two of the pedestrians are standing while two are moving.",
+    "One of the pedestrians is moving, and two are standing.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 1,
+   "image_key": "n015-2018-07-27-11-24-31+0800__CAM_FRONT__1532662160512460.jpg",
+   "image_sha256": "5f83e074144a58d06a4b51a52b34c2c019d91f79a5bdc53276584d4889baceef",
+   "image_cluster": "5f83e074144a58d0",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_MultiPedestrians",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_Vehicle/0148",
+   "dataset": "mme_general",
+   "question": "What is motion of the white van on the right?",
+   "options": [
+    "stopped",
+    "parked",
+    "other",
+    "moving",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 1,
+   "image_key": "scenario_495_frame_129.png",
+   "image_sha256": "1e79357f80b85c8e57e2c98cf1ffbfb1c22085aaffeaf38daf2482e003fbc7ed",
+   "image_cluster": "1e79357f80b85c8e",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_Vehicle",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_Vehicle/0025",
+   "dataset": "mme_general",
+   "question": "What is motion of the white truck on the left?",
+   "options": [
+    "moving",
+    "stopped",
+    "other",
+    "parked",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 1,
+   "image_key": "scenario_013_frame_099.png",
+   "image_sha256": "453a031ff9dfcc2af7e238d63bbe0f80116adf87d67b92f832b84c403811fd05",
+   "image_cluster": "453a031ff9dfcc2a",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_Vehicle",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_MultiPedestrians/0289",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the status of the pedestrians that are to the front of the ego car?",
+   "options": [
+    "Three pedestrians are moving.",
+    "Many pedestrians are standing and many are moving.",
+    "Many pedestrians are moving, and two are standing.",
+    "Three of the pedestrians are moving, and one is standing.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 0,
+   "image_key": "n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535729207862404.jpg",
+   "image_sha256": "55ca1ba29b4f56d2ce53c17537ac7c9ab6c2801fc12eee6668c127c9f5e53287",
+   "image_cluster": "55ca1ba29b4f56d2",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_MultiPedestrians",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Objects_Identify/0192",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What are objects to the front of the ego car?",
+   "options": [
+    "There are many pedestrians and one bus.",
+    "There is one pedestrian and one bus.",
+    "There are many pedestrians, one truck, and many cars.",
+    "There are many barriers, one construction vehicle, one bus, two cars, three pedestrians, three traffic cones, and two trucks.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 0,
+   "image_key": "n015-2018-08-01-16-41-59+0800__CAM_FRONT__1533113031362460.jpg",
+   "image_sha256": "1a0d834ba014c393c35da1b96032924aa62153193b31bdb63edf02ef62d7922b",
+   "image_cluster": "1a0d834ba014c393",
+   "category": "Autonomous_Driving/Perception/Objects_Identify",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_Pedestrain/0141",
+   "dataset": "mme_general",
+   "question": "What is motion of the pedestrian wearing blue bottom on the right?",
+   "options": [
+    "crossing the crosswalk",
+    "jaywalking (illegally crossing not at pedestrian crossing)",
+    "walking on the sidewalk",
+    "waiting to cross",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 2,
+   "image_key": "scenario_455_frame_019.png",
+   "image_sha256": "135c968a5a35b3d47f02c89b198dcdc41429378297a2d57a0b4a41d1ad08eacc",
+   "image_cluster": "135c968a5a35b3d4",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_Pedestrain",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Objects_Identify/0351",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What are objects to the front of the ego car?",
+   "options": [
+    "There is one pedestrian and one car.",
+    "There are three buses and one car.",
+    "There are three cars and three traffic cones.",
+    "There are two trucks, three cars, and one trailer.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 3,
+   "image_key": "n008-2018-08-27-11-48-51-0400__CAM_FRONT__1535385202612404.jpg",
+   "image_sha256": "95f139b73339a6270ef99dc6b9fbc16ba69bf67cd905a83081d519a0636992dd",
+   "image_cluster": "95f139b73339a627",
+   "category": "Autonomous_Driving/Perception/Objects_Identify",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Objects_Identify/0244",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What are objects to the front of the ego car?",
+   "options": [
+    "There are many cars, many traffic cones, many barriers, and three pedestrians.",
+    "There are many cars, three trucks, one motorcycle, one pedestrian, and one bicycle.",
+    "There is one car, two pedestrians, and two trucks.",
+    "There are three cars and three traffic cones.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 3,
+   "image_key": "n015-2018-08-02-17-28-51+0800__CAM_FRONT__1533202359512460.jpg",
+   "image_sha256": "3ea1efcbfee9245a79ce291e67bb82cc843e3e24e0db229a26beab1708af4023",
+   "image_cluster": "3ea1efcbfee9245a",
+   "category": "Autonomous_Driving/Perception/Objects_Identify",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_MultiVehicles/0788",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the status of the cars that are to the front of the ego car?",
+   "options": [
+    "One of the cars is parked, and three are moving.",
+    "Many cars are parked, and three are moving.",
+    "Three cars are moving and many are parked.",
+    "Many cars are parked and many are moving.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 1,
+   "image_key": "n015-2018-11-21-19-11-29+0800__CAM_FRONT__1542798729912467.jpg",
+   "image_sha256": "d805707a2aedef6294b864f5f264a6f87b493b3e90e42d10a22a0a2e79fb9481",
+   "image_cluster": "d805707a2aedef62",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_MultiVehicles",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Visual_TrafficSignal/0006",
+   "dataset": "mme_general",
+   "question": "What color is the traffic light on the right?",
+   "options": [
+    "red",
+    "yellow",
+    "green",
+    "changing or off",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 1,
+   "image_key": "scenario_004_frame_174.png",
+   "image_sha256": "4293f2d980316820f41043e2ae58c9acf281eba233ddf37af06d02bbcf7bd9a1",
+   "image_cluster": "4293f2d980316820",
+   "category": "Autonomous_Driving/Perception/Attribute_Visual_TrafficSignal",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Objects_Identify/0141",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What are objects to the front of the ego car?",
+   "options": [
+    "There are two trucks, one pedestrian, and many cars.",
+    "There are many cars, one bicycle, and two pedestrians.",
+    "There are many traffic cones, two barriers, and three trucks.",
+    "There are many pedestrians, one motorcycle, three cars, and one truck.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 0,
+   "image_key": "n008-2018-07-27-12-07-38-0400__CAM_FRONT__1532708195412404.jpg",
+   "image_sha256": "bdfa695b0499524368521b9bd3204fa4578ded034cda6189bda5f31e9ce34287",
+   "image_cluster": "bdfa695b04995243",
+   "category": "Autonomous_Driving/Perception/Objects_Identify",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Perception/Autonomous_Driving/Attribute_Motion_MultiVehicles/0342",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the status of the cars that are to the front of the ego car?",
+   "options": [
+    "Many cars are parked and many are moving.",
+    "One of the cars is parked, and the other is moving.",
+    "Many cars are moving, and one is parked.",
+    "One of the cars is moving, and many are parked.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 2,
+   "image_key": "n008-2018-08-29-16-04-13-0400__CAM_FRONT__1535573948912404.jpg",
+   "image_sha256": "ae93c88ba9bd239c2ef4466295a19e591625f084cb8e9c07088608d3f954e467",
+   "image_cluster": "ae93c88ba9bd239c",
+   "category": "Autonomous_Driving/Perception/Attribute_Motion_MultiVehicles",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Pedestrain/0042",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What should the ego vehicle do when encountering the pedestrian wearing black top and wearing blue bottom on the left?",
+   "options": [
+    "passing by",
+    "yielding",
+    "stopping",
+    "accelerating/speeding up",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 1,
+   "image_key": "scenario_183_frame_144.png",
+   "image_sha256": "fbee4589b91385780155bfd2aabffa39a47705c76b26168ba4dd3749c8fb0dc1",
+   "image_cluster": "fbee4589b9138578",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Pedestrain",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2TrafficSignal/0067",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What should the ego vehicle do when encountering the traffic light on the right?",
+   "options": [
+    "slowing down",
+    "accelerating/speeding up",
+    "yielding",
+    "no response",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 0,
+   "image_key": "scenario_224_frame_004.png",
+   "image_sha256": "f5a6873c1b85fd78d6dfb83c189756ad9a6f99e7170ba7bd269ea1049a3bf313",
+   "image_cluster": "f5a6873c1b85fd78",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2TrafficSignal",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Ego/0167",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. Predict the behavior of the ego vehicle.",
+   "options": [
+    "The ego vehicle is slightly steering to the left. The ego vehicle is driving with normal speed.",
+    "The ego vehicle is slightly steering to the right. The ego vehicle is driving very fast.",
+    "The ego vehicle is going straight. The ego vehicle is not moving.",
+    "The ego vehicle is steering to the left. The ego vehicle is driving slowly.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 0,
+   "image_key": "n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535729540912404.jpg",
+   "image_sha256": "2341455bec5eb23637f3708ed72f0a2223391095cfe390fb8490891f9640742f",
+   "image_cluster": "2341455bec5eb236",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Ego",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Vehicle/0018",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the future state of the black small car in the middle?",
+   "options": [
+    "Turn left.",
+    "Keep going straight.",
+    "Turn right.",
+    "Stationary.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 0,
+   "image_key": "n015-2018-07-24-11-22-45+0800__CAM_FRONT__1532402725412460.jpg",
+   "image_sha256": "25e1475402c92ee9682d1f5ba79a2435114d32e02a53d219be27a44eeeafad8d",
+   "image_cluster": "25e1475402c92ee9",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Vehicle",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Other2Other/0198",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. Based on the observations of the person wearing white clothes in the middle, what are possible actions to be taken by the person wearing black clothes in the middle? What is the reason?",
+   "options": [
+    "The action is to decelerate and go ahead, the reason is to yield to pedestrians.",
+    "The action is to take none, the reason is to follow the traffic rules.",
+    "The action is to accelerate and go ahead, the reason is to follow the traffic rules.",
+    "The action is to keep going at the same speed, and the reason is to maintain a safe distance.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 3,
+   "image_key": "n015-2018-11-21-19-38-26+0800__CAM_FRONT__1542800615912460.jpg",
+   "image_sha256": "91f8e26560ed5425c3dc0c7153b6d21952af67bedd356eeeedd9df578c2c8186",
+   "image_cluster": "91f8e26560ed5425",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Other2Other",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Vehicle/0053",
+   "dataset": "mme_general",
+   "question": "What should the ego vehicle do when encountering the white van on the ego lane?",
+   "options": [
+    "accelerating/speeding up",
+    "yielding",
+    "following",
+    "stopping",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 2,
+   "image_key": "scenario_202_frame_004.png",
+   "image_sha256": "621c7489b07e4e79d94a4aa68215880921f6d09774bb3d1b812d37c3a0c811ec",
+   "image_cluster": "621c7489b07e4e79",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Vehicle",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Other2Other/0057",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. Based on the observations of the white sedan in the middle, what are possible actions to be taken by the white truck in the middle? What is the reason?",
+   "options": [
+    "The action is to remain stationary, and the reason is to follow traffic rules.",
+    "The action is to decelerate and go ahead, the reason is to keep a safe distance.",
+    "The action is to take none, the reason is that there is no safety issue.",
+    "The action is to keep going at the same speed, and the reason is to follow the traffic rules.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 2,
+   "image_key": "n015-2018-08-03-15-00-36+0800__CAM_FRONT__1533279794662460.jpg",
+   "image_sha256": "69c358542d255cac2bd1f2da22af27894366c51544a7d0f801239f28ebf3d2ae",
+   "image_cluster": "69c358542d255cac",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Other2Other",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Vehicle/0055",
+   "dataset": "mme_general",
+   "question": "What should the ego vehicle do when encountering the white van on the left?",
+   "options": [
+    "no response",
+    "stopping",
+    "passing by",
+    "slowing down",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 0,
+   "image_key": "scenario_207_frame_004.png",
+   "image_sha256": "c9114ea3893d1987b1ff27d820b205324760599de77788eb18629a58e5c47344",
+   "image_cluster": "c9114ea3893d1987",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Vehicle",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Vehicle/0202",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the future state of the blue car in the middle?",
+   "options": [
+    "Keep going straight.",
+    "Turn left.",
+    "Turn right.",
+    "Stationary.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 1,
+   "image_key": "n015-2018-11-21-19-38-26+0800__CAM_FRONT__1542800363362465.jpg",
+   "image_sha256": "bafab0c37defa0494134e40478a660b6fccc36b60c7ef4c6c55fe64b91785a12",
+   "image_cluster": "bafab0c37defa049",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Vehicle",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Vehicle/0048",
+   "dataset": "mme_general",
+   "question": "What should the ego vehicle do when encountering the black suv on the left?",
+   "options": [
+    "passing by",
+    "slowing down",
+    "no response",
+    "stopping",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 2,
+   "image_key": "scenario_175_frame_119.png",
+   "image_sha256": "77ef8e584e3415e5646d9d18e1c3d1ba506f4fd61e09ea9bdcb970cc95f6dd78",
+   "image_cluster": "77ef8e584e3415e5",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Vehicle",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Pedestrain/0037",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What should the ego vehicle do when encountering the pedestrian wearing black top and wearing blue bottom on the left?",
+   "options": [
+    "yielding",
+    "stopping",
+    "passing by",
+    "slowing down",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 3,
+   "image_key": "scenario_183_frame_009.png",
+   "image_sha256": "0992ab3198161d84c35f81b707875453df839ed119ed35c51db780df7cbe0ebf",
+   "image_cluster": "0992ab3198161d84",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Pedestrain",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Attention_TrafficSignal/0118",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the traffic signal that the ego vehicle should pay attention to?",
+   "options": [
+    "Red light.",
+    "Turn right.",
+    "Green light.",
+    "Turn left.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 2,
+   "image_key": "n008-2018-08-30-15-52-26-0400__CAM_FRONT__1535659605412410.jpg",
+   "image_sha256": "36efd03c445b3050804fe820a8d9e8929f24decfd16c125debfdd9a33ef989f4",
+   "image_cluster": "36efd03c445b3050",
+   "category": "Autonomous_Driving/Reasoning/Attention_TrafficSignal",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Pedestrain/0062",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What should the ego vehicle do when encountering the pedestrian wearing white top on the left?",
+   "options": [
+    "passing by",
+    "accelerating/speeding up",
+    "yielding",
+    "no response",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 0,
+   "image_key": "scenario_242_frame_029.png",
+   "image_sha256": "17988684aacb79eec7d9012673729201f70a76945b19d722568c18ae4b83a570",
+   "image_cluster": "17988684aacb79ee",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Pedestrain",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Vehicle/0038",
+   "dataset": "mme_general",
+   "question": "What should the ego vehicle do when encountering the black truck on the ego lane?",
+   "options": [
+    "stopping",
+    "no response",
+    "slowing down",
+    "accelerating/speeding up",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 1,
+   "image_key": "scenario_127_frame_229.png",
+   "image_sha256": "125e347f988701ed11930560b1ec7b3e471fc0b1dbf293582472ebc2e95d7168",
+   "image_cluster": "125e347f988701ed",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Vehicle",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Vehicle/0194",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the future state of the black sedan in the middle?",
+   "options": [
+    "Keep going straight.",
+    "Stationary.",
+    "Turn left.",
+    "Turn right.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 0,
+   "image_key": "n015-2018-11-21-19-11-29+0800__CAM_FRONT__1542798938662460.jpg",
+   "image_sha256": "f17390b2a2f0728c31cf67aab36cc0c881279de59bb9c3b68f3c799dab1453b8",
+   "image_cluster": "f17390b2a2f0728c",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Vehicle",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Vehicle/0084",
+   "dataset": "mme_general",
+   "question": "What should the ego vehicle do when encountering the black sedan on the left?",
+   "options": [
+    "accelerating/speeding up",
+    "passing by",
+    "following",
+    "slowing down",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 3,
+   "image_key": "scenario_316_frame_004.png",
+   "image_sha256": "d3e2a1547776120a2923fd3c597e1f4afeaa29a816d74002b4fccd563466cce7",
+   "image_cluster": "d3e2a1547776120a",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Vehicle",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Ego/0231",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. Predict the behavior of the ego vehicle.",
+   "options": [
+    "The ego vehicle is going straight. The ego vehicle is driving very fast.",
+    "The ego vehicle is slightly steering to the left. The ego vehicle is driving fast.",
+    "The ego vehicle is slightly steering to the right. The ego vehicle is driving slowly.",
+    "The ego vehicle is steering to the left. The ego vehicle is driving very fast.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 1,
+   "image_key": "n015-2018-10-08-15-52-24+0800__CAM_FRONT__1538985286262460.jpg",
+   "image_sha256": "0998fe48476a1e74c531f3c32a25c96c9a4ebbea32f37169868ddcc23e2ca52b",
+   "image_cluster": "0998fe48476a1e74",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Ego",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Other2Other/0068",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. Based on the observations of the black sedan in the middle, what are possible actions to be taken by the white truck in the middle? What is the reason?",
+   "options": [
+    "The action is to turn right, the reason is to avoid a collision.",
+    "The action is to turn left, the reason is that there is no safety issue.",
+    "The action is to keep going at the same speed, and the reason is to maintain a safe distance.",
+    "The action is to accelerate and go ahead, the reason is to avoid a collision.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 2,
+   "image_key": "n008-2018-08-06-15-06-32-0400__CAM_FRONT__1533583335162404.jpg",
+   "image_sha256": "cb4c4257ecfe9ab9cba1030c1b777dfea820efe355d98748991c238a5f2f219a",
+   "image_cluster": "cb4c4257ecfe9ab9",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Other2Other",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Ego/0282",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. Predict the behavior of the ego vehicle.",
+   "options": [
+    "The ego vehicle is slightly steering to the right. The ego vehicle is driving very fast.",
+    "The ego vehicle is steering to the left. The ego vehicle is driving with normal speed.",
+    "The ego vehicle is steering to the right. The ego vehicle is driving very fast.",
+    "The ego vehicle is slightly steering to the left. The ego vehicle is driving fast.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 3,
+   "image_key": "n015-2018-11-14-19-09-14+0800__CAM_FRONT__1542194215112460.jpg",
+   "image_sha256": "b01d7854d564849a035f7e84a4696b0d7691cfcfbbc160912f2a2bb770357ab2",
+   "image_cluster": "b01d7854d564849a",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Ego",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Pedestrain/0103",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What should the ego vehicle do when encountering the pedestrian wearing white top and wearing black bottom on the right?",
+   "options": [
+    "yielding",
+    "no response",
+    "slowing down",
+    "accelerating/speeding up",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 2,
+   "image_key": "scenario_567_frame_004.png",
+   "image_sha256": "bebbf7512fdb4112a2533270ffcbc76ab2b80dad0b81525d64f613003dbcb0c4",
+   "image_cluster": "bebbf7512fdb4112",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Pedestrain",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Attention_TrafficSignal/0213",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the traffic signal that the ego vehicle should pay attention to?",
+   "options": [
+    "Red light.",
+    "No parking.",
+    "Turn right.",
+    "Crosswalk.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 0,
+   "image_key": "n015-2018-11-21-19-38-26+0800__CAM_FRONT__1542800884912460.jpg",
+   "image_sha256": "a51c67d789b9e9f0f11dead9c61e83d08be1781b65ef8cec45bcbc3b7da3ee28",
+   "image_cluster": "a51c67d789b9e9f0",
+   "category": "Autonomous_Driving/Reasoning/Attention_TrafficSignal",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Vehicle/0025",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the future state of the black sedan in the middle?",
+   "options": [
+    "Stationary.",
+    "Keep going straight.",
+    "Slightly offset to the right while maneuvering.",
+    "Turn right.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 2,
+   "image_key": "n008-2018-07-27-12-07-38-0400__CAM_FRONT__1532708643862404.jpg",
+   "image_sha256": "6b618c8df08af507569f942800f395677d0f57d34e84c9c99352fcae051669a2",
+   "image_cluster": "6b618c8df08af507",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Vehicle",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Ego/0193",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. Predict the behavior of the ego vehicle.",
+   "options": [
+    "The ego vehicle is steering to the right. The ego vehicle is driving fast.",
+    "The ego vehicle is slightly steering to the left. The ego vehicle is driving very fast.",
+    "The ego vehicle is slightly steering to the right. The ego vehicle is driving slowly.",
+    "The ego vehicle is going straight. The ego vehicle is driving slowly.",
+    "All the above answers are wrong."
+   ],
+   "answer_idx": 0,
+   "image_key": "n008-2018-09-18-13-41-50-0400__CAM_FRONT__1537293331612404.jpg",
+   "image_sha256": "b77525b5de04f89f922347e43c994e50e9a235947579816ddd87aee0687c9b9c",
+   "image_cluster": "b77525b5de04f89f",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Ego",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Attention_TrafficSignal/0016",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the traffic signal that the ego vehicle should pay attention to?",
+   "options": [
+    "Slow down.",
+    "Speed limit 40.",
+    "No parking.",
+    "Red light.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 1,
+   "image_key": "n015-2018-07-27-11-24-31+0800__CAM_FRONT__1532661912362460.jpg",
+   "image_sha256": "bbcaae2a46e2a1f82defba30120a9925651c39c9c4a22d14d58d391719b376fb",
+   "image_cluster": "bbcaae2a46e2a1f8",
+   "category": "Autonomous_Driving/Reasoning/Attention_TrafficSignal",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Attention_TrafficSignal/0176",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the traffic signal that the ego vehicle should pay attention to?",
+   "options": [
+    "Green light.",
+    "Slow down and proceed.",
+    "Turn right.",
+    "Crosswalk.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 1,
+   "image_key": "n015-2018-09-27-15-33-17+0800__CAM_FRONT__1538033802362460.jpg",
+   "image_sha256": "01f64c7343cc513cf1b2196ad04fa0d6086d2feb6b2d5a11b738d6250ccc1c72",
+   "image_cluster": "01f64c7343cc513c",
+   "category": "Autonomous_Driving/Reasoning/Attention_TrafficSignal",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Other2Other/0055",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. Based on the observations of the white compact car in the middle, what are possible actions to be taken by the pedestrian wearing blue pants in the middle? What is the reason?",
+   "options": [
+    "The action is to keep going at the same speed, and the reason is to follow the traffic rules.",
+    "The action is to take none, the reason is that there is no safety issue.",
+    "The action is to turn right, the reason is to avoid a collision.",
+    "The action is to accelerate and go ahead, the reason is to avoid a collision.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 1,
+   "image_key": "n015-2018-08-03-15-00-36+0800__CAM_FRONT__1533279677162460.jpg",
+   "image_sha256": "35aebe9c0208dde5692798aaf0aa8bb7c95117e1ae08d86f3a5a0f235f9261c7",
+   "image_cluster": "35aebe9c0208dde5",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Other2Other",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Attention_TrafficSignal/0084",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the traffic signal that the ego vehicle should pay attention to?",
+   "options": [
+    "Turn right.",
+    "Red light.",
+    "Go straight.",
+    "Slow down.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 1,
+   "image_key": "n008-2018-08-28-16-16-48-0400__CAM_FRONT__1535488344162404.jpg",
+   "image_sha256": "8c76ee0747c8d5a67f7334b75a0d74883beec33773fda34e59c466d518e041be",
+   "image_cluster": "8c76ee0747c8d5a6",
+   "category": "Autonomous_Driving/Reasoning/Attention_TrafficSignal",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Other2Other/0019",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. Based on the observations of the red car in the middle, what are possible actions to be taken by the white sedan in the middle? What is the reason?",
+   "options": [
+    "The action is to decelerate and go ahead, the reason is to yield to pedestrians.",
+    "The action is to remain stationary, the reason is that there is no safety issue.",
+    "The action is to accelerate and go ahead, the reason is to follow the traffic rules.",
+    "The action is to keep going at the same speed, the reason is to avoid a collision.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 3,
+   "image_key": "n015-2018-07-24-11-13-19+0800__CAM_FRONT__1532402321862578.jpg",
+   "image_sha256": "ac42834c211126cfc6af7c65db75d917599ead48a2d0c8652961cc44de93eff6",
+   "image_cluster": "ac42834c211126cf",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Other2Other",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Pedestrian/0029",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the future state of the old man in a white shirt in the middle?",
+   "options": [
+    "Keep going straight.",
+    "Turn left.",
+    "Turn right.",
+    "Stationary.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 0,
+   "image_key": "n015-2018-08-01-15-10-21+0800__CAM_FRONT__1533107755862460.jpg",
+   "image_sha256": "7f5d065620c9efc4a657fb5bf440811e259e14b64fe86a564884c48d6c89a47e",
+   "image_cluster": "7f5d065620c9efc4",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Pedestrian",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Other2Other/0045",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. Based on the observations of the white sedan on the left side, what are possible actions to be taken by the white suv on the left side? What is the reason?",
+   "options": [
+    "The action is to keep going at the same speed, the reason is that there is no safety issue.",
+    "The action is to decelerate and go ahead, the reason is that there is no safety issue.",
+    "The action is to keep going at the same speed, and the reason is to maintain a safe distance.",
+    "The action is to take none, the reason is that there is no safety issue.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 0,
+   "image_key": "n015-2018-08-01-17-04-15+0800__CAM_FRONT__1533114270162460.jpg",
+   "image_sha256": "22de99124242831e1cb8add093fcb20effef0a0f2560e499fcbd463417d118de",
+   "image_cluster": "22de99124242831e",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Other2Other",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Vehicle/0086",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the future state of the white sedan car in the middle?",
+   "options": [
+    "Keep going straight.",
+    "Stationary.",
+    "Turn right.",
+    "Turn left.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 0,
+   "image_key": "n008-2018-08-30-15-16-55-0400__CAM_FRONT__1535656657762404.jpg",
+   "image_sha256": "b426a92e42ff0f483d27f289a62be18ccf56f0cb6e664da16c382aff23f4bdef",
+   "image_cluster": "b426a92e42ff0f48",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Vehicle",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Vehicle/0017",
+   "dataset": "mme_general",
+   "question": "What should the ego vehicle do when encountering the black truck on the left?",
+   "options": [
+    "accelerating/speeding up",
+    "no response",
+    "passing by",
+    "slowing down",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 3,
+   "image_key": "scenario_013_frame_004.png",
+   "image_sha256": "c89363414aad191385edc054da21b7a6883308f44e91222afcf17881b877e8fb",
+   "image_cluster": "c89363414aad1913",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Vehicle",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Prediction_Intention_Pedestrian/0081",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the future state of the a woman wearing black pants in the middle?",
+   "options": [
+    "Keep going straight.",
+    "Stationary.",
+    "Turn left.",
+    "Turn right.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 3,
+   "image_key": "n015-2018-09-25-11-10-38+0800__CAM_FRONT__1537845537262460.jpg",
+   "image_sha256": "1fba8695bb928499fe4c3142dc7f88410804f2ad751781aeb2711b1936a4bea4",
+   "image_cluster": "1fba8695bb928499",
+   "category": "Autonomous_Driving/Reasoning/Prediction_Intention_Pedestrian",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Relation_Interaction_Ego2Vehicle/0027",
+   "dataset": "mme_general",
+   "question": "What should the ego vehicle do when encountering the white van on the left?",
+   "options": [
+    "slowing down",
+    "following",
+    "no response",
+    "passing by",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 2,
+   "image_key": "scenario_103_frame_004.png",
+   "image_sha256": "fecadccd54d64a088e70b3a0972c01a1295aae4241393f3a1bfaf2e7b031483a",
+   "image_cluster": "fecadccd54d64a08",
+   "category": "Autonomous_Driving/Reasoning/Relation_Interaction_Ego2Vehicle",
+   "w": 5760,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/Reasoning/Autonomous_Driving/Attention_TrafficSignal/0125",
+   "dataset": "mme_general",
+   "question": "This image shows the front view of the ego car. What is the traffic signal that the ego vehicle should pay attention to?",
+   "options": [
+    "Turn left.",
+    "Green light.",
+    "Speed bump.",
+    "Red light.",
+    "The image does not feature the object."
+   ],
+   "answer_idx": 3,
+   "image_key": "n008-2018-08-31-11-19-57-0400__CAM_FRONT__1535729438012404.jpg",
+   "image_sha256": "e85cbe03b12a84788bdddf1871821362f8bfd569bee0f95f2a6a7c63ccbd8f45",
+   "image_cluster": "e85cbe03b12a8478",
+   "category": "Autonomous_Driving/Reasoning/Attention_TrafficSignal",
+   "w": 1600,
+   "h": 900,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/diagram_and_table/diagram/0792",
+   "dataset": "mme_general",
+   "question": "What is the data of Gross Gearing in FY 2022 in the table Gearing Ratios?",
+   "options": [
+    "4.1%",
+    "4.5%",
+    "2.6%",
+    "1.8%",
+    "This image doesn't feature the data."
+   ],
+   "answer_idx": 1,
+   "image_key": "DS-6.webp",
+   "image_sha256": "e5d61652151b311f66d9f98cb4c493ac981ed4f05c68fe505573940db09f5547",
+   "image_cluster": "e5d61652151b311f",
+   "category": "Diagram and Table/Perception/diagram",
+   "w": 1207,
+   "h": 821,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/diagram_and_table/table/1540",
+   "dataset": "mme_general",
+   "question": "What is the Budget data of Gross Revenue in the Description Profit & Loss Statement table?",
+   "options": [
+    "56,858,320.00",
+    "54,858,320.00",
+    "82,858,320.00",
+    "28,858,320.00",
+    "This image doesn't feature the data."
+   ],
+   "answer_idx": 3,
+   "image_key": "Incomestatementfinal.JPG",
+   "image_sha256": "195e7a4940e790faeb1f1d8d655c56d9604bf103889ee9ac59278b9f32272dd3",
+   "image_cluster": "195e7a4940e790fa",
+   "category": "Diagram and Table/Perception/table",
+   "w": 1545,
+   "h": 871,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/diagram_and_table/table/3285",
+   "dataset": "mme_general",
+   "question": "What is the Date of Payment Number 5 in the table?",
+   "options": [
+    "1-Feb-24",
+    "1-Jun-24",
+    "1-May-25",
+    "1-Dec-25",
+    "This image doesn't feature the data."
+   ],
+   "answer_idx": 1,
+   "image_key": "Screenshot-386.webp",
+   "image_sha256": "eca3c7ad175de675a2a7ff77cf77cc0aa2be7059c480533112ab9e2e3b044f62",
+   "image_cluster": "eca3c7ad175de675",
+   "category": "Diagram and Table/Perception/table",
+   "w": 2560,
+   "h": 1440,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/diagram_and_table/diagram/1382",
+   "dataset": "mme_general",
+   "question": "What's the percentage of ROE of 2026 Year 3 in the table Financial Ratios?",
+   "options": [
+    "-0.6%",
+    "5.2%",
+    "9.8%",
+    "8.2%",
+    "This image doesn't feature the data."
+   ],
+   "answer_idx": 2,
+   "image_key": "Green-Ammonia-Plant-Financial-Ratios-Forecast.png",
+   "image_sha256": "9dea28ba9bed41a89b3304391ca642296f481d52748c4f9f9b80896def6c271e",
+   "image_cluster": "9dea28ba9bed41a8",
+   "category": "Diagram and Table/Perception/diagram",
+   "w": 2402,
+   "h": 1110,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/diagram_and_table/diagram/0320",
+   "dataset": "mme_general",
+   "question": "What is the data of PAT Margin % in FY20 in the table Key Financials?",
+   "options": [
+    "22.5%",
+    "23.2%",
+    "27.7%",
+    "87.7%",
+    "This image doesn't feature the data."
+   ],
+   "answer_idx": 0,
+   "image_key": "Capture2.jpg",
+   "image_sha256": "642dc9c25b20ab4fc2c30a05e6d20b8217f0de3d7f777b4b113d1a60c2ca1d38",
+   "image_cluster": "642dc9c25b20ab4f",
+   "category": "Diagram and Table/Perception/diagram",
+   "w": 1230,
+   "h": 455,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/diagram_and_table/diagram/1178",
+   "dataset": "mme_general",
+   "question": "What is the data of Net Assets in the table Terminal Value?",
+   "options": [
+    "$60000",
+    "$1330000",
+    "$1210400",
+    "$19995",
+    "This image doesn't feature the data."
+   ],
+   "answer_idx": 1,
+   "image_key": "flat1.webp",
+   "image_sha256": "78ff78d8925118c0b90fbaa0d78e57b3b23689908b710be47ddc7931c2343340",
+   "image_cluster": "78ff78d8925118c0",
+   "category": "Diagram and Table/Perception/diagram",
+   "w": 1811,
+   "h": 1088,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/diagram_and_table/table/4313",
+   "dataset": "mme_general",
+   "question": "What is the profit commission (% of Underwriting Margin) in the profit commission table?",
+   "options": [
+    "4.0%",
+    "40.0%",
+    "50.0%",
+    "100.0%",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 2,
+   "image_key": "2_Assumptions.webp",
+   "image_sha256": "b15ec819205e6f969c25ac8784af84a6bb08ed2e9f376ca095c0bdc17f883b83",
+   "image_cluster": "b15ec819205e6f96",
+   "category": "Diagram and Table/Perception/table",
+   "w": 1196,
+   "h": 1592,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/diagram_and_table/diagram/4159",
+   "dataset": "mme_general",
+   "question": "What is the new equity issued (%) for Series C in the equity ownership diagram?",
+   "options": [
+    "0.0%",
+    "20.0%",
+    "50.0%",
+    "15%",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 1,
+   "image_key": "10-Investor-Return-Tequila-Distillery-Financial-Model-scaled.webp",
+   "image_sha256": "8f50470b94305dc27675dd38c3b8226b260d5d07da52522e597f191f52a5521a",
+   "image_cluster": "8f50470b94305dc2",
+   "category": "Diagram and Table/Perception/diagram",
+   "w": 2560,
+   "h": 1450,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/diagram_and_table/diagram/0897",
+   "dataset": "mme_general",
+   "question": "what's the data for Downpayment in Year 2 in the EPC Company Yearly Forecast?",
+   "options": [
+    "234,309,510",
+    "134,272,705",
+    "134,272,706",
+    "171,065,672",
+    "This image doesn't feature the data."
+   ],
+   "answer_idx": 2,
+   "image_key": "EPC-Builder-Income-Statement-Projections.webp",
+   "image_sha256": "d0cfebbb465ad582cb4658d15ee3f28fbcb5957703a325730f26b4891b168c10",
+   "image_cluster": "d0cfebbb465ad582",
+   "category": "Diagram and Table/Perception/diagram",
+   "w": 2802,
+   "h": 1180,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/diagram_and_table/table/2470",
+   "dataset": "mme_general",
+   "question": "What's the data of Net Present Value in the table Investment Decision?",
+   "options": [
+    "2876675",
+    "2887988",
+    "3785464",
+    "3875646",
+    "This image doesn't feature the data."
+   ],
+   "answer_idx": 3,
+   "image_key": "Picture8.webp",
+   "image_sha256": "843f8926b47c6f04eafe3c69b269b19935a3996cf6efce2e42b9f74b2448f2b2",
+   "image_cluster": "843f8926b47c6f04",
+   "category": "Diagram and Table/Perception/table",
+   "w": 1600,
+   "h": 694,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/diagram_and_table/diagram/0138",
+   "dataset": "mme_general",
+   "question": "Which factor has the largest impact on Levered IRR according to the tornado diagram?",
+   "options": [
+    "Tickets per Webinar",
+    "Ticket Price",
+    "Direct Costs",
+    "Capital Expenditures",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 1,
+   "image_key": "20_Sensitivity_Analysis_Webinar_Organizer_Business-scaled.webp",
+   "image_sha256": "76988ae83729569e47ae5fd4ceb732c5eecac61d0fe054de737f8e58c3b08cd8",
+   "image_cluster": "76988ae83729569e",
+   "category": "Diagram and Table/Reasoning/diagram",
+   "w": 2560,
+   "h": 848,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/diagram_and_table/table/0233",
+   "dataset": "mme_general",
+   "question": "Which year shows the lowest value of 'Total Assets' according to the 'Assets' section?",
+   "options": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 1,
+   "image_key": "5_FinStat_BSCF.jpg",
+   "image_sha256": "1ad56829d36d230d385385f487b9f8524c482f940c7331d6f3057d788218a557",
+   "image_cluster": "1ad56829d36d230d",
+   "category": "Diagram and Table/Reasoning/table",
+   "w": 2574,
+   "h": 2303,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/diagram_and_table/table/0252",
+   "dataset": "mme_general",
+   "question": "In the 'Income Statement' section, which year has the highest 'Total Revenue'?",
+   "options": [
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 3,
+   "image_key": "5_FinStatsIS-1-scaled.webp",
+   "image_sha256": "24988acf3763953bfd72c711a6c86fc8d931065bb61115be5cd7ccd76fe2fdbf",
+   "image_cluster": "24988acf3763953b",
+   "category": "Diagram and Table/Reasoning/table",
+   "w": 2560,
+   "h": 1923,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/diagram_and_table/table/0359",
+   "dataset": "mme_general",
+   "question": "What is the maximum value of Inventory, according to the Percent of Total Assets?",
+   "options": [
+    "23%",
+    "30%",
+    "17%",
+    "14%",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 0,
+   "image_key": "11-Ratios.png",
+   "image_sha256": "c3dc8848410c4541967130bdf64ee8605fb0b97ede24c4980ee3916451883d5a",
+   "image_cluster": "01ff950b6cf9310a",
+   "category": "Diagram and Table/Reasoning/table",
+   "w": 1173,
+   "h": 670,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/diagram_and_table/diagram/0067",
+   "dataset": "mme_general",
+   "question": "Which year displays the highest value of 'Cash Flow from Operations', according to the 'Cash Flow Statement Breakdown' chart?",
+   "options": [
+    "2024",
+    "2025",
+    "2026",
+    "2027",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 1,
+   "image_key": "7_Dashboard_2-scaled.webp",
+   "image_sha256": "3ce1aae7210c298f2e11f4691e51d219991890a55c876e136215c88eee801bba",
+   "image_cluster": "3ce1aae7210c298f",
+   "category": "Diagram and Table/Reasoning/diagram",
+   "w": 2212,
+   "h": 2560,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/diagram_and_table/table/0289",
+   "dataset": "mme_general",
+   "question": "In the 'Product Performance' section, which product has the highest gross profit, and what is the amount?",
+   "options": [
+    "RS1",
+    "RS2",
+    "RS3",
+    "the same",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 0,
+   "image_key": "7_Dashboard.webp",
+   "image_sha256": "d08743e32209dbf647aba1fa823090a4bc48a00f5c9c4c190b4bfead0a71c7a8",
+   "image_cluster": "d08743e32209dbf6",
+   "category": "Diagram and Table/Reasoning/table",
+   "w": 2810,
+   "h": 1922,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/diagram_and_table/diagram/0017",
+   "dataset": "mme_general",
+   "question": "Which kayak category has the highest value of 'Avg. Rides/Kayak Boat/Day', according to the 'Avg. Rides per Kayak Boat per Day' diagram?",
+   "options": [
+    "Sit-In Kayak",
+    "Sit-On-Top Kayak",
+    "Tandem Kayak",
+    "Fishing Kayak",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 0,
+   "image_key": "2_Kayak_Boat_Fleet_Kayak_Boat_Rental_Business_Financial_Model-1-scaled.webp",
+   "image_sha256": "dcf52e9c7a47aa29922be2e156aba17fa324b828651f5e4536b84101c952053b",
+   "image_cluster": "218bb07da70a47fa",
+   "category": "Diagram and Table/Reasoning/diagram",
+   "w": 2560,
+   "h": 1495,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/diagram_and_table/diagram/0129",
+   "dataset": "mme_general",
+   "question": "In which year does the revenue first exceed 2,000,000, according to the Revenue Break Down - 10 years diagram?",
+   "options": [
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 2,
+   "image_key": "14-chart.png",
+   "image_sha256": "8f8eaa03d8ad4979129f4384ffd15ec6dd296cd1e11ceeae780412989b00e80c",
+   "image_cluster": "8f8eaa03d8ad4979",
+   "category": "Diagram and Table/Reasoning/diagram",
+   "w": 1575,
+   "h": 701,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/diagram_and_table/table/0332",
+   "dataset": "mme_general",
+   "question": "Which month shows the highest EBITDA, according to the 'Income Statement' table?",
+   "options": [
+    "May",
+    "June",
+    "July",
+    "August",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 2,
+   "image_key": "10_Budget_Analysis_Crane_Truck_Rental_Company_Financial_Model-1-scaled.jpg",
+   "image_sha256": "4ebf6f7650e03a6f9c9a32ddf0331c4e7e2ab61af4fee2a377e57da37e01be56",
+   "image_cluster": "01e6889c99e01808",
+   "category": "Diagram and Table/Reasoning/table",
+   "w": 2560,
+   "h": 776,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/diagram_and_table/diagram/0169",
+   "dataset": "mme_general",
+   "question": "Which year has the highest Debt Service Coverage Ratio in the EBITDA VS DEBT SERVICE AND RATIO chart?",
+   "options": [
+    "FY 2030",
+    "FY 2032",
+    "FY 2023",
+    "FY 2024",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 3,
+   "image_key": "al10-1.webp",
+   "image_sha256": "6a358fe00ded1d84a3051900ad121654b0a6ed3e439a4b40ea66bee941e564ee",
+   "image_cluster": "6a358fe00ded1d84",
+   "category": "Diagram and Table/Reasoning/diagram",
+   "w": 1587,
+   "h": 1021,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/person/counting/1208",
+   "dataset": "mme_general",
+   "question": "What is the number of persons in the image?",
+   "options": [
+    "22",
+    "26",
+    "21",
+    "27",
+    "The image does not feature the persons"
+   ],
+   "answer_idx": 0,
+   "image_key": "947a1a0d671dc573622dea9f1732f138.jpg",
+   "image_sha256": "7fe6694e84a581109ecf98abb168726795742683b9488cb3c63fcc525a7bbc97",
+   "image_cluster": "7fe6694e84a58110",
+   "category": "Monitoring/Perception/person/counting",
+   "w": 1920,
+   "h": 1080,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/vehicle/location/1710",
+   "dataset": "mme_general",
+   "question": "Where is the awning-tricycle in the image?",
+   "options": [
+    "The upper left corner",
+    "The lower left corner",
+    "The upper right corner",
+    "The lower right corner",
+    "The image does not feature the awning-tricycle"
+   ],
+   "answer_idx": 2,
+   "image_key": "9999999_00582_d_0000263.jpg",
+   "image_sha256": "7a935b350ba303ade007b94a51a3a17ccf28626648e8eaa49d59e1e869cb3fce",
+   "image_cluster": "7a935b350ba303ad",
+   "category": "Monitoring/Perception/vehicle/location",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/person/counting/1462",
+   "dataset": "mme_general",
+   "question": "What is the number of persons in the image?",
+   "options": [
+    "5",
+    "11",
+    "14",
+    "3",
+    "The image does not feature the persons"
+   ],
+   "answer_idx": 0,
+   "image_key": "95c76cdc5b77196960254a0112ad262a.jpg",
+   "image_sha256": "229e76ac9620f53f787c64e89affb870400cfcb459f644948603fd5d8e9adc6f",
+   "image_cluster": "229e76ac9620f53f",
+   "category": "Monitoring/Perception/person/counting",
+   "w": 2560,
+   "h": 1920,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/person/counting/0808",
+   "dataset": "mme_general",
+   "question": "What is the number of persons in the image?",
+   "options": [
+    "28",
+    "32",
+    "35",
+    "43",
+    "The image does not feature the persons"
+   ],
+   "answer_idx": 2,
+   "image_key": "948f32b070e6f5ff202dfa1ecd2c49ac.jpg",
+   "image_sha256": "7a48de7263e548185bac27cb42330eea3638d52766bbf8da95fcd97d6126d269",
+   "image_cluster": "7a48de7263e54818",
+   "category": "Monitoring/Perception/person/counting",
+   "w": 1920,
+   "h": 1080,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/vehicle/location/1688",
+   "dataset": "mme_general",
+   "question": "Where is the bus in the image?",
+   "options": [
+    "The upper left corner",
+    "The lower left corner",
+    "The upper right corner",
+    "The lower right corner",
+    "The image does not feature the bus"
+   ],
+   "answer_idx": 0,
+   "image_key": "9999999_00374_d_0000162.jpg",
+   "image_sha256": "a9bedbb50406e2e13ad4b5cbd382ce219f524ce461bd0f3f16e7e28344a7798b",
+   "image_cluster": "a9bedbb50406e2e1",
+   "category": "Monitoring/Perception/vehicle/location",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/person/counting/1552",
+   "dataset": "mme_general",
+   "question": "What is the number of persons in the image?",
+   "options": [
+    "2",
+    "9",
+    "4",
+    "1",
+    "The image does not feature the persons"
+   ],
+   "answer_idx": 2,
+   "image_key": "010023.jpg",
+   "image_sha256": "e12df24385a997d45da34064d21ea297b90b563940b8611edb50e3e3bc68baf4",
+   "image_cluster": "e12df24385a997d4",
+   "category": "Monitoring/Perception/person/counting",
+   "w": 1280,
+   "h": 1024,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/person/attribute/color/1817",
+   "dataset": "mme_general",
+   "question": "What color is the people's coat in the image?(If a human maintains standing pose or walking, please classify it as pedestrian, otherwise, it is classified as a people.)",
+   "options": [
+    "Red",
+    "Yellow",
+    "White",
+    "Black",
+    "The image does not feature the people"
+   ],
+   "answer_idx": 2,
+   "image_key": "9999998_00182_d_0000146.jpg",
+   "image_sha256": "207e31ab05cdc63a668095d43829c2aa8d818ca1cdfe71e541ab1d9e74451d5c",
+   "image_cluster": "207e31ab05cdc63a",
+   "category": "Monitoring/Perception/person/attribute/color",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/vehicle/location/1730",
+   "dataset": "mme_general",
+   "question": "Where is the tricycle in the image?",
+   "options": [
+    "The upper left corner",
+    "The lower left corner",
+    "The right center",
+    "The upper right corner",
+    "The image does not feature the tricycle"
+   ],
+   "answer_idx": 2,
+   "image_key": "9999999_00785_d_0000359.jpg",
+   "image_sha256": "830bb3aa1e7b421cda4f6a0b03f09fc95426544c4cc2d87a6ffa727bad86e79b",
+   "image_cluster": "830bb3aa1e7b421c",
+   "category": "Monitoring/Perception/vehicle/location",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/vehicle/attribute/color/1788",
+   "dataset": "mme_general",
+   "question": "What color is the van in the image?",
+   "options": [
+    "Blue",
+    "Red",
+    "Silver",
+    "Black",
+    "The image does not feature the van"
+   ],
+   "answer_idx": 0,
+   "image_key": "9999998_00095_d_0000075.jpg",
+   "image_sha256": "f4ef5cb4e361d08c7ad140eec3f01de27a7c077184dfc1edd00d22898b9c1974",
+   "image_cluster": "f4ef5cb4e361d08c",
+   "category": "Monitoring/Perception/vehicle/attribute/color",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/vehicle/attribute/color/2012",
+   "dataset": "mme_general",
+   "question": "What color is the truck in the image?",
+   "options": [
+    "Red",
+    "White",
+    "Silver",
+    "Black",
+    "The image does not feature the truck"
+   ],
+   "answer_idx": 2,
+   "image_key": "9999999_00217_d_0000091.jpg",
+   "image_sha256": "2e648e9ea5a17965913dc3caf97759d9b010d4dbf8ad6f294ed0423f9a1b3ce3",
+   "image_cluster": "2e648e9ea5a17965",
+   "category": "Monitoring/Perception/vehicle/attribute/color",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/person/attribute/orientation/1864",
+   "dataset": "mme_general",
+   "question": "What is the orientation of the people in the image?(If a human maintains standing pose or walking, please classify it as pedestrian, otherwise, it is classified as a people.)",
+   "options": [
+    "The right of the image",
+    "The bottom of the image",
+    "The left of the image",
+    "The top of the image",
+    "The image does not feature the people"
+   ],
+   "answer_idx": 1,
+   "image_key": "9999998_00271_d_0000224.jpg",
+   "image_sha256": "27f4ac4accd8da660e515f1d0432f9ffb84fae21b308de719ebf174b71f462e4",
+   "image_cluster": "27f4ac4accd8da66",
+   "category": "Monitoring/Perception/person/attribute/orientation",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/Vehicle/counting/0005",
+   "dataset": "mme_general",
+   "question": "What is the number of vans in the image?",
+   "options": [
+    "21",
+    "56",
+    "76",
+    "59",
+    "The image does not feature the vans"
+   ],
+   "answer_idx": 4,
+   "image_key": "9999998_00006_d_0000005.jpg",
+   "image_sha256": "e41f655130abd61b44406725792dad053c6dfd816a260c72aab8185d2771589a",
+   "image_cluster": "e41f655130abd61b",
+   "category": "Monitoring/Perception/Vehicle/counting",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/vehicle/counting/0685",
+   "dataset": "mme_general",
+   "question": "What is the number of trucks in the image?",
+   "options": [
+    "12",
+    "19",
+    "16",
+    "20",
+    "The image does not feature the trucks"
+   ],
+   "answer_idx": 2,
+   "image_key": "9999999_00705_d_0000320.jpg",
+   "image_sha256": "31977d712243fb9366d0da8650e253df63da8f3501694ada133677d48642c3de",
+   "image_cluster": "31977d712243fb93",
+   "category": "Monitoring/Perception/vehicle/counting",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/person/counting/0381",
+   "dataset": "mme_general",
+   "question": "What is the number of pedestrians in the image?(If a human maintains standing pose or walking, please classify it as pedestrian, otherwise, it is classified as a people.)",
+   "options": [
+    "2",
+    "11",
+    "1",
+    "9",
+    "The image does not feature the pedestrians"
+   ],
+   "answer_idx": 0,
+   "image_key": "9999999_00057_d_0000015.jpg",
+   "image_sha256": "77fa2aae97d3a11fa7dec34c10a976e7a3f61c8c62ec62388d099a38617c6e7b",
+   "image_cluster": "77fa2aae97d3a11f",
+   "category": "Monitoring/Perception/person/counting",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/Vehicle/counting/0090",
+   "dataset": "mme_general",
+   "question": "What is the number of awning-tricycles in the image?",
+   "options": [
+    "44",
+    "98",
+    "49",
+    "72",
+    "The image does not feature the awning-tricycles"
+   ],
+   "answer_idx": 4,
+   "image_key": "9999998_00122_d_0000100.jpg",
+   "image_sha256": "a12f4c4b434281dbe3273eea2a1ede03ffa17799306ece83e1431528eaa8dd42",
+   "image_cluster": "a12f4c4b434281db",
+   "category": "Monitoring/Perception/Vehicle/counting",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/person/attribute/color/1855",
+   "dataset": "mme_general",
+   "question": "What color is the pedestrian's bag in the image?(If a human maintains standing pose or walking, please classify it as pedestrian, otherwise, it is classified as a people.)",
+   "options": [
+    "Red",
+    "White",
+    "Black",
+    "Green",
+    "The image does not feature the pedestrian"
+   ],
+   "answer_idx": 2,
+   "image_key": "9999998_00257_d_0000211.jpg",
+   "image_sha256": "63103f5c1554926f3f85386e53ef5d27a58eedf1b2c9bb5409da6fa20d5888b6",
+   "image_cluster": "63103f5c1554926f",
+   "category": "Monitoring/Perception/person/attribute/color",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/vehicle/attribute/orientation/1930",
+   "dataset": "mme_general",
+   "question": "What is the orientation of the bicycle in the image?",
+   "options": [
+    "The right of the image",
+    "The bottom of the image",
+    "The left of the image",
+    "The top of the image",
+    "The image does not feature the bicycle"
+   ],
+   "answer_idx": 3,
+   "image_key": "9999998_00383_d_0000335.jpg",
+   "image_sha256": "5896eea19907a258c995dbd7d7d049172dafba49b1fa27fac5bbfc99578c37ff",
+   "image_cluster": "5896eea19907a258",
+   "category": "Monitoring/Perception/vehicle/attribute/orientation",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/person/attribute/orientation/1965",
+   "dataset": "mme_general",
+   "question": "What is the orientation of the people in the image?(If a human maintains standing pose or walking, please classify it as pedestrian, otherwise, it is classified as a people.)",
+   "options": [
+    "The right of the image",
+    "The bottom of the image",
+    "The left of the image",
+    "The top of the image",
+    "The image does not feature the people"
+   ],
+   "answer_idx": 3,
+   "image_key": "9999998_00438_d_0000390.jpg",
+   "image_sha256": "cb5dc43d7244039d6932bbacde49fc0bf8c93be529847e1a778320e611b15316",
+   "image_cluster": "cb5dc43d7244039d",
+   "category": "Monitoring/Perception/person/attribute/orientation",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/vehicle/attribute/color/2048",
+   "dataset": "mme_general",
+   "question": "What color is the truck in the image?",
+   "options": [
+    "Red",
+    "Silver",
+    "Black",
+    "Green",
+    "The image does not feature the truck"
+   ],
+   "answer_idx": 0,
+   "image_key": "9999999_00356_d_0000155.jpg",
+   "image_sha256": "10cf9aaa7b3ff0add8b3dfba7919f1fb009efdcc87ed888a6b4c4f0a30b59459",
+   "image_cluster": "10cf9aaa7b3ff0ad",
+   "category": "Monitoring/Perception/vehicle/attribute/color",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/vehicle/counting/0577",
+   "dataset": "mme_general",
+   "question": "What is the number of trucks in the image?",
+   "options": [
+    "7",
+    "4",
+    "2",
+    "11",
+    "The image does not feature the trucks"
+   ],
+   "answer_idx": 2,
+   "image_key": "9999999_00472_d_0000211.jpg",
+   "image_sha256": "519987431ba00591f739fd91d5e03d3e88ef69a3e3cd26cb53713b836bf919c1",
+   "image_cluster": "519987431ba00591",
+   "category": "Monitoring/Perception/vehicle/counting",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/monitoring/person/counting/0282",
+   "dataset": "mme_general",
+   "question": "What is the number of people in the image?(If a human maintains standing pose or walking, please classify it as pedestrian, otherwise, it is classified as a people.)",
+   "options": [
+    "5",
+    "1",
+    "6",
+    "4",
+    "The image does not feature the people"
+   ],
+   "answer_idx": 3,
+   "image_key": "9999998_00354_d_0000306.jpg",
+   "image_sha256": "d093ee50846509ca8b56517062082324138b59b3d5fab650ff782f623c8e3605",
+   "image_cluster": "d093ee50846509ca",
+   "category": "Monitoring/Perception/person/counting",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reason/monitoring/property/0413",
+   "dataset": "mme_general",
+   "question": "What material is the red object floating on the pole in the center of the picture made of?",
+   "options": [
+    "textile",
+    "iron",
+    "wood",
+    "plastic",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 0,
+   "image_key": "9999998_00025_d_0000018.jpg",
+   "image_sha256": "29458f280da99fcc94a57f73db7f3e0f4ac711c2f038e3c6f753a9153fa184f9",
+   "image_cluster": "29458f280da99fcc",
+   "category": "Monitoring/Reasoning/property",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reason/monitoring/intention/0379",
+   "dataset": "mme_general",
+   "question": "What will the van do when encountering the stop sign on the right in the image?",
+   "options": [
+    "stopping",
+    "keep moving",
+    "turn left",
+    "no response",
+    "The image does not feature the van"
+   ],
+   "answer_idx": 3,
+   "image_key": "9999998_00292_d_0000245.jpg",
+   "image_sha256": "b2c5c32f030ddf7671f6cbdf265f5cf735dcf7c9c8c48ffbf695e69e4a7b9630",
+   "image_cluster": "b2c5c32f030ddf76",
+   "category": "Monitoring/Reasoning/intention",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reason/monitoring/calculate/0077",
+   "dataset": "mme_general",
+   "question": "What is the total number of buses and tricycles in the image?",
+   "options": [
+    "13",
+    "6",
+    "5",
+    "9",
+    "The image does not feature the objects"
+   ],
+   "answer_idx": 2,
+   "image_key": "9999998_00108_d_0000086.jpg",
+   "image_sha256": "3ac674288a19541ee889ccd2e609fc8477a576c8738668009be1db2fd41ec7ec",
+   "image_cluster": "3ac674288a19541e",
+   "category": "Monitoring/Reasoning/calculate",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reason/monitoring/calculate/0266",
+   "dataset": "mme_general",
+   "question": "What is the total number of buses and pedestrians in the image?(If a human maintains standing pose or walking, please classify it as pedestrian, otherwise, it is classified as a people.)",
+   "options": [
+    "20",
+    "13",
+    "8",
+    "25",
+    "The image does not feature the objects"
+   ],
+   "answer_idx": 1,
+   "image_key": "9999998_00338_d_0000290.jpg",
+   "image_sha256": "bc0e0e1d966442404f962bf620213ecd176f281dce5adae42f25a98786fdc303",
+   "image_cluster": "bc0e0e1d96644240",
+   "category": "Monitoring/Reasoning/calculate",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reason/monitoring/calculate/0247",
+   "dataset": "mme_general",
+   "question": "What is the total number of tricycles and awning-tricycles in the image?",
+   "options": [
+    "0",
+    "15",
+    "18",
+    "12",
+    "The image does not feature the objects"
+   ],
+   "answer_idx": 0,
+   "image_key": "9999998_00318_d_0000271.jpg",
+   "image_sha256": "a3e4e0d106d6873e0750ed67b1b6458914f43a82f010f379c607218598eed9b2",
+   "image_cluster": "a3e4e0d106d6873e",
+   "category": "Monitoring/Reasoning/calculate",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reason/monitoring/calculate/0094",
+   "dataset": "mme_general",
+   "question": "What is the total number of awning-tricycles and trucks in the image?",
+   "options": [
+    "11",
+    "12",
+    "0",
+    "5",
+    "The image does not feature the objects"
+   ],
+   "answer_idx": 2,
+   "image_key": "9999998_00128_d_0000106.jpg",
+   "image_sha256": "eba338ca96248f38c54a71e679f684e3a432dff60a3c3e8566c44dc08d5ea6d7",
+   "image_cluster": "eba338ca96248f38",
+   "category": "Monitoring/Reasoning/calculate",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reason/monitoring/calculate/0059",
+   "dataset": "mme_general",
+   "question": "What is the total number of motors and buses in the image?",
+   "options": [
+    "5",
+    "2",
+    "21",
+    "17",
+    "The image does not feature the objects"
+   ],
+   "answer_idx": 1,
+   "image_key": "9999998_00081_d_0000066.jpg",
+   "image_sha256": "57c64c23e75ac60e863fa3cbb567ea7fcecdee7904743bfc3a801e4532a5fa1a",
+   "image_cluster": "57c64c23e75ac60e",
+   "category": "Monitoring/Reasoning/calculate",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reason/monitoring/property/0429",
+   "dataset": "mme_general",
+   "question": "What material is the blue object on the roof of the middle teaching building made of?",
+   "options": [
+    "iron",
+    "plastic",
+    "aluminium",
+    "concrete",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 0,
+   "image_key": "9999998_00096_d_0000076.jpg",
+   "image_sha256": "9c8e0f3fc13f4770c40ec3528c496d38f107b95405328dd03e6d786486a83045",
+   "image_cluster": "9c8e0f3fc13f4770",
+   "category": "Monitoring/Reasoning/property",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reason/monitoring/calculate/0239",
+   "dataset": "mme_general",
+   "question": "What is the total number of cars and trucks in the image?",
+   "options": [
+    "22",
+    "9",
+    "30",
+    "31",
+    "The image does not feature the objects"
+   ],
+   "answer_idx": 0,
+   "image_key": "9999998_00310_d_0000263.jpg",
+   "image_sha256": "fc4ad95d386b2c37b321d423697132a81ef32652eb5fabcb72000ed6583c2878",
+   "image_cluster": "fc4ad95d386b2c37",
+   "category": "Monitoring/Reasoning/calculate",
+   "w": 2000,
+   "h": 1500,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reason/monitoring/property/0451",
+   "dataset": "mme_general",
+   "question": "What material is the black box on the left?",
+   "options": [
+    "plastic",
+    "iron",
+    "aluminium",
+    "concrete",
+    "The image does not feature the object"
+   ],
+   "answer_idx": 1,
+   "image_key": "2a8bbb8880b1bedfe7a85a76e2717ec3.jpg",
+   "image_sha256": "831a8e1515aa27f9d9f2f9ea80f5505ed2af442b22af39911df3955a5d8f045a",
+   "image_cluster": "831a8e1515aa27f9",
+   "category": "Monitoring/Reasoning/property",
+   "w": 1920,
+   "h": 1080,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/adver_and_product/0921",
+   "dataset": "mme_general",
+   "question": "What are the letters on the left of the blue pattern on the T-shirt trademark in the picture?",
+   "options": [
+    "ONWARD",
+    "NOWARD",
+    "SFAFSA",
+    "SAFASF",
+    "This image doesn't feature the content."
+   ],
+   "answer_idx": 0,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_08849.png",
+   "image_sha256": "a0c68d459bd3b64364b9c19bc3bac4fe630c2e08fdb5e618b1409c8c6d435ec2",
+   "image_cluster": "a0c68d459bd3b643",
+   "category": "OCR with Complex Context/Perception/adver_and_product",
+   "w": 1224,
+   "h": 1992,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/license/0205",
+   "dataset": "mme_general",
+   "question": "What's the plate number of the third car in front of a white car in the middle left side of this picture?",
+   "options": [
+    "H399BP 777",
+    "H349BP 111",
+    "H349PB 777",
+    "H349BP 777",
+    "This image doesn't feature the plate number."
+   ],
+   "answer_idx": 3,
+   "image_key": "029_Moscow,_frame00031.png",
+   "image_sha256": "872ed05ae3e0fa41a95435b80a6d645e690ded6635c6313196cadb6752516da6",
+   "image_cluster": "872ed05ae3e0fa41",
+   "category": "OCR with Complex Context/Perception/license",
+   "w": 3840,
+   "h": 2160,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/adver_and_product/0863",
+   "dataset": "mme_general",
+   "question": "What is the trademark name of this purple product?",
+   "options": [
+    "Agent",
+    "Egiant",
+    "Eggaint",
+    "Egyiant",
+    "This image doesn't feature the content."
+   ],
+   "answer_idx": 1,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_07218.png",
+   "image_sha256": "fd6ad9b776d29f42b69cca09a87fc0efa0d7a628a603e5715983636499883395",
+   "image_cluster": "fd6ad9b776d29f42",
+   "category": "OCR with Complex Context/Perception/adver_and_product",
+   "w": 1392,
+   "h": 1056,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/book_map_poster/0901",
+   "dataset": "mme_general",
+   "question": "When will the event in the picture be held?",
+   "options": [
+    "SATURDAY FEBRUARY 1ST,11.AM-1.00PM",
+    "SATURDAY FEBRUARY 11ST,11.AM-1.00PM",
+    "SATURDAY FEBRUARY 1ST,12.AM-1.00PM",
+    "SATURDAY JANRUARY 1ST,11.AM-1.00PM",
+    "The image does not feature the content."
+   ],
+   "answer_idx": 0,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_14184.png",
+   "image_sha256": "dde236973e7c027fe75b0babe96e0776920a4c26a07424f115d49dee90454b64",
+   "image_cluster": "dde236973e7c027f",
+   "category": "OCR with Complex Context/Perception/book_map_poster",
+   "w": 1224,
+   "h": 1752,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/phone_and_address/0430",
+   "dataset": "mme_general",
+   "question": "What is the number of the house in the image?",
+   "options": [
+    "107",
+    "135",
+    "134",
+    "178",
+    "This image doesn't feature the number."
+   ],
+   "answer_idx": 0,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_48069.png",
+   "image_sha256": "0920fd60969cb4ff180f91c080a69e438bdb0d9b7f4ddae4273bd88c0aee8e0e",
+   "image_cluster": "0920fd60969cb4ff",
+   "category": "OCR with Complex Context/Perception/phone_and_address",
+   "w": 1440,
+   "h": 1080,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/phone_and_address/0031",
+   "dataset": "mme_general",
+   "question": "What is the content of the larger font text on the stone tablet in the picture",
+   "options": [
+    "忠義千秋",
+    "義忠千秋",
+    "下云一",
+    "一丁云",
+    "This image doesn't feature the content."
+   ],
+   "answer_idx": 0,
+   "image_key": "flick_002011.png",
+   "image_sha256": "c1fa2af8916dd446c6b4b9c26284cfe220055b8f3130f3a2d0fed0fe251fa771",
+   "image_cluster": "c1fa2af8916dd446",
+   "category": "OCR with Complex Context/Perception/phone_and_address",
+   "w": 2040,
+   "h": 1356,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/license/h1_0047",
+   "dataset": "mme_general",
+   "question": "What is the license plate number of the yellow bus in the picture?",
+   "options": [
+    "BV 3196",
+    "3196",
+    "BWV 3196",
+    "HDN",
+    "The image does not feature the license."
+   ],
+   "answer_idx": 0,
+   "image_key": "flick_001069.png",
+   "image_sha256": "d006d04f5a1b30b40398cebdf14d55f8aa4884ad46a2e59eaa3f516c158f95d9",
+   "image_cluster": "d006d04f5a1b30b4",
+   "category": "OCR with Complex Context/Perception/license",
+   "w": 2040,
+   "h": 1356,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/adver_and_product/0861",
+   "dataset": "mme_general",
+   "question": "What is the alcohol content indicated on the green can?",
+   "options": [
+    "9.0%",
+    "8.0%",
+    "10.0%",
+    "11.0%",
+    "This image doesn't feature the content."
+   ],
+   "answer_idx": 1,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_07008.png",
+   "image_sha256": "b80bddc6c2e017b08d3d2bd8c7b53e44acf3a249b7a62c66d813735f138aef00",
+   "image_cluster": "b80bddc6c2e017b0",
+   "category": "OCR with Complex Context/Perception/adver_and_product",
+   "w": 1200,
+   "h": 1584,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/phone_and_addresss/h1_0139",
+   "dataset": "mme_general",
+   "question": "What is the phone number of LET?",
+   "options": [
+    "020 7431 7000",
+    "020 7431 7070",
+    "020 7433 1443",
+    "020 7433 1446",
+    "The image does not feature the number."
+   ],
+   "answer_idx": 1,
+   "image_key": "058_United_frame00070.png",
+   "image_sha256": "b2d0b781594455e285fab02d9a9daec74893bdb4d306a38b985ea75fbf090761",
+   "image_cluster": "b2d0b781594455e2",
+   "category": "OCR with Complex Context/Perception/phone_and_address",
+   "w": 7680,
+   "h": 4320,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/book_map_poster/1203",
+   "dataset": "mme_general",
+   "question": "How much is the Lemon Ricotta Pancakes?",
+   "options": [
+    "$6.69",
+    "$6.99",
+    "$5.59",
+    "$5.69",
+    "The image does not feature the content."
+   ],
+   "answer_idx": 1,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_24954.png",
+   "image_sha256": "d465ff4bdfc8d5df9eeb253a45971c17d830c3c79d208a542cc86106bf95557a",
+   "image_cluster": "d465ff4bdfc8d5df",
+   "category": "OCR with Complex Context/Perception/book_map_poster",
+   "w": 1272,
+   "h": 1632,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/book_map_poster/0383",
+   "dataset": "mme_general",
+   "question": "What's the content with black background at the bottom right of the picture?",
+   "options": [
+    "ADVERTENCIA",
+    "ADVENTENCIA",
+    "RESPIRADOR",
+    "INCORRECTO",
+    "The image does not feature the content."
+   ],
+   "answer_idx": 0,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_00937.png",
+   "image_sha256": "ad6a753af30c21b3bd35ee016aeeb9fd6769cb38e3165da84474a8838d346b6c",
+   "image_cluster": "ad6a753af30c21b3",
+   "category": "OCR with Complex Context/Perception/book_map_poster",
+   "w": 1272,
+   "h": 1272,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/license/0690",
+   "dataset": "mme_general",
+   "question": "What is the numerical number on the train in the picture?",
+   "options": [
+    "1718",
+    "1719",
+    "1720",
+    "1721",
+    "This image doesn't feature the plate number."
+   ],
+   "answer_idx": 1,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_46398.png",
+   "image_sha256": "903b4535323c94cc2ca07bd28e80fb644a17204270bcdd9ad057a67c863ed4ba",
+   "image_cluster": "903b4535323c94cc",
+   "category": "OCR with Complex Context/Perception/license",
+   "w": 1080,
+   "h": 1344,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/book_map_poster/0652",
+   "dataset": "mme_general",
+   "question": "What's the content in the bottom right corner of the first frame on the second row in this comic page?",
+   "options": [
+    "BLINK TWICE IF IT'S A YES.",
+    "THAT'S ALL I NEED TO KNOW.",
+    "THAT'S ALL I NEED TO KNOE.",
+    "I DON'T CARE ABOUT HIM. ONLY ME.",
+    "The image does not feature the content."
+   ],
+   "answer_idx": 1,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_06909.png",
+   "image_sha256": "45d3c38beb391783d5d5140b870d1cbc3711f7441912163aa04eadd7c05be698",
+   "image_cluster": "45d3c38beb391783",
+   "category": "OCR with Complex Context/Perception/book_map_poster",
+   "w": 1056,
+   "h": 1632,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/adver_and_product/0276",
+   "dataset": "mme_general",
+   "question": "What are the yellow letters on the grey store sign on the right side of the nearest tree in the picture?",
+   "options": [
+    "BIRKENSTOCK",
+    "PIZZA",
+    "POSTER",
+    "POSTKAR",
+    "This image doesn't feature the content."
+   ],
+   "answer_idx": 3,
+   "image_key": "018_Walking_frame00722.png",
+   "image_sha256": "964f48bffac3d728c927058c9895145323309c3415ce7e80944733d701a0ff6c",
+   "image_cluster": "964f48bffac3d728",
+   "category": "OCR with Complex Context/Perception/adver_and_product",
+   "w": 3840,
+   "h": 2160,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/book_map_poster/0376",
+   "dataset": "mme_general",
+   "question": "What's the capital of Sudan in the picture?",
+   "options": [
+    "Kisangani",
+    "Khartoum",
+    "Fayalargeau",
+    "Khartoumer",
+    "The image does not feature the content."
+   ],
+   "answer_idx": 1,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_00849.png",
+   "image_sha256": "f325e6be759aa5b81cc490a3f67f4ca510918bae90e63fd34cc08f7966c8b558",
+   "image_cluster": "f325e6be759aa5b8",
+   "category": "OCR with Complex Context/Perception/book_map_poster",
+   "w": 1152,
+   "h": 1296,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/text_recog/0817",
+   "dataset": "mme_general",
+   "question": "What is the text on the book on the golden table in the picture?",
+   "options": [
+    "Ricner",
+    "VUISION",
+    "Gethard",
+    "VISIONAIRE",
+    "The image doesn't feature the content."
+   ],
+   "answer_idx": 3,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_10813.png",
+   "image_sha256": "07f7f682dc50907e4515c2463d2934e741ad1890769858b08acf23e2574b794e",
+   "image_cluster": "07f7f682dc50907e",
+   "category": "OCR with Complex Context/Perception/text_recog",
+   "w": 2496,
+   "h": 1392,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/adver_and_product/0510",
+   "dataset": "mme_general",
+   "question": "What is the first line of letters on the black vertical advertising banner above the three people in the bottom left area of the picture??",
+   "options": [
+    "HAGGIS",
+    "HEGGIS",
+    "HEGINE",
+    "GENIOUS",
+    "This image doesn't feature the content."
+   ],
+   "answer_idx": 0,
+   "image_key": "div_0447.png",
+   "image_sha256": "eed93bc72d60de1d963f8799f09b311007f017f419707b46fefab78f6eeb05f7",
+   "image_cluster": "eed93bc72d60de1d",
+   "category": "OCR with Complex Context/Perception/adver_and_product",
+   "w": 2040,
+   "h": 1692,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/adver_and_product/0651",
+   "dataset": "mme_general",
+   "question": "What's the capacity of the bottle held by the doll in the picture?",
+   "options": [
+    "20ml",
+    "40ml",
+    "70ml",
+    "50ml",
+    "This image doesn't feature the content."
+   ],
+   "answer_idx": 0,
+   "image_key": "liu4k_train_pexels-photo-209600_1.png",
+   "image_sha256": "ff8c78b503fc4ceaff97954cbf56ba29445295209a3b17d42ece4348c0a6ee3e",
+   "image_cluster": "ff8c78b503fc4cea",
+   "category": "OCR with Complex Context/Perception/adver_and_product",
+   "w": 6000,
+   "h": 4000,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/text_recog/0612",
+   "dataset": "mme_general",
+   "question": "What is the text at the bottom of the car display screen in the image?",
+   "options": [
+    "Climate control off",
+    "BBC Radio 6Music",
+    "Mary Anne Hobbe",
+    "Rock Music",
+    "The image doesn't feature the content."
+   ],
+   "answer_idx": 0,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_02497.png",
+   "image_sha256": "93cea940355389de6ac16332f742a908eb00efc7d738c8d0843e8406586899ad",
+   "image_cluster": "93cea940355389de",
+   "category": "OCR with Complex Context/Perception/text_recog",
+   "w": 1584,
+   "h": 1056,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/book_map_poster/0783",
+   "dataset": "mme_general",
+   "question": "What honors has Sherrie Johnson received?",
+   "options": [
+    "Director of Communication &FOIA Officer",
+    "Social media",
+    "request",
+    "NSPRA",
+    "The image does not feature the content."
+   ],
+   "answer_idx": 0,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_11054.png",
+   "image_sha256": "afaa2f40ca4c734b37d0e2805389db8728cb69fd2b6ab93de374a511a379c0dc",
+   "image_cluster": "afaa2f40ca4c734b",
+   "category": "OCR with Complex Context/Perception/book_map_poster",
+   "w": 1680,
+   "h": 2184,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/book_map_poster/0354",
+   "dataset": "mme_general",
+   "question": "What is the content of the third tag at the top of the website?",
+   "options": [
+    "Home",
+    "Yindu Temples",
+    "Contacts",
+    "Hindu Temples",
+    "The image does not feature the content."
+   ],
+   "answer_idx": 3,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_00603.png",
+   "image_sha256": "4768c3a24270abd8d08af6fd8334fece9b82ce7e755447ea0bd8e13506cbadf8",
+   "image_cluster": "4768c3a24270abd8",
+   "category": "OCR with Complex Context/Perception/book_map_poster",
+   "w": 1320,
+   "h": 2160,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/license/h1_0123",
+   "dataset": "mme_general",
+   "question": "What is the license plate number of the green sedan on the left?",
+   "options": [
+    "HZK-777",
+    "HZK-789",
+    "989 NP5",
+    "BB-9189",
+    "The image does not feature the license."
+   ],
+   "answer_idx": 1,
+   "image_key": "flick_002492.png",
+   "image_sha256": "9ee2190fa7b6517d009444114b236bad7ab6f2f9798f912e5b0bba65c0bcfe92",
+   "image_cluster": "9ee2190fa7b6517d",
+   "category": "OCR with Complex Context/Perception/license",
+   "w": 2040,
+   "h": 1524,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/license/0098",
+   "dataset": "mme_general",
+   "question": "What is the plate number of the grey car besides the big tree?",
+   "options": [
+    "93 BA 91",
+    "44 33 IN",
+    "33 DG VS",
+    "FF 38 FK",
+    "This image doesn't feature the plate number."
+   ],
+   "answer_idx": 0,
+   "image_key": "017_Walking_frame00626.png",
+   "image_sha256": "fa186392fb25ed6dce7245dd632825dafefd4803b3157100b872439d366d36e8",
+   "image_cluster": "fa186392fb25ed6d",
+   "category": "OCR with Complex Context/Perception/license",
+   "w": 3840,
+   "h": 2160,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/text_recog/0111",
+   "dataset": "mme_general",
+   "question": "What is the yellow part of the store name on the right side of the picture?",
+   "options": [
+    "CHURROS",
+    "FRANKIE'S",
+    "MODS",
+    "WERK",
+    "The image doesn't feature the content."
+   ],
+   "answer_idx": 1,
+   "image_key": "018_Walking_frame00688.png",
+   "image_sha256": "9c8a665f7733add01b279ec84f22c232af943fb7a5b9be4119d39a9de971679c",
+   "image_cluster": "9c8a665f7733add0",
+   "category": "OCR with Complex Context/Perception/text_recog",
+   "w": 3840,
+   "h": 2160,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/adver_and_product/0353",
+   "dataset": "mme_general",
+   "question": "What is the content of the first line of text on the glass billboard on the left side of the second floor at the entrance of the mall?",
+   "options": [
+    "rich＆royal",
+    "OPUS",
+    "HUGO",
+    "CAMBIO",
+    "This image doesn't feature the content."
+   ],
+   "answer_idx": 0,
+   "image_key": "019_Walking_frame00139.png",
+   "image_sha256": "b32dc17fc883715f53e8ee635997039ad7a329232c10b95099006cbb8aebc407",
+   "image_cluster": "b32dc17fc883715f",
+   "category": "OCR with Complex Context/Perception/adver_and_product",
+   "w": 3840,
+   "h": 2160,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/adver_and_product/1250",
+   "dataset": "mme_general",
+   "question": "What is the orange red text below the counter window?",
+   "options": [
+    "BIÈRES PRESSION",
+    "DÈGUSTATION & ÈMOTION",
+    "LAMUSE GUEULE",
+    "BIÈRES PRESSAON",
+    "This image doesn't feature the content."
+   ],
+   "answer_idx": 0,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_21568.png",
+   "image_sha256": "63d36ed138249013dd1f9e08499393a1263e37d13adf5fc288a117f1aa9b50a8",
+   "image_cluster": "63d36ed138249013",
+   "category": "OCR with Complex Context/Perception/adver_and_product",
+   "w": 3996,
+   "h": 6000,
+   "meta": {}
+  },
+  {
+   "qid": "mme/perception/ocr_cc/license/0236",
+   "dataset": "mme_general",
+   "question": "What is the manufacturer of the vehicle appears in the picture?",
+   "options": [
+    "HONDA",
+    "LAND ROVER",
+    "TOYOTA",
+    "Audi",
+    "This image doesn't feature the plate number."
+   ],
+   "answer_idx": 2,
+   "image_key": "liu4k_train_pexels-photo-1149055_1.png",
+   "image_sha256": "21bced157e89f907e91614b99486c1b0b2e5fe18f9713f4e243d9e981f788cdc",
+   "image_cluster": "21bced157e89f907",
+   "category": "OCR with Complex Context/Perception/license",
+   "w": 5472,
+   "h": 3648,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/ocr_cc/scene/0195",
+   "dataset": "mme_general",
+   "question": "Why is the boy crying?",
+   "options": [
+    "He has heard of something.",
+    "He has lost something.",
+    "He misses somebody.",
+    "He is aggrieved.",
+    "The image does not feature the related information."
+   ],
+   "answer_idx": 0,
+   "image_key": "hq_50k_test00088.png",
+   "image_sha256": "ef93343f71ad89f187fc117532443e398218dda2b29d3a3e9df13a16b9a71b19",
+   "image_cluster": "ef93343f71ad89f1",
+   "category": "OCR with Complex Context/Reasoning/Scene Understanding",
+   "w": 1272,
+   "h": 1800,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/ocr_cc/scene/0173",
+   "dataset": "mme_general",
+   "question": "Who beats the enemy fighter?",
+   "options": [
+    "The anti-aircraft batteries of the S2.",
+    "The professor.",
+    "Oirik.",
+    "Nasir.",
+    "The image does not feature the related information."
+   ],
+   "answer_idx": 0,
+   "image_key": "hq_50k_test00033.png",
+   "image_sha256": "3589eddcbdb8df6e9ce7c2bb18fae0fcadd16e2cea61ae1971aed9f3b2fbb1eb",
+   "image_cluster": "3589eddcbdb8df6e",
+   "category": "OCR with Complex Context/Reasoning/Scene Understanding",
+   "w": 1572,
+   "h": 1068,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/ocr_cc/scene/0116",
+   "dataset": "mme_general",
+   "question": "Which type of beer has the lowest calories?",
+   "options": [
+    "Carling.",
+    "Becks.",
+    "Fosters.",
+    "Lager Shandy.",
+    "The image does not feature the related information."
+   ],
+   "answer_idx": 3,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_17133.png",
+   "image_sha256": "29a59f78a5b5d9188ca8fcd49d381f53c728bcf34da30d85ab687854a281fed6",
+   "image_cluster": "29a59f78a5b5d918",
+   "category": "OCR with Complex Context/Reasoning/Scene Understanding",
+   "w": 768,
+   "h": 2496,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/ocr_cc/char_id/0039",
+   "dataset": "mme_general",
+   "question": "Who is the boss in the picture?",
+   "options": [
+    "The man in the car.",
+    "The man on the plane.",
+    "The man with a helmet.",
+    "The man with a hat.",
+    "The image does not feature the related information."
+   ],
+   "answer_idx": 3,
+   "image_key": "hq_50k_test00075.png",
+   "image_sha256": "2a9f2b41bbfdac27ccfd691ebe15b480c6ecb08aebabc205d3f90e84d05b426a",
+   "image_cluster": "2a9f2b41bbfdac27",
+   "category": "OCR with Complex Context/Reasoning/Character Identification",
+   "w": 1272,
+   "h": 1668,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/ocr_cc/scene/0224",
+   "dataset": "mme_general",
+   "question": "Where is the man?",
+   "options": [
+    "Hospital.",
+    "Board game store.",
+    "Book store.",
+    "School.",
+    "The image does not feature the related information."
+   ],
+   "answer_idx": 1,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_01359.png",
+   "image_sha256": "5ff44006aeb7307e4ac86d46569cab411106462a2cc4341884310d0c04c7f715",
+   "image_cluster": "5ff44006aeb7307e",
+   "category": "OCR with Complex Context/Reasoning/Scene Understanding",
+   "w": 1584,
+   "h": 1200,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/ocr_cc/scene/0250",
+   "dataset": "mme_general",
+   "question": "When was the picture made?",
+   "options": [
+    "1990.",
+    "1998.",
+    "2012.",
+    "2022.",
+    "The image does not feature the related information."
+   ],
+   "answer_idx": 3,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_05666.png",
+   "image_sha256": "659c13d9552fab9ee7aa6e6bb0d5fa465efb8f7f6dff752e5806f9330f7d4b22",
+   "image_cluster": "659c13d9552fab9e",
+   "category": "OCR with Complex Context/Reasoning/Scene Understanding",
+   "w": 1488,
+   "h": 1056,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/ocr_cc/scene/0217",
+   "dataset": "mme_general",
+   "question": "How many bars are there?",
+   "options": [
+    "1.",
+    "2.",
+    "4.",
+    "3.",
+    "The image does not feature the related information."
+   ],
+   "answer_idx": 1,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_00846.png",
+   "image_sha256": "d91b6e3ad5cc083e2954931e5560e8ca368bf8269325b7a2d9bcabde475ed7e4",
+   "image_cluster": "d91b6e3ad5cc083e",
+   "category": "OCR with Complex Context/Reasoning/Scene Understanding",
+   "w": 2496,
+   "h": 1680,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/ocr_cc/char_id/0182",
+   "dataset": "mme_general",
+   "question": "When did Hirt arrive at Birkenau?",
+   "options": [
+    "1936.",
+    "The april of 1936.",
+    "The May of 1942.",
+    "The april of 1942.",
+    "The image does not feature the related information."
+   ],
+   "answer_idx": 3,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_20937.png",
+   "image_sha256": "fcb27626669669b5c7fd2b8cea37f355b041419c6a4fbf01782ee56369291e0f",
+   "image_cluster": "fcb27626669669b5",
+   "category": "OCR with Complex Context/Reasoning/Character Identification",
+   "w": 1272,
+   "h": 1968,
+   "meta": {}
+  },
+  {
+   "qid": "mme/reasoning/ocr_cc/char_id/0203",
+   "dataset": "mme_general",
+   "question": "Whose MBTI is INFJ?",
+   "options": [
+    "Ron Weasley.",
+    "Luna Lovegood.",
+    "Sirius Black.",
+    "Remus Lupin.",
+    "The image does not feature the related information."
+   ],
+   "answer_idx": 3,
+   "image_key": "TRAIN_BICUBIC_HQ_50K_31067.png",
+   "image_sha256": "64d81b2ec9f346b1f3c71db62879014decba92f288403ce3f3ea1b376173ad09",
+   "image_cluster": "64d81b2ec9f346b1",
+   "category": "OCR with Complex Context/Reasoning/Character Identification",
+   "w": 1272,
+   "h": 1584,
+   "meta": {}
+  }
+ ]
+}

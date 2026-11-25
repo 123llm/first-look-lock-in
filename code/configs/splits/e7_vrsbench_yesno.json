@@ -1,0 +1,1711 @@
+{
+ "name": "e7_vrsbench_yesno",
+ "protocol": "v2",
+ "seed": 0,
+ "note": "50 yes + 50 no, one per image, stratified by type",
+ "n": 100,
+ "n_images": 100,
+ "n_clusters": 100,
+ "items": [
+  {
+   "qid": "vrsbench/33683",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the image taken from an angle that allows viewing of individual rooftops?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "10574_0000.png",
+   "image_sha256": "15b090b4405a444b642e0e62e9252e9415d59b0fd9edf32abd1e135f1bd792ab",
+   "image_cluster": "15b090b4405a444b",
+   "category": "image",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/18177",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a large building visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P8287_0124.png",
+   "image_sha256": "1679bd7ba3c78f089d257ccfe2400218f8ac8ab0205deffde2c5e9e7b03e4cc1",
+   "image_cluster": "1679bd7ba3c78f08",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/30203",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the image show any airport runways or terminals?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "09487_0000.png",
+   "image_sha256": "2287b019cd8456670901d159087dc8597eddde409f8e3a7408dabcf78a8c27b5",
+   "image_cluster": "2287b019cd845667",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/23501",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the dam surrounded by vegetation?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "07352_0000.png",
+   "image_sha256": "255a384d52aa5559d521fe26c9172e77a0e3a4e4abb42e2494fccc095bff3acd",
+   "image_cluster": "255a384d52aa5559",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/4726",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any white structure visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1086_0004.png",
+   "image_sha256": "2607dfdfb3315bfbed85a7e6661068b34249b4254187804498f3e60e067f6eaf",
+   "image_cluster": "2607dfdfb3315bfb",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/30553",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any rural settlements visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "09596_0000.png",
+   "image_sha256": "359cd21175945cc0c19323f4f0cfe8c546ed7f7166d61e290b5b81370f425cd7",
+   "image_cluster": "359cd21175945cc0",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/23975",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there an overpass in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "07484_0000.png",
+   "image_sha256": "3804afd76d24677f0d25692e9f9f3875cea4c06f928cfe2ea8f59790679eb1ac",
+   "image_cluster": "3804afd76d24677f",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/9990",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any small storage tanks in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1586_0001.png",
+   "image_sha256": "426ca46b59e03e775f10241ad4b972d6598041f046a1794756094bfb91f3e5d1",
+   "image_cluster": "426ca46b59e03e77",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/11350",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a visible structure that spans nearly half the image width?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1854_0109.png",
+   "image_sha256": "42eea999bf72f9257c18045998e47776541fa5d9fb1f01efa5040281ded53cad",
+   "image_cluster": "42eea999bf72f925",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/15580",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any small vehicles in the top section of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P2789_0079.png",
+   "image_sha256": "4d5e4b772d256e7e9fe4f61d9bbc227aa460e7ec2cee6ba7ed5ee6bf2a3a3f8b",
+   "image_cluster": "4d5e4b772d256e7e",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/21256",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there an airport visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "06684_0000.png",
+   "image_sha256": "55f70406c33b6e869761be8f9b2f8ee4cdee8e1f372a78de0f25cb34e9d8668c",
+   "image_cluster": "55f70406c33b6e86",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/6193",
+   "dataset": "vrsbench_yesno",
+   "question": "Are the ships positioned on the water?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1275_0055.png",
+   "image_sha256": "57f5e2f6da72220a44a47c9246e17c1cda96212f7cb1d595e605f2d3b58d70ba",
+   "image_cluster": "57f5e2f6da72220a",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/15396",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a large vehicle positioned at the bottom-most part of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P2781_0009.png",
+   "image_sha256": "5aac32b0948a0e62ec61489dc260d939bec2d12c07493f7e28c35d63c5d913a5",
+   "image_cluster": "5aac32b0948a0e62",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/6653",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a river in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1342_0019.png",
+   "image_sha256": "67353a9f2e6129190832a6a86051aa0625232d2dbaeacba976aee1b4858af39d",
+   "image_cluster": "67353a9f2e612919",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/532",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any visible intersections in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P0161_0000.png",
+   "image_sha256": "6c88591aa71810b22358ebcb340d55685ee100309b5a84b755f548edce1ae49d",
+   "image_cluster": "6c88591aa71810b2",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/35310",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any vehicles touching the image border?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "11064_0000.png",
+   "image_sha256": "6f09ddec661f0db2cf8d6ef88e527c736a4f234f4788724996ad77d690fb0512",
+   "image_cluster": "6f09ddec661f0db2",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/23106",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there only one toll station depicted in the provided image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "07244_0000.png",
+   "image_sha256": "75f8559d4bab9a0336d2bfbae3c729cefdad60d17a7a18d1a5734d2a90e3a1d5",
+   "image_cluster": "75f8559d4bab9a03",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/17111",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a ship in the top half of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P5789_1629.png",
+   "image_sha256": "7c38655380ba42d95e25bf6daacc7cd64851b3893fbac87179e51b305a7c3267",
+   "image_cluster": "7c38655380ba42d9",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/28525",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a visible tree near the house?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "08936_0000.png",
+   "image_sha256": "8789509b72b8b82215c77436b803208b1c5ff283ac233e1e2382afd2c3b9ba85",
+   "image_cluster": "8789509b72b8b822",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/31896",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any greenery surrounding the tennis court?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "10019_0000.png",
+   "image_sha256": "89d4bb30b3a99b5a40ecca87b139261b545bcbd7bcb5f9d7447358543c5b3fbc",
+   "image_cluster": "89d4bb30b3a99b5a",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/25245",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the stadium have a white-roofed structure next to it?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "07889_0000.png",
+   "image_sha256": "8f776685c34f2894e0aae42f64d12703d068bdceb0f45be52631178ba5fc9a5e",
+   "image_cluster": "8f776685c34f2894",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/28486",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any vegetation visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "08926_0000.png",
+   "image_sha256": "92f154f670922889d4eb463999757791ad98b6ff55cd92d9682a3edd621dccce",
+   "image_cluster": "92f154f670922889",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/5578",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a plane on the left side of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1230_0078.png",
+   "image_sha256": "9df5db6bae4066f702343f754b003aaea66491ba2938f0dc2ca9b3faab92f9e7",
+   "image_cluster": "9df5db6bae4066f7",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/2163",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a small ship in the bottom-left corner?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P0583_0007.png",
+   "image_sha256": "a91f170d1724fe1fb90e7a64922b03e25f1df7b1d19d661f4a617825ebed609e",
+   "image_cluster": "a91f170d1724fe1f",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/13885",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there pathways visible near the central structure?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P2598_0015.png",
+   "image_sha256": "b21c769cf1dfab4101e25f6f3e93b65e094b65ed2488095729d8e412e10bc218",
+   "image_cluster": "b21c769cf1dfab41",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/717",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a tennis court visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P0179_0024.png",
+   "image_sha256": "b2c0c23f163def1bcd25629ecd53434f05e35ca4fd59a8e4b042ef2de1946290",
+   "image_cluster": "b2c0c23f163def1b",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/12939",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any body of water in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P2331_0016.png",
+   "image_sha256": "b2f09e268a27c84d8917ff8c02867eb5f0d1dfbb46a149545cc36074357c2a9f",
+   "image_cluster": "b2f09e268a27c84d",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/11642",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a ship docked at the top edge of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1860_0012.png",
+   "image_sha256": "b9e7696fc754699537d75598d18936b41944304f5d958bf0c4710f939bbbfb22",
+   "image_cluster": "b9e7696fc7546995",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/26596",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a tennis court visible in this aerial photograph?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "08298_0000.png",
+   "image_sha256": "c2fa941a6518cecf4d00ffe5e6016bc236294e2f0fe815bb6e27abe3e06fe702",
+   "image_cluster": "c2fa941a6518cecf",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/36047",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any trees visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "11297_0000.png",
+   "image_sha256": "c6c9f0e754194ad78d2cbf1aac5e4d0e081040f716132876dad3f8c34a9a074a",
+   "image_cluster": "c6c9f0e754194ad7",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/3071",
+   "dataset": "vrsbench_yesno",
+   "question": "Are the houses surrounded by greenery?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P0897_0038.png",
+   "image_sha256": "de52963d117b05316fd28a70add0109f0715e10f57c3db5d92d68973668b06a3",
+   "image_cluster": "de52963d117b0531",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/6960",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any structures at the bottom of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1356_0052.png",
+   "image_sha256": "e0b6e4b5e3f162b09d5c1f0417464d0b0a6ca9180459ec39fefa1b3b9fdf2360",
+   "image_cluster": "e0b6e4b5e3f162b0",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/27226",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the overpass connected to any visible roads?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "08528_0000.png",
+   "image_sha256": "e5a0922e98d3cc05e3732c9bfa182161c4cdad25c26eb5015cca239e2fef02dc",
+   "image_cluster": "e5a0922e98d3cc05",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/34761",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any vegetation visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "10898_0000.png",
+   "image_sha256": "e780004cfec808cb3057f116b6b51a6d7293ff219a943bf39b695099acd94a8d",
+   "image_cluster": "e780004cfec808cb",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/19288",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the image include any buildings?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "06063_0000.png",
+   "image_sha256": "f3644bab8ecc5d4ca83d1c3cb62f3ace73118b56bcc00ab5d9df4edd77f28606",
+   "image_cluster": "f3644bab8ecc5d4c",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/3112",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any vegetation visible around the roundabout?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P0904_0003.png",
+   "image_sha256": "fbe3f6c585cc4727d31026bf74fcd9a18391c4c12c0af50e700f743bc8fbec50",
+   "image_cluster": "fbe3f6c585cc4727",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/21823",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a visible indication of the baseball field's home plate?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "06860_0000.png",
+   "image_sha256": "fd25dd485fe722985c26a488179d8b9e05d9f0dd9f626b7dcef57e2a0f6f766b",
+   "image_cluster": "fd25dd485fe72298",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/27444",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there visible parking lots adjacent to the train station?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "08595_0000.png",
+   "image_sha256": "fdbc59cc767ade5ac199f9d3fc2d6cb04be870859ce3fea6ce59c13f46c2290a",
+   "image_cluster": "fdbc59cc767ade5a",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/4591",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the top-most harbor next to an open area?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1066_0010.png",
+   "image_sha256": "1ea8db2b59440157656568146c941beb4908363db655f00610b406b55cfabaa3",
+   "image_cluster": "1ea8db2b59440157",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/31499",
+   "dataset": "vrsbench_yesno",
+   "question": "Are the tennis courts positioned at the top and bottom of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "09898_0000.png",
+   "image_sha256": "28a3294b58e8a41c60f46f8f414d4d45986d0db61ca422409a8f4836f5e202c6",
+   "image_cluster": "28a3294b58e8a41c",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/17796",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there trees near the parking area?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P6769_0070.png",
+   "image_sha256": "7b18e321c08cb5a76e0c97fbe2c0356b08114e420e6957b57e72224cb8198d9a",
+   "image_cluster": "7b18e321c08cb5a7",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/30775",
+   "dataset": "vrsbench_yesno",
+   "question": "Do the walkways connect to the basketball court?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "09673_0000.png",
+   "image_sha256": "8975fde9b339792242e89c73b33860ee644381aa013bd199388962179e799233",
+   "image_cluster": "8975fde9b3397922",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/26360",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the airplane near a structure?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "08226_0000.png",
+   "image_sha256": "a04f472087d12f33f079dbef4d927840f23c1aaec6185769822731d1ce1a7d7d",
+   "image_cluster": "a04f472087d12f33",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/6217",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the ship positioned amidst the clouds?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1278_0050.png",
+   "image_sha256": "bdd09c24bd53c14e06212d903352cc09ea679abb45fa924db9b53a6c3c9fe190",
+   "image_cluster": "bdd09c24bd53c14e",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/6137",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there just one ship visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P1273_0066.png",
+   "image_sha256": "2ac9795ad928e37c1d9514d8ccdd3f70df510b073f501744ef2ccc71654f0240",
+   "image_cluster": "2ac9795ad928e37c",
+   "category": "object quantity",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/25865",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a ship that is notably larger than the others?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "08087_0000.png",
+   "image_sha256": "161e56f53564ce6963da4dd29ba52aaeb9df6b1703f4148dec81797a3a71f462",
+   "image_cluster": "161e56f53564ce69",
+   "category": "object size",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/16385",
+   "dataset": "vrsbench_yesno",
+   "question": "Are the trees in full foliage?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "P4151_0059.png",
+   "image_sha256": "d4f9ce16525603f233f48134ca103c1f633c04eec98800f56d106679dc9d3e65",
+   "image_cluster": "d4f9ce16525603f2",
+   "category": "reasoning",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/27545",
+   "dataset": "vrsbench_yesno",
+   "question": "Are the roads displayed in a grid-like pattern?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "08621_0000.png",
+   "image_sha256": "fe081a214a14dbe1fad37870657e22d950228072d6964276f1cb7ea08736544a",
+   "image_cluster": "fe081a214a14dbe1",
+   "category": "reasoning",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/37207",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the windmill the only structure of its kind in the area?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "11658_0000.png",
+   "image_sha256": "9713fe87dea77d945e1de7aa2f1f79b199ca2bbcda4e2917507432e82e700cab",
+   "image_cluster": "9713fe87dea77d94",
+   "category": "scene type",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/37283",
+   "dataset": "vrsbench_yesno",
+   "question": "Is water present on both sides of the dam?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "11682_0000.png",
+   "image_sha256": "fb1196a8b5bb7652bb54b469216345371c41c71de869af790d0111a1fb3c9585",
+   "image_cluster": "fb1196a8b5bb7652",
+   "category": "scene type",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/18602",
+   "dataset": "vrsbench_yesno",
+   "question": "Do the houses have uniform rooftop colors?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P8877_0001.png",
+   "image_sha256": "a48df0bb4d88e17e974a2a7a1f77d055c59b68caf916f679b05aa146045c2bbd",
+   "image_cluster": "a48df0bb4d88e17e",
+   "category": "object color",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/26931",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the overpass running east-west?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "08423_0000.png",
+   "image_sha256": "034700e2534fbf01f85da6122b7a3870830feca881fdd445a4082f147d2177c7",
+   "image_cluster": "034700e2534fbf01",
+   "category": "object direction",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/2298",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a small vehicle on the right side of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P0647_0001.png",
+   "image_sha256": "08e0104b6fe8fd16bacc674a970f278baf1d6f7253a5e8f3a38b5dedad4031af",
+   "image_cluster": "08e0104b6fe8fd16",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/33023",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any buildings next to the airport?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "10379_0000.png",
+   "image_sha256": "128c84da38289fd6d2a52fe09602b072a1ba2a60b18a3f17729e275540266724",
+   "image_cluster": "128c84da38289fd6",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/27089",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the image show any body of water?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "08486_0000.png",
+   "image_sha256": "18206afda701b94244d7ff56c52d99c7c6eb0dc1c4198f2e2fda8fa2a9c41b39",
+   "image_cluster": "18206afda701b942",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/30516",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any trees visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "09584_0000.png",
+   "image_sha256": "21eb497b6f4dfedebce56d923683127d96ea0c6662b9bb4a13c59e2c3292aa2e",
+   "image_cluster": "21eb497b6f4dfede",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/21304",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any vehicles visible on the overpasses?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "06701_0000.png",
+   "image_sha256": "2249cf3b48ab8b71a1da19dbbb81356123aed8e6640ae7330b046c67c487c7eb",
+   "image_cluster": "2249cf3b48ab8b71",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/9476",
+   "dataset": "vrsbench_yesno",
+   "question": "Are all small vehicles identifiable?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P1508_0008.png",
+   "image_sha256": "29400a54ced487c376716250e4bac755bc98fc72c27473cca4f1dce166397e74",
+   "image_cluster": "29400a54ced487c3",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/12255",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any players on the soccer field?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P2194_0019.png",
+   "image_sha256": "37e0652c09dcb624f5f7c6897feeceb3b7564168f5098812dc0fcaf216ecbda8",
+   "image_cluster": "37e0652c09dcb624",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/31801",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any buildings visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "09990_0000.png",
+   "image_sha256": "3b309004cee8a260643ec5016557f47dca79d68c5a93df61b9c1008ab2ccbd5c",
+   "image_cluster": "3b309004cee8a260",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/19076",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the image feature an intersection of two overpasses?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "06002_0000.png",
+   "image_sha256": "421b0a362d765ea946185c2665d19689687e26fb6533451c772fbf7ff94d23cd",
+   "image_cluster": "421b0a362d765ea9",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/13057",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there vehicles visible on the bridge?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P2365_0021.png",
+   "image_sha256": "433ae41c4bffd49f40706881f96d7c1e334546fbe30a22e73ee63d7f1e8345eb",
+   "image_cluster": "433ae41c4bffd49f",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/32567",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the image show any buildings or constructions?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "10217_0000.png",
+   "image_sha256": "470283fb787c83c372a2efa65892f8b9b32e14e8df5253865bc0542a3da5c04a",
+   "image_cluster": "470283fb787c83c3",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/18870",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any buildings visible at the airport?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "05927_0000.png",
+   "image_sha256": "558e63482fd11a4b42b3d2f1bc79ba86d82b2a64635bd6ba387b5b6d5c6bf6af",
+   "image_cluster": "558e63482fd11a4b",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/20096",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any vegetation visible near the windmill?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "06309_0000.png",
+   "image_sha256": "6b220f4e33f310ab8f6a7148535414596b14d16c1ec37cfc5490727826f92ed7",
+   "image_cluster": "6b220f4e33f310ab",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/11535",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any vehicles on the right side of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P1854_0194.png",
+   "image_sha256": "6cf8d1fb75d37c7baf737966f428a9eb85b0a82248e7ef210e9bcac84a59a8c5",
+   "image_cluster": "6cf8d1fb75d37c7b",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/20553",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any distinct vehicles visible in the airport?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "06456_0000.png",
+   "image_sha256": "775b0ea8e2c05710689bb9d155a456131a6405e420f4050a166c7873c406ec5c",
+   "image_cluster": "775b0ea8e2c05710",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/22706",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any buildings visible around the airport?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "07134_0000.png",
+   "image_sha256": "7d4739a50c455ef1e09e05196276df5b52031f2b85ef6a9b85a02bedadd2dd80",
+   "image_cluster": "7d4739a50c455ef1",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/33646",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the storage tank surrounded by dense vegetation?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "10559_0000.png",
+   "image_sha256": "872d3e95986b4b96498e35aaa38e47411fcc1aafeab172a913812345d31bc42f",
+   "image_cluster": "872d3e95986b4b96",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/5185",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the image show any buildings or trees?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P1156_0005.png",
+   "image_sha256": "884bf2df9573bf872f38ba72707d42a926358fceb65b741b3d06b43b876d8e71",
+   "image_cluster": "884bf2df9573bf87",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/31888",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there more than one windmill in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "10016_0000.png",
+   "image_sha256": "90de1687abe80002ee26800214de87f67539114b2d4933c8ada55877fa564101",
+   "image_cluster": "90de1687abe80002",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/28687",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there more than one airplane visible?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "08990_0000.png",
+   "image_sha256": "94baa789c3059374d664facde34f8c18ba4ede8e90754f3157eef992fe915059",
+   "image_cluster": "94baa789c3059374",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/16615",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the image show any bodies of water?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P4772_0002.png",
+   "image_sha256": "9d3b96323620acee8a3ebb73a8081891cd9c1afd391fd2590e401a2a6620f00c",
+   "image_cluster": "9d3b96323620acee",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/35921",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there more than one airport visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "11259_0000.png",
+   "image_sha256": "a9772cf9e6d6bfdb666eca91b23e523abbd04171e6e8b8505d10348933f06d06",
+   "image_cluster": "a9772cf9e6d6bfdb",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/33364",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any vehicles visible near the toll station?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "10479_0000.png",
+   "image_sha256": "b47ea8323e00e796b6ac3dab247d552e1f4ea95d8310dc643c7050fe8e9c4425",
+   "image_cluster": "b47ea8323e00e796",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/3439",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any other object besides the ship in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P0953_0011.png",
+   "image_sha256": "bba519811fffb211f7c96f2e9d00d3b6bed9e201f512df1f8ff566f319a93ffc",
+   "image_cluster": "bba519811fffb211",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/28913",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any other windmill visible in the image besides the one mentioned?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "09060_0000.png",
+   "image_sha256": "c780a25f7311c39b5cfc5e95072ce8dac2764cde105735bc879333091840ca9b",
+   "image_cluster": "c780a25f7311c39b",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/29299",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there any players on the field?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "09170_0000.png",
+   "image_sha256": "cd6d4ddefd061c94b53a943ababc5d02bbb5c5a0f52d28957bcd661c1fe72928",
+   "image_cluster": "cd6d4ddefd061c94",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/18780",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any body of water visible in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "05897_0000.png",
+   "image_sha256": "d4eaaa82485edd8e8a48b0fb4d9b8f37e1e7e1336a84d2a08401d301ae5df465",
+   "image_cluster": "d4eaaa82485edd8e",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/6545",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there more than one ship in the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P1332_0016.png",
+   "image_sha256": "eddfc1ee919c5b4f2f1f62677a9cb5fbcb19915993406013e25f3232a6c8c3a0",
+   "image_cluster": "eddfc1ee919c5b4f",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/27897",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the image show any other structures besides the windmill?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "08731_0000.png",
+   "image_sha256": "fbba23259c710dee79f45dc3b1d4eaa603aa68c7dfd97eea245ed49c204f3893",
+   "image_cluster": "fbba23259c710dee",
+   "category": "object existence",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/24440",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the court surrounded by trees on all sides?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "07634_0000.png",
+   "image_sha256": "0dec9b851279154780f9f6a8030a99a65cf7e5c295f4bbe17a4aaef9ac367fde",
+   "image_cluster": "0dec9b8512791547",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/12503",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the bottom-most helicopter positioned close to other helicopters?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P2271_0023.png",
+   "image_sha256": "16c86eba12387f04ab9780a6380e6e2b176393855ae9a898fa5cf8c250cfaf89",
+   "image_cluster": "16c86eba12387f04",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/6556",
+   "dataset": "vrsbench_yesno",
+   "question": "Are the ships positioned close to each other?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P1332_0025.png",
+   "image_sha256": "614b1b34966f587b9744b6158fa835e8cfce78d63eb9b295618886e2c8fcfce4",
+   "image_cluster": "614b1b34966f587b",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/3405",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a ship positioned near the top edge of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P0949_0011.png",
+   "image_sha256": "9c62f77ddd08da5ff6a5f9f14f4fdef850bac442ba41f6fef105746a137ef8b1",
+   "image_cluster": "9c62f77ddd08da5f",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/1230",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the swimming pool adjacent to a body of water?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P0336_0000.png",
+   "image_sha256": "cc3221df976052ecd4fc90c20d5bbf74a5b6309f4fb31e37a8ad3314eb5a0f4f",
+   "image_cluster": "cc3221df976052ec",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/24565",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the dam span the entire width of the image?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "07674_0000.png",
+   "image_sha256": "e5841c69836732d893b30d801d433a9494137652cf6194ffa5c9b7673dd8c63e",
+   "image_cluster": "e5841c69836732d8",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/9639",
+   "dataset": "vrsbench_yesno",
+   "question": "Are all small vehicles west of the plane?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P1513_0035.png",
+   "image_sha256": "e7f607d632c3d8450c6479fe24e831c74cd9b54155a25a412633858f317a0016",
+   "image_cluster": "e7f607d632c3d845",
+   "category": "object position",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/22865",
+   "dataset": "vrsbench_yesno",
+   "question": "Are there multiple airplanes visible?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "07177_0000.png",
+   "image_sha256": "3f463cfe768d5da75f4406000b24c2163dec63aef51a37b249bc50cbe1f89600",
+   "image_cluster": "3f463cfe768d5da7",
+   "category": "object quantity",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/35501",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there more than one ship visible?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "11127_0000.png",
+   "image_sha256": "58f7da57561cd865a5ecbc95e5b6a2ae8144d4e753043f1f4335d489c559dcc8",
+   "image_cluster": "58f7da57561cd865",
+   "category": "object quantity",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/9473",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there more than one helicopter in this image section?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P1508_0003.png",
+   "image_sha256": "e98b1a9d0fb39ffed40b317e7f8e5f40631b888c4d06282d9d833aef37fbddcd",
+   "image_cluster": "e98b1a9d0fb39ffe",
+   "category": "object quantity",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/32117",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there a noticeable size difference between the two storage tanks?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "10087_0000.png",
+   "image_sha256": "171dd3b2576ca21feecff9a523889e6908a034917a1a4816041ebd750bf73999",
+   "image_cluster": "171dd3b2576ca21f",
+   "category": "object size",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/10677",
+   "dataset": "vrsbench_yesno",
+   "question": "Are the roundabouts the same size?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P1752_0036.png",
+   "image_sha256": "7f20d812a7a7eb9970e5f531c68fb000950f8f04b152611491f3a60944c88f53",
+   "image_cluster": "7f20d812a7a7eb99",
+   "category": "object size",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/4578",
+   "dataset": "vrsbench_yesno",
+   "question": "Does the top-most harbor fully fit within the image frame?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P1066_0005.png",
+   "image_sha256": "c1c8b664d06f52f565e277ae139e78ff61adbb4d837f81aeadaba06b07a5ebe4",
+   "image_cluster": "c1c8b664d06f52f5",
+   "category": "object size",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/25680",
+   "dataset": "vrsbench_yesno",
+   "question": "Do the storage tanks have different sizes?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "08029_0000.png",
+   "image_sha256": "7af37b31a7b861c7fe9db22506badf5551690aeb426449715ae6ee0f7cd1d49b",
+   "image_cluster": "7af37b31a7b861c7",
+   "category": "reasoning",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/21104",
+   "dataset": "vrsbench_yesno",
+   "question": "Is there any visible traffic on the highway?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "06636_0000.png",
+   "image_sha256": "a8f648a499fa45e51679a64a7d84bc287f9bdd2f9280d40fe50f599b61e2c703",
+   "image_cluster": "a8f648a499fa45e5",
+   "category": "reasoning",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/13741",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the vehicle in the bottom-right corner parked on a paved surface?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "P2592_0001.png",
+   "image_sha256": "b1eb808705946a8084db10e82545f686666c6931cb4fbefc47c726a44e6bc025",
+   "image_cluster": "b1eb808705946a80",
+   "category": "reasoning",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/24860",
+   "dataset": "vrsbench_yesno",
+   "question": "Are all tennis courts positioned next to each other?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "07764_0000.png",
+   "image_sha256": "d4f217ee6642c1853b7fbd45dbd526849038da815a5d8e012a3c9cf2b8644a9f",
+   "image_cluster": "d4f217ee6642c185",
+   "category": "reasoning",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/30349",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the area densely populated with structures?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "09530_0000.png",
+   "image_sha256": "49217491953409603c00eaae112e1b450b60f27c2ffe3e6ee9edad6762ad99db",
+   "image_cluster": "4921749195340960",
+   "category": "scene type",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  },
+  {
+   "qid": "vrsbench/37142",
+   "dataset": "vrsbench_yesno",
+   "question": "Is the windmill surrounded by any buildings or vegetation?",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 1,
+   "image_key": "11637_0000.png",
+   "image_sha256": "8bb50139c8f905caad861bfb25d8b94e186ae0f02776cbeb68175231ae0c47fe",
+   "image_cluster": "8bb50139c8f905ca",
+   "category": "scene type",
+   "w": 512,
+   "h": 512,
+   "meta": {}
+  }
+ ]
+}

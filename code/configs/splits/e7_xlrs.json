@@ -1,0 +1,2207 @@
+{
+ "name": "e7_xlrs",
+ "protocol": "v2",
+ "seed": 0,
+ "note": "100 XLRS-Bench-lite MC, one per image, stratified by category, no near-dup with e7_mme_rs",
+ "n": 100,
+ "n_images": 100,
+ "n_clusters": 100,
+ "items": [
+  {
+   "qid": "xlrs/data-00001-of-00074/13",
+   "dataset": "xlrs",
+   "question": "What can we infer about the urban planning of this city area through the image?",
+   "options": [
+    "The transportation system is well-developed and the building density is moderate, yet there is a lack of adequate green spaces.",
+    "The transportation system is well-developed, the building density is moderate, and there is a certain amount of green space.",
+    "The transportation system is underdeveloped, the building density is moderate, and there is a certain amount of green space.",
+    "The transportation system is well-developed and the building density is high, yet there is a lack of adequate green spaces."
+   ],
+   "answer_idx": 1,
+   "image_key": "1:13",
+   "image_sha256": "0bde05a06dcec80c32ec2a567c10c4ae827efe84937c66b15f17046572ce588a",
+   "image_cluster": "0bde05a06dcec80c",
+   "category": "Complex reasoning/Anomaly Detection and Interpretation",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P9530.png",
+    "index": 55
+   }
+  },
+  {
+   "qid": "xlrs/data-00002-of-00074/7",
+   "dataset": "xlrs",
+   "question": "Why is there a relatively wide road located towards the upper left of the image?",
+   "options": [
+    "This road is a rural pathway situated between farmlands, primarily used for the passage of agricultural machinery.",
+    "This road is a railway track used for transporting goods or passengers.",
+    "This road is a highway or main thoroughfare used to connect cities or key areas.",
+    "This pathway is a river or water body used for irrigation or drainage."
+   ],
+   "answer_idx": 2,
+   "image_key": "2:7",
+   "image_sha256": "7c5d916a1fba9dd450e5456ff0e22106ff05a44699417761e636deeedfd83cd2",
+   "image_cluster": "402bc560abe51321",
+   "category": "Complex reasoning/Anomaly Detection and Interpretation",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0375-6810-LA93-0M50-E080.tif",
+    "index": 91
+   }
+  },
+  {
+   "qid": "xlrs/data-00000-of-00074/25",
+   "dataset": "xlrs",
+   "question": "Why isn't the square area above the image planned as a parking lot as well?",
+   "options": [
+    "Designing a parking lot can result in narrower and obstructed evacuation routes, and the convergence of vehicles at the parking lot exits may conflict with the normal traffic flow in the surrounding area.",
+    "This area can provide a public recreational space, enhancing the ambiance and appeal of the commercial center.",
+    "The surrounding area has an ample number of parking lots; there is no need for additional parking spaces.",
+    "This issue was not considered during the planning phase."
+   ],
+   "answer_idx": 0,
+   "image_key": "0:25",
+   "image_sha256": "c6a399e5795674bf56269fe4deaca6759b770ca0cf01f7397597e7fe00972110",
+   "image_cluster": "c6a399e5795674bf",
+   "category": "Complex reasoning/Anomaly Detection and Interpretation",
+   "w": 5616,
+   "h": 3744,
+   "meta": {
+    "path": "ITCVD/00147.jpg",
+    "index": 25
+   }
+  },
+  {
+   "qid": "xlrs/data-00001-of-00074/28",
+   "dataset": "xlrs",
+   "question": "Why is there a large cleared area and construction activity in the upper right part of the image?",
+   "options": [
+    "This area is being prepared for new residential construction.",
+    "This area is currently being cleared for the construction of a new park.",
+    "This area is being transformed into a parking lot.",
+    "This area is being prepared for agricultural use."
+   ],
+   "answer_idx": 0,
+   "image_key": "1:28",
+   "image_sha256": "db6d07e5ebde4d1808d83866f2461a2c8553944f00f19dfe3501b7a4a8844dc9",
+   "image_cluster": "db6d07e5ebde4d18",
+   "category": "Complex reasoning/Anomaly Detection and Interpretation",
+   "w": 6000,
+   "h": 6000,
+   "meta": {
+    "path": "Potsdam/top_potsdam_2_10_RGB_Potsdam.png",
+    "index": 70
+   }
+  },
+  {
+   "qid": "xlrs/data-00004-of-00074/6",
+   "dataset": "xlrs",
+   "question": "Why are there no large parking lots in this area of the satellite image?",
+   "options": [
+    "The area features many closely packed buildings, while the other side is relatively sparse. This contrast may indicate different uses for the two areas.",
+    "The vegetation in this area appears denser, which may be due to different land use practices or the result of later artificial planting.",
+    "The area primarily consists of residential zones and small commercial buildings, thus lacking large facilities such as shopping centers, stadiums, or airports that typically require extensive parking lots. Vehicles are parked along both sides of the streets, indicating that residents may prefer to park their cars near their homes rather than in centralized, large parking facilities.",
+    "The buildings in this area still require attention to determine if there are aging infrastructures present, which could potentially become hazards in future developments."
+   ],
+   "answer_idx": 2,
+   "image_key": "4:6",
+   "image_sha256": "2ea3e5b5ff4b3a40b6e783e7721c0a4c4499ca3d78494ca9dfa5b6beb9bdf130",
+   "image_cluster": "2ea3e5b5ff4b3a40",
+   "category": "Complex reasoning/Environmental condition reasoning",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0345-6820-LA93-0M50-E080.tif",
+    "index": 74
+   }
+  },
+  {
+   "qid": "xlrs/data-00002-of-00074/31",
+   "dataset": "xlrs",
+   "question": "Based on the satellite imagery, the central area depicted is a densely built urban zone, featuring a mix of residential and commercial buildings. Considering the current space and land use, is this area suitable for the establishment of a new public park?",
+   "options": [
+    "Yes, the area has ample open space and is centrally located, making it easily accessible.",
+    "No, the area is densely built-up with limited available open space.",
+    "Yes, the existing infrastructure can easily support a new public park.",
+    "No, the area is primarily an industrial zone and is not suitable for constructing a park."
+   ],
+   "answer_idx": 1,
+   "image_key": "2:31",
+   "image_sha256": "80094ca91c9d8d29be7d93001c02b6c5ab8cd79875db8935f7ae6f1832d406dc",
+   "image_cluster": "80094ca91c9d8d29",
+   "category": "Complex reasoning/Environmental condition reasoning",
+   "w": 5616,
+   "h": 3744,
+   "meta": {
+    "path": "ITCVD/00049.jpg",
+    "index": 15
+   }
+  },
+  {
+   "qid": "xlrs/data-00002-of-00074/38",
+   "dataset": "xlrs",
+   "question": "Based on satellite imagery, considering the existing infrastructure and available open spaces, is the central area suitable for constructing a new residential complex?",
+   "options": [
+    "Yes, the central area has ample open space and existing infrastructure to support a new residential complex.",
+    "No, the central area is overpopulated and lacks open spaces for new developments.",
+    "Yes, the central area has already been developed and can easily accommodate more residential buildings.",
+    "No, the central area is primarily designated for industrial use and is not suitable for residential development."
+   ],
+   "answer_idx": 0,
+   "image_key": "2:38",
+   "image_sha256": "d781e2f5927edcad6207702a8c81989f0058c3dc15f7469de486972e0c0806a2",
+   "image_cluster": "d781e2f5927edcad",
+   "category": "Complex reasoning/Environmental condition reasoning",
+   "w": 4096,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P8026.png",
+    "index": 22
+   }
+  },
+  {
+   "qid": "xlrs/data-00004-of-00074/29",
+   "dataset": "xlrs",
+   "question": "Based on satellite imagery and considering the dense urban environment and building layout, is the area at the center of the image suitable for establishing a new public park?",
+   "options": [
+    "Yes, there are open spaces in the central area that can be converted into parks.",
+    "No, the area is too densely built-up to be suitable for a park.",
+    "Yes, the existing infrastructure facilitates easy access to the park.",
+    "No, the area lacks sufficient green spaces for park construction."
+   ],
+   "answer_idx": 0,
+   "image_key": "4:29",
+   "image_sha256": "f6b39db41ac1fdc50bdf92a7f5cdbe926b6660f3024382d786c36f8194ab4d2f",
+   "image_cluster": "f6b39db41ac1fdc5",
+   "category": "Complex reasoning/Environmental condition reasoning",
+   "w": 5616,
+   "h": 3744,
+   "meta": {
+    "path": "ITCVD/00103.jpg",
+    "index": 97
+   }
+  },
+  {
+   "qid": "xlrs/data-00048-of-00074/36",
+   "dataset": "xlrs",
+   "question": "What is the shortest route from the deep blue swimming pool located in the cluster of small houses in the bottom right corner of the image to the longer white building located to its bottom left?",
+   "options": [
+    "Starting from the road on its right side, proceed downwards to the first T-junction. Continue straight at this T-junction and proceed to the second T-junction, then turn left. After turning left, continue for a short distance to reach your destination.",
+    "Starting from the road on its right side, proceed downwards to the first T-junction. Continue straight at this T-junction and head down to the third T-junction, where you should turn left. After turning left, continue for a short distance to reach your destination.",
+    "Starting from the road on its right side, proceed downwards to the first T-junction, continue straight at the T-junction, and after traveling a certain distance downwards, you will arrive at your destination.",
+    "Starting from the road on its right side, drive downwards to the first T-junction, turn right at the T-junction, and continue driving for a while until you arrive."
+   ],
+   "answer_idx": 1,
+   "image_key": "48:36",
+   "image_sha256": "50cc8b907e1e8d6e9d5331d0021f148294dd0781584f65358010f16f05901546",
+   "image_cluster": "50cc8b907e1e8d6e",
+   "category": "Complex reasoning/Route planning",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0355-6785-LA93-0M50-E080.tif",
+    "index": 70
+   }
+  },
+  {
+   "qid": "xlrs/data-00048-of-00074/33",
+   "dataset": "xlrs",
+   "question": "What is the best route from the large rectangular building with a white roof located in the top right corner of the picture to the dock area in the bottom left corner, which features a large open space?",
+   "options": [
+    "Move forward and then turn left at the large intersection.",
+    "Move to the left, then turn down at the second intersection.",
+    "Move forward and then take a right at the first intersection.",
+    "Move to the left, then turn down at the first intersection."
+   ],
+   "answer_idx": 0,
+   "image_key": "48:33",
+   "image_sha256": "aa40111ad2aab72260ec100d492dbd34778bcba138ce72713095049c01193b24",
+   "image_cluster": "aa40111ad2aab722",
+   "category": "Complex reasoning/Route planning",
+   "w": 4096,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P8564.png",
+    "index": 67
+   }
+  },
+  {
+   "qid": "xlrs/data-00049-of-00074/2",
+   "dataset": "xlrs",
+   "question": "What is the best route from the large complex with a white roof in the top right corner of the picture to the triangular building with a dark roof in the bottom left corner?",
+   "options": [
+    "Move diagonally towards the lower left, crossing the open area, and then follow the road to your destination.",
+    "Move straight down, then turn left at the first intersection and continue straight to reach your destination.",
+    "Move straight down, then turn right and follow the road to your destination.",
+    "Move forward and slightly to the right, then take the first left turn to reach your destination."
+   ],
+   "answer_idx": 0,
+   "image_key": "49:2",
+   "image_sha256": "eec3868fe8466530b43294890f764d31e161da3da407c8ac132d72d333f12149",
+   "image_cluster": "eec3868fe8466530",
+   "category": "Complex reasoning/Route planning",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3943.png",
+    "index": 77
+   }
+  },
+  {
+   "qid": "xlrs/data-00047-of-00074/30",
+   "dataset": "xlrs",
+   "question": "What is the best route from the red track field located at the bottom left corner of the picture to the large white-roofed building located in the middle right of the picture?",
+   "options": [
+    "Open area crossing the center of the image along the diagonal.",
+    "Move straight up, then turn right in the open area.",
+    "Move directly to the right, then move upwards through the open space.",
+    "Move upwards, then diagonally to the right through the open area."
+   ],
+   "answer_idx": 3,
+   "image_key": "47:30",
+   "image_sha256": "f553ea44e69a18c62d49dc2018a95e5ab4d6e470ec01e290522322f0beb02202",
+   "image_cluster": "f553ea44e69a18c6",
+   "category": "Complex reasoning/Route planning",
+   "w": 6000,
+   "h": 6000,
+   "meta": {
+    "path": "Potsdam/top_potsdam_6_11_RGB_Potsdam.png",
+    "index": 23
+   }
+  },
+  {
+   "qid": "xlrs/data-00046-of-00074/29",
+   "dataset": "xlrs",
+   "question": "In the areas marked by red circles in the two images, how many differences are there between the buildings?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer_idx": 2,
+   "image_key": "46:29",
+   "image_sha256": "30f94e107dab7011b67892e37674cc7034dc1628ab678ea06f523214214faadc",
+   "image_cluster": "30f94e107dab7011",
+   "category": "Counting/Counting with changing detection",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD-4/35-2006-0345-6750-LA93-changing1.png:HRSCD-4/35-2012-0345-6750-LA93-0M50-E080-changing2.png",
+    "index": 41
+   }
+  },
+  {
+   "qid": "xlrs/data-00046-of-00074/38",
+   "dataset": "xlrs",
+   "question": "In the areas marked by red circles in the two images, how many differences are there between the buildings?",
+   "options": [
+    "6",
+    "5",
+    "4",
+    "3"
+   ],
+   "answer_idx": 3,
+   "image_key": "46:38",
+   "image_sha256": "7180c3cec7d69ed77dc869775baa683fffa382d95b74e60663063e094bbc0268",
+   "image_cluster": "7180c3cec7d69ed7",
+   "category": "Counting/Counting with changing detection",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD-4/35-2006-0345-6800-LA93-changing1.png:HRSCD-4/35-2012-0345-6800-LA93-0M50-E080-changing2.png",
+    "index": 50
+   }
+  },
+  {
+   "qid": "xlrs/data-00019-of-00074/16",
+   "dataset": "xlrs",
+   "question": "How many red boats are docked at the shore in the bottom left of the picture?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer_idx": 0,
+   "image_key": "19:16",
+   "image_sha256": "3bf57363630a940125f0375c1e211eaddd23dc4fa1374f7ea98bd4c5a8f0c123",
+   "image_cluster": "3bf57363630a9401",
+   "category": "Counting/Counting with complex reasoning",
+   "w": 4096,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P6154.png",
+    "index": 54
+   }
+  },
+  {
+   "qid": "xlrs/data-00018-of-00074/26",
+   "dataset": "xlrs",
+   "question": "How many unfinished soccer fields are there at the top of the picture?",
+   "options": [
+    "4",
+    "2",
+    "1",
+    "3"
+   ],
+   "answer_idx": 1,
+   "image_key": "18:26",
+   "image_sha256": "7d4472c47d8d36cd495bd0b55ca06d7300c0345fef1a2004bda9a23bbb5dc82a",
+   "image_cluster": "7d4472c47d8d36cd",
+   "category": "Counting/Counting with complex reasoning",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0365-6705-LA93-0M50-E080.jp2.tif",
+    "index": 22
+   }
+  },
+  {
+   "qid": "xlrs/data-00019-of-00074/24",
+   "dataset": "xlrs",
+   "question": "How many boats are there in the river channel at the center of the picture?",
+   "options": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ],
+   "answer_idx": 3,
+   "image_key": "19:24",
+   "image_sha256": "c5ceb39aaae316b6259d17135d59326149cd45b842e5c1a1073b04ec05fbf793",
+   "image_cluster": "c5ceb39aaae316b6",
+   "category": "Counting/Counting with complex reasoning",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7491.png",
+    "index": 62
+   }
+  },
+  {
+   "qid": "xlrs/data-00017-of-00074/5",
+   "dataset": "xlrs",
+   "question": "How many cars are there in the entire picture?",
+   "options": [
+    "143",
+    "162",
+    "124",
+    "105"
+   ],
+   "answer_idx": 2,
+   "image_key": "17:5",
+   "image_sha256": "3217f0eec80fd51e060d8d5f49ae69ea52a490c7921d242993963650be661291",
+   "image_cluster": "3217f0eec80fd51e",
+   "category": "Counting/Overall counting",
+   "w": 6000,
+   "h": 6000,
+   "meta": {
+    "path": "Potsdam/top_potsdam_2_12_RGB_Potsdam.png",
+    "index": 19
+   }
+  },
+  {
+   "qid": "xlrs/data-00017-of-00074/4",
+   "dataset": "xlrs",
+   "question": "How many boats are there in the entire picture?",
+   "options": [
+    "2",
+    "5",
+    "7",
+    "9"
+   ],
+   "answer_idx": 3,
+   "image_key": "17:4",
+   "image_sha256": "47bc3568bbc297d703923d9f35f96fd63e36508764c31c924d8bfb2c7fb9d0f1",
+   "image_cluster": "47bc3568bbc297d7",
+   "category": "Counting/Overall counting",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0310-6705-LA93-0M50-E080.jp2.tif",
+    "index": 18
+   }
+  },
+  {
+   "qid": "xlrs/data-00017-of-00074/12",
+   "dataset": "xlrs",
+   "question": "How many buildings in the shape of the character \"回\" are there in the entire image?",
+   "options": [
+    "11",
+    "12",
+    "13",
+    "14"
+   ],
+   "answer_idx": 3,
+   "image_key": "17:12",
+   "image_sha256": "a7a87dbcfa49b7577f42b1a45e74a99584bab626f929999c58bfe765f3005bea",
+   "image_cluster": "a7a87dbcfa49b757",
+   "category": "Counting/Overall counting",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5790.png",
+    "index": 26
+   }
+  },
+  {
+   "qid": "xlrs/data-00073-of-00074/33",
+   "dataset": "xlrs",
+   "question": "How many plots of land are there within the red circle area?",
+   "options": [
+    "8",
+    "9",
+    "7",
+    "6"
+   ],
+   "answer_idx": 1,
+   "image_key": "73:33",
+   "image_sha256": "b90f8e566effcfed874940178693c1a731b126c56e30e45439ded32f796b3ff5",
+   "image_cluster": "441e2c9f9566b57e",
+   "category": "Counting/Regional counting",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD-2006-3/35-2006-0335-6820-LA93-1.png",
+    "index": 92
+   }
+  },
+  {
+   "qid": "xlrs/data-00071-of-00074/28",
+   "dataset": "xlrs",
+   "question": "How many trees are there inside the red circle?",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "7"
+   ],
+   "answer_idx": 0,
+   "image_key": "71:28",
+   "image_sha256": "76fa48b38184f1b76c901329c918fbd5332434234038602d4ed7e01924acae2b",
+   "image_cluster": "46db869e293cba2c",
+   "category": "Counting/Regional counting",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD-2012-3/35-2012-0375-6795-LA93-0M50-E080.tif",
+    "index": 5
+   }
+  },
+  {
+   "qid": "xlrs/data-00072-of-00074/21",
+   "dataset": "xlrs",
+   "question": "How many solar panels are there in the red-circled area?",
+   "options": [
+    "4",
+    "3",
+    "6",
+    "5"
+   ],
+   "answer_idx": 2,
+   "image_key": "72:21",
+   "image_sha256": "6178af9f5146b9da238061bc891c9d71d22683902d61d7e1e3abd31e30fc4ce5",
+   "image_cluster": "59c2c57e49d47cca",
+   "category": "Counting/Regional counting",
+   "w": 5616,
+   "h": 3744,
+   "meta": {
+    "path": "ITCVD-3/00023-1.png",
+    "index": 39
+   }
+  },
+  {
+   "qid": "xlrs/data-00051-of-00074/34",
+   "dataset": "xlrs",
+   "question": "Select the options that best represent the types of land use depicted in the image.",
+   "options": [
+    "Airport Terminal",
+    "Construction Site",
+    "Multi-unit residential buildings",
+    "Parking Lot or Garage"
+   ],
+   "answer_idx": 1,
+   "image_key": "51:34",
+   "image_sha256": "0dd332f28586e76d28a7a2b980b5345b0f0ce90b04b67a0d5af5c4687392f4d8",
+   "image_cluster": "0dd332f28586e76d",
+   "category": "Land use classification/Overall Land use classification",
+   "w": 4096,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P6942.png",
+    "index": 91
+   }
+  },
+  {
+   "qid": "xlrs/data-00051-of-00074/20",
+   "dataset": "xlrs",
+   "question": "Select the options that best represent the types of land use depicted in the image.",
+   "options": [
+    "Multi-unit residential buildings",
+    "Farmland",
+    "Lakes or Ponds",
+    "Parking Lot or Garage"
+   ],
+   "answer_idx": 1,
+   "image_key": "51:20",
+   "image_sha256": "1651a4c396359dd650ef081c4e06edf128bb55e4022bd3fb6a0679f6c9e915c4",
+   "image_cluster": "1651a4c396359dd6",
+   "category": "Land use classification/Overall Land use classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/59-2012-0740-7030-LA93-0M50-E080.jp2.tif",
+    "index": 77
+   }
+  },
+  {
+   "qid": "xlrs/data-00051-of-00074/18",
+   "dataset": "xlrs",
+   "question": "Select all land use types that best represent those depicted in the image. Ensure to include all types present in the picture.",
+   "options": [
+    "Parking Lot or Garage",
+    "Residential unit",
+    "Ruins or Debris",
+    "Multi-unit residential buildings"
+   ],
+   "answer_idx": 0,
+   "image_key": "51:18",
+   "image_sha256": "5053d397b25f5c79f34617efbc03db78ffdcf1e2214307af70f4ba47bffdb6a8",
+   "image_cluster": "5053d397b25f5c79",
+   "category": "Land use classification/Overall Land use classification",
+   "w": 5616,
+   "h": 3744,
+   "meta": {
+    "path": "ITCVD/00094.jpg",
+    "index": 75
+   }
+  },
+  {
+   "qid": "xlrs/data-00050-of-00074/25",
+   "dataset": "xlrs",
+   "question": "Select all land use types that best represent those depicted in the image. Ensure to include all types present in the picture.",
+   "options": [
+    "Residential unit",
+    "Farmland",
+    "Interchange Overpass",
+    "Shopping Mall"
+   ],
+   "answer_idx": 0,
+   "image_key": "50:25",
+   "image_sha256": "b00ff05f38df3507369743cc2e0948413ff3c04bf096a465472cd2541bb0c3dd",
+   "image_cluster": "b00ff05f38df3507",
+   "category": "Land use classification/Overall Land use classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0340-6715-LA93-0M50-E080.jp2.tif",
+    "index": 41
+   }
+  },
+  {
+   "qid": "xlrs/data-00022-of-00074/25",
+   "dataset": "xlrs",
+   "question": "Select the type of land marked with a red circle in the image.",
+   "options": [
+    "Office Building",
+    "Residential unit",
+    "Poverty-stricken residential areas",
+    "Multi-unit residential buildings"
+   ],
+   "answer_idx": 1,
+   "image_key": "22:25",
+   "image_sha256": "8ccc59b8e8833282b9b9e0804a1f2a2644def9293d3e6387db22f77f610faf19",
+   "image_cluster": "01a797ec2ea92ff4",
+   "category": "Land use classification/Regional Land use classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance-2/62-2012-0680-7060-LA93-0M50-E080.jp2-2.tif",
+    "index": 29
+   }
+  },
+  {
+   "qid": "xlrs/data-00025-of-00074/7",
+   "dataset": "xlrs",
+   "question": "Select the type of land in the area marked with a red circle.",
+   "options": [
+    "Multi-unit residential buildings",
+    "Entertainment Facilities",
+    "Parking Lot or Garage",
+    "Shopping Mall"
+   ],
+   "answer_idx": 2,
+   "image_key": "25:7",
+   "image_sha256": "58d01fa29054879f67b5e53f480b73973734564a57d1b033061cae6f0c10bc81",
+   "image_cluster": "0638303301704df2",
+   "category": "Land use classification/Regional Land use classification",
+   "w": 5616,
+   "h": 3744,
+   "meta": {
+    "path": "ITCVD-2/00014-2.png",
+    "index": 137
+   }
+  },
+  {
+   "qid": "xlrs/data-00026-of-00074/3",
+   "dataset": "xlrs",
+   "question": "Select the type of land marked with a red circle in the image.",
+   "options": [
+    "Multi-unit residential buildings",
+    "Residential unit",
+    "Poverty-stricken residential areas",
+    "Interchange Overpass"
+   ],
+   "answer_idx": 1,
+   "image_key": "26:3",
+   "image_sha256": "175f7b82d88d9b46bffa20dd0d7fc6d5f514900278d92090c74a84a5bc41e904",
+   "image_cluster": "175f7b82d88d9b46",
+   "category": "Land use classification/Regional Land use classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD-2006-2/35-2006-0355-6780-LA93-1.tif",
+    "index": 175
+   }
+  },
+  {
+   "qid": "xlrs/data-00024-of-00074/28",
+   "dataset": "xlrs",
+   "question": "Select the type of land marked with a red circle in the image.",
+   "options": [
+    "Office Building",
+    "Poverty-stricken residential areas",
+    "Multi-unit residential buildings",
+    "Residential unit"
+   ],
+   "answer_idx": 3,
+   "image_key": "24:28",
+   "image_sha256": "873c8e162bbef42c97e4b48d5347a50962634aaeae11c1b09722a18de78fe678",
+   "image_cluster": "873c8e162bbef42c",
+   "category": "Land use classification/Regional Land use classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance-2/62-2012-0705-7010-LA93-0M50-E080.jp2-1.tif",
+    "index": 116
+   }
+  },
+  {
+   "qid": "xlrs/data-00025-of-00074/24",
+   "dataset": "xlrs",
+   "question": "Select the type of land in the area marked with a red circle.",
+   "options": [
+    "Parking Lot or Garage",
+    "Entertainment Facilities",
+    "Multi-unit residential buildings",
+    "Shopping Mall"
+   ],
+   "answer_idx": 0,
+   "image_key": "25:24",
+   "image_sha256": "8ef026e64c9127ae5c23e71c86d4ea7f5b1fb36459b60f9824655856a5c3e333",
+   "image_cluster": "8ef026e64c9127ae",
+   "category": "Land use classification/Regional Land use classification",
+   "w": 5616,
+   "h": 3744,
+   "meta": {
+    "path": "ITCVD-2/00037-2.png",
+    "index": 154
+   }
+  },
+  {
+   "qid": "xlrs/data-00024-of-00074/38",
+   "dataset": "xlrs",
+   "question": "Select the type of land marked with a red circle in the image.",
+   "options": [
+    "Open-Pit Mine",
+    "Lakes or Ponds",
+    "Swimming Pool",
+    "Flooded Roads"
+   ],
+   "answer_idx": 1,
+   "image_key": "24:38",
+   "image_sha256": "b8767ee2e40dfc845bf68c43e6d9779c72499dacc488e03f5095e71cacda756e",
+   "image_cluster": "b8767ee2e40dfc84",
+   "category": "Land use classification/Regional Land use classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD-2012-2/35-2012-0365-6770-LA93-0M50-E080-2.tif",
+    "index": 126
+   }
+  },
+  {
+   "qid": "xlrs/data-00068-of-00074/25",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 4097 x 4096. Bounding box: [2783, 2163, 2819, 2214].",
+   "options": [
+    "The Blue Swimming Pool",
+    "Orange Roofs",
+    "Black Roof",
+    "The Blue Ocean"
+   ],
+   "answer_idx": 1,
+   "image_key": "68:25",
+   "image_sha256": "9102a561ef1d3782cae394ab1566d7bf473da3eb439c74085a0b5777dddfc3cb",
+   "image_cluster": "08900ced46449d99",
+   "category": "Object properties/Object classification",
+   "w": 4097,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P2949.png",
+    "index": 679
+   }
+  },
+  {
+   "qid": "xlrs/data-00062-of-00074/39",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 4097 x 4096. Bounding box: [1849, 1340, 1912, 1381].",
+   "options": [
+    "The White Boat",
+    "Green grassland",
+    "Black Roof",
+    "The Blue Ocean"
+   ],
+   "answer_idx": 2,
+   "image_key": "62:39",
+   "image_sha256": "091eadf49a61c0b8da3f63d04e265baa2df6c5723001f6a91944d937cc14e16f",
+   "image_cluster": "091eadf49a61c0b8",
+   "category": "Object properties/Object classification",
+   "w": 4097,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P6776.png",
+    "index": 447
+   }
+  },
+  {
+   "qid": "xlrs/data-00056-of-00074/40",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 4096 x 4096. Bounding box: [385, 2334, 536, 2468].",
+   "options": [
+    "Green grassland",
+    "White Roofs",
+    "The Blue Ocean",
+    "The Red Boat"
+   ],
+   "answer_idx": 0,
+   "image_key": "56:40",
+   "image_sha256": "0aec281b874b6f7ba74baee3caf93419d6cce854d0db3d49acb5009c13ad9ed4",
+   "image_cluster": "0aec281b874b6f7b",
+   "category": "Object properties/Object classification",
+   "w": 4096,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3362.png",
+    "index": 202
+   }
+  },
+  {
+   "qid": "xlrs/data-00052-of-00074/19",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [8050, 9681, 8104, 9736].",
+   "options": [
+    "The Red Roof",
+    "Orange Roof",
+    "Yellow Roof",
+    "Fields of green crops"
+   ],
+   "answer_idx": 0,
+   "image_key": "52:19",
+   "image_sha256": "0b517def397f37ade7aa09342486390102445835fef755a18c39c2487dd79f09",
+   "image_cluster": "0b517def397f37ad",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/59-2012-0730-7035-LA93-0M50-E080.jp2.tif",
+    "index": 17
+   }
+  },
+  {
+   "qid": "xlrs/data-00067-of-00074/9",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 4097 x 4096. Bounding box: [1358, 2009, 1486, 2052].",
+   "options": [
+    "Green grassland",
+    "The Black Boat",
+    "Black Roof",
+    "Orange Roofs"
+   ],
+   "answer_idx": 2,
+   "image_key": "67:9",
+   "image_sha256": "1bfa33d92e766410c742537fca351a79a0576c726e6fe713f4282235cd929c77",
+   "image_cluster": "1bfa33d92e766410",
+   "category": "Object properties/Object classification",
+   "w": 4097,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5069.png",
+    "index": 622
+   }
+  },
+  {
+   "qid": "xlrs/data-00066-of-00074/26",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [1421, 1538, 1754, 1814].",
+   "options": [
+    "The Green Lake",
+    "The Blue Lake",
+    "The Green Swimming Pool",
+    "The Azure Lake"
+   ],
+   "answer_idx": 0,
+   "image_key": "66:26",
+   "image_sha256": "1ef939ab2ba52f0743991f0968d8aa22bdd3feccd8781ec2bfdb2f1ae3f92b21",
+   "image_cluster": "1ef939ab2ba52f07",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2006/35-2006-0370-6770-LA93.tif",
+    "index": 598
+   }
+  },
+  {
+   "qid": "xlrs/data-00066-of-00074/36",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [5105, 1841, 5122, 1860].",
+   "options": [
+    "Red Containers",
+    "Orange Buildings",
+    "White buildings",
+    "Green Buildings"
+   ],
+   "answer_idx": 2,
+   "image_key": "66:36",
+   "image_sha256": "238ccf42a84212f2ee5a61fabe5cd06878e6227e9fc5b3b623456d052ba81365",
+   "image_cluster": "238ccf42a84212f2",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/56-2013-0310-6740-LA93-0M50-E080.jp2.tif",
+    "index": 608
+   }
+  },
+  {
+   "qid": "xlrs/data-00066-of-00074/23",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 4097 x 4096. Bounding box: [1813, 1706, 2104, 1830].",
+   "options": [
+    "The Orange Boat",
+    "Black Roof",
+    "Green grassland",
+    "The Blue Ocean"
+   ],
+   "answer_idx": 2,
+   "image_key": "66:23",
+   "image_sha256": "34799c265d740c4036fc12959aeb586e3ba29f23da01953745d7b74044909ff8",
+   "image_cluster": "34799c265d740c40",
+   "category": "Object properties/Object classification",
+   "w": 4097,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11131.png",
+    "index": 595
+   }
+  },
+  {
+   "qid": "xlrs/data-00057-of-00074/15",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 4096 x 4096. Bounding box: [2055, 3832, 2233, 3878].",
+   "options": [
+    "The White Boat",
+    "The Red Roof",
+    "Green grassland",
+    "The Blue Ocean"
+   ],
+   "answer_idx": 1,
+   "image_key": "57:15",
+   "image_sha256": "4725c2bb67ec5aaf30e241923f89ec1cbbeaf2936c0f99497f2e786d4207703f",
+   "image_cluster": "4725c2bb67ec5aaf",
+   "category": "Object properties/Object classification",
+   "w": 4096,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10475.png",
+    "index": 218
+   }
+  },
+  {
+   "qid": "xlrs/data-00067-of-00074/26",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [2439, 754, 2516, 847].",
+   "options": [
+    "Gray Containers",
+    "Orange Roof",
+    "White buildings",
+    "Green Forests"
+   ],
+   "answer_idx": 2,
+   "image_key": "67:26",
+   "image_sha256": "56e416952823c3ae420e1c13479c3577b503afe9688d036180ce9fb0481eba5c",
+   "image_cluster": "56e416952823c3ae",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0350-6810-LA93-0M50-E080.tif",
+    "index": 639
+   }
+  },
+  {
+   "qid": "xlrs/data-00071-of-00074/4",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 7360 x 4912. Bounding box: [2066, 1623, 2769, 2008].",
+   "options": [
+    "White cars",
+    "Gray rooftops",
+    "Black Roof",
+    "Green grassland"
+   ],
+   "answer_idx": 2,
+   "image_key": "71:4",
+   "image_sha256": "e915b4b8b32761a1cd30c430fdc90acf6c1d21d48e1c5ca1d4f7c16bbe551a3a",
+   "image_cluster": "6cc64ed27291fb04",
+   "category": "Object properties/Object classification",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P10179.png",
+    "index": 781
+   }
+  },
+  {
+   "qid": "xlrs/data-00052-of-00074/13",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [4717, 8494, 5009, 9092].",
+   "options": [
+    "Black Roof",
+    "The Blue Ocean",
+    "Green grassland",
+    "Yellow Land"
+   ],
+   "answer_idx": 2,
+   "image_key": "52:13",
+   "image_sha256": "76d3ab10a328fc504636e28ae2b0adbb29b56d98c33af7bd7eeed8f766378977",
+   "image_cluster": "76d3ab10a328fc50",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2006/35-2006-0345-6765-LA93.tif",
+    "index": 11
+   }
+  },
+  {
+   "qid": "xlrs/data-00065-of-00074/8",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [1542, 2925, 1617, 2987].",
+   "options": [
+    "Red buildings",
+    "Orange Buildings",
+    "White buildings",
+    "Green Buildings"
+   ],
+   "answer_idx": 0,
+   "image_key": "65:8",
+   "image_sha256": "7e743b181fec4400af5c6d7c2a28f9466c287b8aba9cc22e29fd323872db3987",
+   "image_cluster": "7e743b181fec4400",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0365-6665-LA93-0M50-E080.jp2.tif",
+    "index": 539
+   }
+  },
+  {
+   "qid": "xlrs/data-00054-of-00074/30",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 7360 x 4912. Bounding box: [5143, 606, 5171, 650].",
+   "options": [
+    "White cars",
+    "White Roofs",
+    "Black Roof",
+    "The red car"
+   ],
+   "answer_idx": 3,
+   "image_key": "54:30",
+   "image_sha256": "815aa1cea9e7d1bfb7ad36af5218ff49c46b516ad2d961b34e1e6405136202d5",
+   "image_cluster": "815aa1cea9e7d1bf",
+   "category": "Object properties/Object classification",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P9560.png",
+    "index": 110
+   }
+  },
+  {
+   "qid": "xlrs/data-00054-of-00074/27",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [2715, 874, 2726, 880].",
+   "options": [
+    "The Blue Lake",
+    "The White Car",
+    "The gray car",
+    "The grayish-white car"
+   ],
+   "answer_idx": 1,
+   "image_key": "54:27",
+   "image_sha256": "924205cfac425cb4906300df70bd427ef0b883a23d6b2acec0d21ae2591c86b5",
+   "image_cluster": "924205cfac425cb4",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0385-6715-LA93-0M50-E080.jp2.tif",
+    "index": 107
+   }
+  },
+  {
+   "qid": "xlrs/data-00052-of-00074/26",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [7190, 5760, 7205, 5782].",
+   "options": [
+    "Fields of green crops",
+    "The Blue Swimming Pool",
+    "The Green Swimming Pool",
+    "The Green Lake"
+   ],
+   "answer_idx": 1,
+   "image_key": "52:26",
+   "image_sha256": "988b3b5f7716f30b82a2cfe6bda150c627e2f75f2d974d8649ef4dc1dc643790",
+   "image_cluster": "988b3b5f7716f30b",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0360-6775-LA93-0M50-E080.tif",
+    "index": 24
+   }
+  },
+  {
+   "qid": "xlrs/data-00068-of-00074/10",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 7360 x 4912. Bounding box: [2797, 2551, 3147, 3315].",
+   "options": [
+    "Green Roofs",
+    "Red Trees",
+    "Green Trees",
+    "Green Lawn"
+   ],
+   "answer_idx": 3,
+   "image_key": "68:10",
+   "image_sha256": "a85d705680f42d539ba4d7b41afe907611f2f3cecd2097593eccf6951b25cccc",
+   "image_cluster": "a85d705680f42d53",
+   "category": "Object properties/Object classification",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P7438.png",
+    "index": 664
+   }
+  },
+  {
+   "qid": "xlrs/data-00059-of-00074/34",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [4716, 3373, 4729, 3383].",
+   "options": [
+    "The Blue Lake",
+    "The White Car",
+    "The gray car",
+    "The grayish-white car"
+   ],
+   "answer_idx": 1,
+   "image_key": "59:34",
+   "image_sha256": "f8b1cf96b52701ce66e9cf8b5a78a808103e08fe0dd8eb2fb543ab8bbd650055",
+   "image_cluster": "b707d1f27d2c58da",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0395-6705-LA93-0M50-E080.jp2.tif",
+    "index": 319
+   }
+  },
+  {
+   "qid": "xlrs/data-00059-of-00074/38",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [8837, 3690, 8885, 3758].",
+   "options": [
+    "Earthy yellow plots",
+    "Orange Buildings",
+    "Gray buildings",
+    "The Green Pond"
+   ],
+   "answer_idx": 2,
+   "image_key": "59:38",
+   "image_sha256": "bc3e2040c927f369c12f55715658980369a30b43e69b4925de3f8b6110988421",
+   "image_cluster": "bc3e2040c927f369",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0355-6735-LA93-0M50-E080.jp2.tif",
+    "index": 323
+   }
+  },
+  {
+   "qid": "xlrs/data-00054-of-00074/1",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [9218, 7222, 9240, 7265].",
+   "options": [
+    "Red Containers",
+    "Orange Buildings",
+    "White buildings",
+    "Green Buildings"
+   ],
+   "answer_idx": 2,
+   "image_key": "54:1",
+   "image_sha256": "c0765d94266e083e30fbe668c084d59193d33c3f6d42e15cafd29f7f0ee4ae46",
+   "image_cluster": "c0765d94266e083e",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0345-6655-LA93-0M50-E080.jp2.tif",
+    "index": 81
+   }
+  },
+  {
+   "qid": "xlrs/data-00063-of-00074/30",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [2708, 1116, 2947, 1414].",
+   "options": [
+    "The Red Roof",
+    "Green grassland",
+    "Yellow Land",
+    "The Blue Ocean"
+   ],
+   "answer_idx": 1,
+   "image_key": "63:30",
+   "image_sha256": "c818cea2180a343a850ce2471ea3b85bed0d357da3de4acdaacca4d2ca238391",
+   "image_cluster": "c818cea2180a343a",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0345-6745-LA93-0M50-E080.tif",
+    "index": 479
+   }
+  },
+  {
+   "qid": "xlrs/data-00052-of-00074/3",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [6218, 7868, 6413, 8124].",
+   "options": [
+    "Black Roof",
+    "The Blue Ocean",
+    "Green grassland",
+    "Yellow Land"
+   ],
+   "answer_idx": 2,
+   "image_key": "52:3",
+   "image_sha256": "ceff60b6202759e56fca258e9dbb7eeb8af20fcb8d0ff022609de6e65b0b04f3",
+   "image_cluster": "ceff60b6202759e5",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0330-6830-LA93-0M50-E080.tif",
+    "index": 1
+   }
+  },
+  {
+   "qid": "xlrs/data-00064-of-00074/24",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [3493, 8448, 3533, 8484].",
+   "options": [
+    "Red Containers",
+    "Orange Buildings",
+    "White buildings",
+    "Green Buildings"
+   ],
+   "answer_idx": 1,
+   "image_key": "64:24",
+   "image_sha256": "cf6d3cf5831dfcaa808e792dccc5509f1008640f1fc6fa64a9c49efe9712b917",
+   "image_cluster": "cf6d3cf5831dfcaa",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/29-2012-0160-6850-LA93-0M50-E080.jp2.tif",
+    "index": 514
+   }
+  },
+  {
+   "qid": "xlrs/data-00068-of-00074/19",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 4097 x 4096. Bounding box: [2150, 1082, 2173, 1104].",
+   "options": [
+    "Green grassland",
+    "Black Roof",
+    "Green trees",
+    "White Roofs"
+   ],
+   "answer_idx": 2,
+   "image_key": "68:19",
+   "image_sha256": "e0d1cd93586f467244924ad8ad9addaee5faea274b7f4b49da269b848c3ab7c4",
+   "image_cluster": "e0d1cd93586f4672",
+   "category": "Object properties/Object classification",
+   "w": 4097,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P3472.png",
+    "index": 673
+   }
+  },
+  {
+   "qid": "xlrs/data-00065-of-00074/28",
+   "dataset": "xlrs",
+   "question": "Identify the object category within the given bounding box in the satellite or aerial image. Image resolution: 10000 x 10000. Bounding box: [6954, 2632, 6970, 2655].",
+   "options": [
+    "Red Containers",
+    "Orange Buildings",
+    "White buildings",
+    "Green Buildings"
+   ],
+   "answer_idx": 1,
+   "image_key": "65:28",
+   "image_sha256": "faea5bb17f30f32350014250e4707ad4608281d21d4278b8d3afd3606fa98aec",
+   "image_cluster": "faea5bb17f30f323",
+   "category": "Object properties/Object classification",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0350-6685-LA93-0M50-E080.jp2.tif",
+    "index": 559
+   }
+  },
+  {
+   "qid": "xlrs/data-00033-of-00074/40",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 7360 x 4912. Bounding box: [5383, 695, 5945, 1273].",
+   "options": [
+    "Red",
+    "Silver",
+    "Pink",
+    "Blue"
+   ],
+   "answer_idx": 0,
+   "image_key": "33:40",
+   "image_sha256": "105953192c725b60040059494040762838bef45744cf8d729669f647785ffa00",
+   "image_cluster": "105953192c725b60",
+   "category": "Object properties/Object color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P3009.png",
+    "index": 306
+   }
+  },
+  {
+   "qid": "xlrs/data-00031-of-00074/38",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [896, 6804, 914, 6821].",
+   "options": [
+    "Red",
+    "Orange color",
+    "White",
+    "Green"
+   ],
+   "answer_idx": 1,
+   "image_key": "31:38",
+   "image_sha256": "af0cbdaddb733c127cd6ed5e3bddfa45c759a98e736f39ca011bf2ef56d64df6",
+   "image_cluster": "10cca06a8b58ba0f",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0345-6750-LA93-0M50-E080.jp2.tif",
+    "index": 220
+   }
+  },
+  {
+   "qid": "xlrs/data-00026-of-00074/34",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [3499, 5692, 3522, 5717].",
+   "options": [
+    "Red",
+    "Orange color",
+    "White",
+    "Green"
+   ],
+   "answer_idx": 1,
+   "image_key": "26:34",
+   "image_sha256": "27d5f92766b440c84f707c277e499c7c13b1474d248ab4d08c30f6d278ff0c61",
+   "image_cluster": "27d5f92766b440c8",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/29-2012-0180-6870-LA93-0M50-E080.jp2.tif",
+    "index": 6
+   }
+  },
+  {
+   "qid": "xlrs/data-00035-of-00074/29",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [6841, 5843, 7104, 6106].",
+   "options": [
+    "Green",
+    "White",
+    "Gray",
+    "Blue"
+   ],
+   "answer_idx": 0,
+   "image_key": "35:29",
+   "image_sha256": "39c0ce99c08c17c15351e9b2226ab4c105a539e9a8fe4a9c0c2a27fd02980151",
+   "image_cluster": "39c0ce99c08c17c1",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0370-6805-LA93-0M50-E080.tif",
+    "index": 379
+   }
+  },
+  {
+   "qid": "xlrs/data-00029-of-00074/21",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [5612, 6007, 5627, 6027].",
+   "options": [
+    "Red",
+    "Blue",
+    "White",
+    "Green"
+   ],
+   "answer_idx": 1,
+   "image_key": "29:21",
+   "image_sha256": "44de5a83265c758fd51f785d1020a6012ccc5340dbc519cbe1ac99207efa3693",
+   "image_cluster": "44de5a83265c758f",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0300-6705-LA93-0M50-E080.jp2.tif",
+    "index": 119
+   }
+  },
+  {
+   "qid": "xlrs/data-00026-of-00074/29",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [4275, 7278, 4338, 7369].",
+   "options": [
+    "Red",
+    "Orange color",
+    "Blue",
+    "Green"
+   ],
+   "answer_idx": 2,
+   "image_key": "26:29",
+   "image_sha256": "60aadd3d195d4df63e9483d1f562ee65bab1b37c367024ec86ddbb7bc4e38477",
+   "image_cluster": "60aadd3d195d4df6",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0395-6730-LA93-0M50-E080.jp2.tif",
+    "index": 1
+   }
+  },
+  {
+   "qid": "xlrs/data-00032-of-00074/13",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [3602, 1122, 3827, 1877].",
+   "options": [
+    "White",
+    "Green",
+    "Yellow",
+    "Red"
+   ],
+   "answer_idx": 1,
+   "image_key": "32:13",
+   "image_sha256": "64983df92d3be3eb43753e279e4d6fdb04a586019e5f5cb1a5e80cd30c48be4d",
+   "image_cluster": "64983df92d3be3eb",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0340-6820-LA93-0M50-E080.tif",
+    "index": 237
+   }
+  },
+  {
+   "qid": "xlrs/data-00040-of-00074/2",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [4107, 3755, 4341, 4267].",
+   "options": [
+    "White",
+    "Green",
+    "Yellow",
+    "Red"
+   ],
+   "answer_idx": 1,
+   "image_key": "40:2",
+   "image_sha256": "7c55e003ca829464612a1830c977d125e51a1e4d317505df4864d34d712fd5cd",
+   "image_cluster": "7c55e003ca829464",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0335-6790-LA93-0M50-E080.tif",
+    "index": 562
+   }
+  },
+  {
+   "qid": "xlrs/data-00035-of-00074/11",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [9575, 6197, 9657, 6248].",
+   "options": [
+    "Black",
+    "Green",
+    "White",
+    "Gray"
+   ],
+   "answer_idx": 0,
+   "image_key": "35:11",
+   "image_sha256": "86c9051f65b04aeed55ea2d76b183426d3a02fc951912778c06af7f24f8f90e7",
+   "image_cluster": "86c9051f65b04aee",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0345-6830-LA93-0M50-E080.tif",
+    "index": 361
+   }
+  },
+  {
+   "qid": "xlrs/data-00034-of-00074/36",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [3367, 7512, 3401, 7546].",
+   "options": [
+    "Red",
+    "Orange color",
+    "White",
+    "Green"
+   ],
+   "answer_idx": 0,
+   "image_key": "34:36",
+   "image_sha256": "8e2037e6e1876845e1076b3e2505b91c389589b08a310851de5a01aee6612079",
+   "image_cluster": "8e2037e6e1876845",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0315-6710-LA93-0M50-E080.jp2.tif",
+    "index": 344
+   }
+  },
+  {
+   "qid": "xlrs/data-00032-of-00074/16",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [5974, 616, 6000, 652].",
+   "options": [
+    "Red",
+    "Orange color",
+    "White",
+    "Gray"
+   ],
+   "answer_idx": 3,
+   "image_key": "32:16",
+   "image_sha256": "91447fd4a6db3bfca3a936d9ccd04d4ed11bd44581fdb8fc57ba16cac61f879d",
+   "image_cluster": "91447fd4a6db3bfc",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/14-2012-0420-6895-LA93-0M50-E080.jp2.tif",
+    "index": 240
+   }
+  },
+  {
+   "qid": "xlrs/data-00036-of-00074/25",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [8596, 8429, 8636, 8470].",
+   "options": [
+    "Green",
+    "White",
+    "Gray",
+    "Yellow"
+   ],
+   "answer_idx": 0,
+   "image_key": "36:25",
+   "image_sha256": "99fea14965ae5c0c0b2a0f0ace53b8aee3b5ba51d418dfddb3b12fc97f875811",
+   "image_cluster": "99fea14965ae5c0c",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0365-6815-LA93-0M50-E080.tif",
+    "index": 417
+   }
+  },
+  {
+   "qid": "xlrs/data-00030-of-00074/13",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 4096 x 4096. Bounding box: [2037, 3950, 2104, 3990].",
+   "options": [
+    "Purple",
+    "Blue",
+    "White",
+    "Red"
+   ],
+   "answer_idx": 2,
+   "image_key": "30:13",
+   "image_sha256": "bf4f5da86d6413bcce47d2df120817842fef40086c086765e7b9223467076f80",
+   "image_cluster": "bf4f5da86d6413bc",
+   "category": "Object properties/Object color",
+   "w": 4096,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11190.png",
+    "index": 153
+   }
+  },
+  {
+   "qid": "xlrs/data-00034-of-00074/1",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [8403, 2811, 8816, 3301].",
+   "options": [
+    "Pink",
+    "Blue",
+    "Blue",
+    "Green"
+   ],
+   "answer_idx": 3,
+   "image_key": "34:1",
+   "image_sha256": "c2be3cfea27be679a2001cac32e1d79f923f4c5692a4a42f724f570e5918bf10",
+   "image_cluster": "c2be3cfea27be679",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0380-6705-LA93-0M50-E080.jp2.tif",
+    "index": 309
+   }
+  },
+  {
+   "qid": "xlrs/data-00026-of-00074/38",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [5522, 2057, 5581, 2108].",
+   "options": [
+    "Green",
+    "Blue",
+    "White",
+    "Black"
+   ],
+   "answer_idx": 0,
+   "image_key": "26:38",
+   "image_sha256": "c7dbf0779681ac7566113f281c72dd56c64d36d37432975d983b846e9113ee52",
+   "image_cluster": "c7dbf0779681ac75",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2006/14-2005-0415-6900-LA93.tif",
+    "index": 10
+   }
+  },
+  {
+   "qid": "xlrs/data-00037-of-00074/15",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [3270, 5920, 3352, 6028].",
+   "options": [
+    "Red",
+    "Blue",
+    "White",
+    "Green"
+   ],
+   "answer_idx": 1,
+   "image_key": "37:15",
+   "image_sha256": "e041f54cb7a34482c69d59518430d74294b1d555afa296cc47deee8de47fa3b6",
+   "image_cluster": "e041f54cb7a34482",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/59-2012-0725-7030-LA93-0M50-E080.jp2.tif",
+    "index": 449
+   }
+  },
+  {
+   "qid": "xlrs/data-00039-of-00074/34",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [8877, 2465, 8893, 2482].",
+   "options": [
+    "Red",
+    "Blue",
+    "White",
+    "Green"
+   ],
+   "answer_idx": 1,
+   "image_key": "39:34",
+   "image_sha256": "ed9032e9d6f65a4e56f1b56bc46ced04584e7417fa638e7babf86bf9f50095cf",
+   "image_cluster": "ed9032e9d6f65a4e",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/56-2013-0310-6755-LA93-0M50-E080.jp2.tif",
+    "index": 552
+   }
+  },
+  {
+   "qid": "xlrs/data-00043-of-00074/31",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [4809, 3392, 5244, 3742].",
+   "options": [
+    "White",
+    "Green",
+    "Yellow",
+    "Red"
+   ],
+   "answer_idx": 1,
+   "image_key": "43:31",
+   "image_sha256": "f3123dfcb824b32395559a45c783a5fdbfc3413665b593c710225ad9d088d343",
+   "image_cluster": "f3123dfcb824b323",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0335-6795-LA93-0M50-E080.tif",
+    "index": 717
+   }
+  },
+  {
+   "qid": "xlrs/data-00043-of-00074/38",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 4096 x 4097. Bounding box: [3916, 2614, 4031, 2707].",
+   "options": [
+    "Blue",
+    "Black",
+    "Red",
+    "White"
+   ],
+   "answer_idx": 0,
+   "image_key": "43:38",
+   "image_sha256": "f7ecfee3f30d41d2951ed35d3ff9c46051f68dc19ab8e05eaf937c6004f1b6c1",
+   "image_cluster": "f7ecfee3f30d41d2",
+   "category": "Object properties/Object color",
+   "w": 4096,
+   "h": 4097,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P5737.png",
+    "index": 724
+   }
+  },
+  {
+   "qid": "xlrs/data-00027-of-00074/16",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 7360 x 4912. Bounding box: [2970, 305, 3029, 347].",
+   "options": [
+    "Black",
+    "Green",
+    "Blue",
+    "White"
+   ],
+   "answer_idx": 3,
+   "image_key": "27:16",
+   "image_sha256": "fa1ea92d6820008c56b38f5737ff090c0cd7f95e059411ab957f06a72f4bf24c",
+   "image_cluster": "fa1ea92d6820008c",
+   "category": "Object properties/Object color",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P10579.png",
+    "index": 30
+   }
+  },
+  {
+   "qid": "xlrs/data-00039-of-00074/40",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [656, 4166, 834, 4604].",
+   "options": [
+    "Green",
+    "White",
+    "Gray",
+    "Yellow"
+   ],
+   "answer_idx": 0,
+   "image_key": "39:40",
+   "image_sha256": "fc90acd1bcc0ff13b8a91922442c477e5eaeb85ff04c3bebaec723da1e15208f",
+   "image_cluster": "fc90acd1bcc0ff13",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0360-6765-LA93-0M50-E080.tif",
+    "index": 558
+   }
+  },
+  {
+   "qid": "xlrs/data-00041-of-00074/36",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 4096 x 4097. Bounding box: [3565, 2959, 3620, 3018].",
+   "options": [
+    "Green",
+    "Blue",
+    "Purple",
+    "Yellow"
+   ],
+   "answer_idx": 1,
+   "image_key": "41:36",
+   "image_sha256": "fcc11234baf2618c461d95a9acdcd8503a8d8ec7e6d9fc95efb5a2f5941b7228",
+   "image_cluster": "fcc11234baf2618c",
+   "category": "Object properties/Object color",
+   "w": 4096,
+   "h": 4097,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P2916.png",
+    "index": 638
+   }
+  },
+  {
+   "qid": "xlrs/data-00042-of-00074/7",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [7051, 3727, 7219, 3856].",
+   "options": [
+    "Yellow",
+    "Blue",
+    "Blue",
+    "Green"
+   ],
+   "answer_idx": 3,
+   "image_key": "42:7",
+   "image_sha256": "fcc6540a4e00e90bca546f109378ffaa7e3c8cb3ce04b2db55db941a3b315389",
+   "image_cluster": "fcc6540a4e00e90b",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2006/35-2006-0360-6770-LA93.tif",
+    "index": 651
+   }
+  },
+  {
+   "qid": "xlrs/data-00027-of-00074/22",
+   "dataset": "xlrs",
+   "question": "Determine the color of the object within the given reference bounding box in the satellite image. Image resolution: 10000 x 10000. Bounding box: [2481, 3320, 2511, 3351].",
+   "options": [
+    "Earth yellow",
+    "Orange",
+    "Gray",
+    "Green"
+   ],
+   "answer_idx": 2,
+   "image_key": "27:22",
+   "image_sha256": "fd89dab456126ef6d81ffe2e12293ac942a5be49335d9bbe8400dba8b1121cd8",
+   "image_cluster": "fd89dab456126ef6",
+   "category": "Object properties/Object color",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0355-6680-LA93-0M50-E080.jp2.tif",
+    "index": 36
+   }
+  },
+  {
+   "qid": "xlrs/data-00021-of-00074/27",
+   "dataset": "xlrs",
+   "question": "Determine whether the object within the given reference bounding box is in motion. Image resolution: 4097 x 4096. Bounding box: [1963, 1106, 2070, 1238].",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "21:27",
+   "image_sha256": "82e8b7849669a6d6bca46b03db804c782650c2ffc12e6c94c0452b63ea7278da",
+   "image_cluster": "82e8b7849669a6d6",
+   "category": "Object properties/Object motion state",
+   "w": 4097,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P10023.png",
+    "index": 49
+   }
+  },
+  {
+   "qid": "xlrs/data-00021-of-00074/36",
+   "dataset": "xlrs",
+   "question": "Determine whether the object within the given reference bounding box is in motion. Image resolution: 10000 x 10000. Bounding box: [6650, 6486, 6656, 6496].",
+   "options": [
+    "Yes",
+    "No"
+   ],
+   "answer_idx": 0,
+   "image_key": "21:36",
+   "image_sha256": "869aaa8afa94074cfc8c81b1ada70dd9b06be9016f374d08c40e25b6693e0616",
+   "image_cluster": "869aaa8afa94074c",
+   "category": "Object properties/Object motion state",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/62-2012-0695-6995-LA93-0M50-E080.jp2.tif",
+    "index": 58
+   }
+  },
+  {
+   "qid": "xlrs/data-00006-of-00074/2",
+   "dataset": "xlrs",
+   "question": "What is the position of the green lawn surrounded by white buildings in the central area below Rainbow Square?",
+   "options": [
+    "Top left corner",
+    "Lower left corner",
+    "Bottom right corner",
+    "Upper right corner"
+   ],
+   "answer_idx": 0,
+   "image_key": "6:2",
+   "image_sha256": "a38275a36222d5b0bf24cfee690cc39ae45020ee5044560467df8b327b42302e",
+   "image_cluster": "3268c48fa67a12c5",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P8003.png",
+    "index": 54
+   }
+  },
+  {
+   "qid": "xlrs/data-00012-of-00074/36",
+   "dataset": "xlrs",
+   "question": "In which direction is the building with the wavy light gray roof located relative to the largest red stadium near the river in the picture?",
+   "options": [
+    "Below",
+    "Above",
+    "Upper right corner",
+    "Bottom right corner"
+   ],
+   "answer_idx": 2,
+   "image_key": "12:36",
+   "image_sha256": "f06ddec7fdcaa3b41d00da6393f2cce9a7edfa506bd3992ae0c670e3815e6ffc",
+   "image_cluster": "3b5ad315843d6a27",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/59-2012-0705-7035-LA93-0M50-E080.jp2.tif",
+    "index": 340
+   }
+  },
+  {
+   "qid": "xlrs/data-00007-of-00074/34",
+   "dataset": "xlrs",
+   "question": "In the image, where is the multi-unit residential area located in the middle left relative to the four quadrant parking lot?",
+   "options": [
+    "Upper Side",
+    "Upper left side",
+    "Upper right side",
+    "Lower side"
+   ],
+   "answer_idx": 1,
+   "image_key": "7:34",
+   "image_sha256": "44bd25af8c62ca0d8aa8feb6a57e52b377366d3bb321cb5fee673b818fb5b7a9",
+   "image_cluster": "44bd25af8c62ca0d",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0370-6775-LA93-0M50-E080.tif",
+    "index": 128
+   }
+  },
+  {
+   "qid": "xlrs/data-00011-of-00074/34",
+   "dataset": "xlrs",
+   "question": "What is the position of the open-pit mine in relation to the irregularly shaped lake on the right side of the highway in the picture?",
+   "options": [
+    "Right Side",
+    "Below",
+    "Above",
+    "On the left side"
+   ],
+   "answer_idx": 3,
+   "image_key": "11:34",
+   "image_sha256": "46fafa7d5e23cf5338dabda0ce308bb5886729402fea4fbc70b1ecc48e288e96",
+   "image_cluster": "46fafa7d5e23cf53",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2006/35-2006-0375-6780-LA93.tif",
+    "index": 296
+   }
+  },
+  {
+   "qid": "xlrs/data-00016-of-00074/6",
+   "dataset": "xlrs",
+   "question": "In the image, where is the circular track located in relation to the largest residential area at the top?",
+   "options": [
+    "On the left side",
+    "Above",
+    "Right Side",
+    "Below"
+   ],
+   "answer_idx": 0,
+   "image_key": "16:6",
+   "image_sha256": "6975736dee1259c47479ab9c32497c38615ff95d6afa636c6a103404f3e42842",
+   "image_cluster": "6975736dee1259c4",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0370-6685-LA93-0M50-E080.jp2.tif",
+    "index": 478
+   }
+  },
+  {
+   "qid": "xlrs/data-00005-of-00074/20",
+   "dataset": "xlrs",
+   "question": "What is the position of the three green objects located towards the upper right side in the circular roundabout in the picture?",
+   "options": [
+    "Upper Side",
+    "Lower side",
+    "Upper right side",
+    "Lower right side"
+   ],
+   "answer_idx": 2,
+   "image_key": "5:20",
+   "image_sha256": "7456266d206e13cbc2fa876369d10017c220a406246b7d879addc5f918c093d8",
+   "image_cluster": "7456266d206e13cb",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0370-6780-LA93-0M50-E080.tif",
+    "index": 30
+   }
+  },
+  {
+   "qid": "xlrs/data-00011-of-00074/31",
+   "dataset": "xlrs",
+   "question": "In the image, where is the single-family unit with the black roof in the upper left corner located in relation to the green rectangular building?",
+   "options": [
+    "Upper right side",
+    "Lower right side",
+    "Right Side",
+    "Upper Side"
+   ],
+   "answer_idx": 3,
+   "image_key": "11:31",
+   "image_sha256": "9683a48f7dbc160cdef94244326e49d78f78aac59cc626887786cee516717efc",
+   "image_cluster": "9683a48f7dbc160c",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0355-6815-LA93-0M50-E080.tif",
+    "index": 293
+   }
+  },
+  {
+   "qid": "xlrs/data-00012-of-00074/16",
+   "dataset": "xlrs",
+   "question": "In the image, what is the position of the dark blue building to the right of the circular area relative to the white building above the circular road?",
+   "options": [
+    "To the right",
+    "Top left corner",
+    "Directly Above",
+    "Bottom right corner"
+   ],
+   "answer_idx": 1,
+   "image_key": "12:16",
+   "image_sha256": "9b05f1ce3435f6aa2430899f84b3a919952098a81c6898b73cddc54bc716df89",
+   "image_cluster": "9b05f1ce3435f6aa",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2006/35-2006-0350-6760-LA93.tif",
+    "index": 320
+   }
+  },
+  {
+   "qid": "xlrs/data-00016-of-00074/19",
+   "dataset": "xlrs",
+   "question": "In the parking lot beneath the white flat-roofed building in the upper right of the picture, where is the blue truck located in relation to the black vehicle?",
+   "options": [
+    "Lower left corner",
+    "Upper right corner",
+    "Top left corner",
+    "Bottom right corner"
+   ],
+   "answer_idx": 0,
+   "image_key": "16:19",
+   "image_sha256": "9c16ee564922729e149316d77f41d11efd28a9c05cdd95dbada850fdad9d4dd1",
+   "image_cluster": "9c16ee564922729e",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 5616,
+   "h": 3744,
+   "meta": {
+    "path": "ITCVD/00047.jpg",
+    "index": 491
+   }
+  },
+  {
+   "qid": "xlrs/data-00016-of-00074/20",
+   "dataset": "xlrs",
+   "question": "In the image, in which direction is the light red car located to the left of the triangular-like building, relative to the green rectangular field?",
+   "options": [
+    "Below",
+    "Top left corner",
+    "Lower left corner",
+    "Above"
+   ],
+   "answer_idx": 1,
+   "image_key": "16:20",
+   "image_sha256": "9d2fbd1b090640babcadf7c23302c67358e156b27ba01c01ebd7fc0216d61879",
+   "image_cluster": "9d2fbd1b090640ba",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 7360,
+   "h": 4912,
+   "meta": {
+    "path": "DOTA_v2_4912_7360/dota_v2_dota_v2_dota_v2_P5989.png",
+    "index": 492
+   }
+  },
+  {
+   "qid": "xlrs/data-00008-of-00074/12",
+   "dataset": "xlrs",
+   "question": "In the image, what is the position of the gray slanted-roof building to the left of the red exterior wall building relative to the largest green rectangular building?",
+   "options": [
+    "Upper right corner",
+    "Top left corner",
+    "Bottom right corner",
+    "Above"
+   ],
+   "answer_idx": 0,
+   "image_key": "8:12",
+   "image_sha256": "c9b78e6daaa39c7e584a7eb7c380dcf7767778cbcfe35181de29f2dd97c23ae6",
+   "image_cluster": "a359e2d17c59f9e9",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 4096,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11176.png",
+    "index": 148
+   }
+  },
+  {
+   "qid": "xlrs/data-00008-of-00074/19",
+   "dataset": "xlrs",
+   "question": "In the image, the longer blue house located towards the upper right is positioned at which direction of the circular roundabout?",
+   "options": [
+    "On the left side",
+    "Upper right corner",
+    "Lower right side",
+    "Directly Above"
+   ],
+   "answer_idx": 1,
+   "image_key": "8:19",
+   "image_sha256": "ac9cf93da3f476040408cccf4cebbcb51ebf1c7a26c3a4e98253f4d22a8dbf73",
+   "image_cluster": "ac9cf93da3f47604",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "MiniFrance/44-2013-0350-6745-LA93-0M50-E080.jp2.tif",
+    "index": 155
+   }
+  },
+  {
+   "qid": "xlrs/data-00013-of-00074/14",
+   "dataset": "xlrs",
+   "question": "What is the position of the red cylindrical object in the upper left relative to the larger white ship also in the upper left?",
+   "options": [
+    "To the left",
+    "Top left corner",
+    "Bottom right corner",
+    "Above"
+   ],
+   "answer_idx": 1,
+   "image_key": "13:14",
+   "image_sha256": "b60e829b53b67e977cc22d56aada22ed442c07d66298c048bef442930ccdf012",
+   "image_cluster": "b60e829b53b67e97",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 4096,
+   "h": 4096,
+   "meta": {
+    "path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P11125.png",
+    "index": 360
+   }
+  },
+  {
+   "qid": "xlrs/data-00011-of-00074/25",
+   "dataset": "xlrs",
+   "question": "In the image, the building with the cross-shaped roof in the bottom left corner is located in which direction of the largest residential area?",
+   "options": [
+    "Lower left corner",
+    "Top left corner",
+    "Bottom right corner",
+    "Upper right corner"
+   ],
+   "answer_idx": 0,
+   "image_key": "11:25",
+   "image_sha256": "d60dca2f7a0e955efe30d4c647c77a5cd451750a99b46292b1365a1d0beb743e",
+   "image_cluster": "d60dca2f7a0e955e",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2006/35-2006-0350-6815-LA93.tif",
+    "index": 287
+   }
+  },
+  {
+   "qid": "xlrs/data-00006-of-00074/3",
+   "dataset": "xlrs",
+   "question": "In the city shown in the upper right of the image, where is the deep red building located in relation to the stadium?",
+   "options": [
+    "Lower left corner",
+    "Upper right corner",
+    "Directly below",
+    "To the right"
+   ],
+   "answer_idx": 0,
+   "image_key": "6:3",
+   "image_sha256": "e92e9dfb7d987003c09188fb84e94f9f7568d85586ca24d255d784b60a176624",
+   "image_cluster": "e92e9dfb7d987003",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0340-6830-LA93-0M50-E080.tif",
+    "index": 55
+   }
+  },
+  {
+   "qid": "xlrs/data-00009-of-00074/40",
+   "dataset": "xlrs",
+   "question": "In the top left township shown in the image, where is the light blue square building located in relation to the red building?",
+   "options": [
+    "To the right",
+    "To the left",
+    "Top left corner",
+    "Upper right corner"
+   ],
+   "answer_idx": 2,
+   "image_key": "9:40",
+   "image_sha256": "ed4ed9b3639b15be42103e0b2b2f57642c94d09bf2b9d5381bb8b22f1e279590",
+   "image_cluster": "ed4ed9b3639b15be",
+   "category": "Object spatial relationship/Object spatial relationship",
+   "w": 10000,
+   "h": 10000,
+   "meta": {
+    "path": "HRSCD/2012/35-2012-0345-6815-LA93-0M50-E080.tif",
+    "index": 218
+   }
+  }
+ ]
+}

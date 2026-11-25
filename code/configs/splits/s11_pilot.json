@@ -1,0 +1,2503 @@
+{
+ "name": "s11_pilot",
+ "protocol": "v2",
+ "seed": 0,
+ "note": "prefix V* 50 + HR-Bench-4K 50",
+ "n": 100,
+ "n_images": 98,
+ "n_clusters": 94,
+ "items": [
+  {
+   "qid": "vstar/direct_attributes/sa_68625",
+   "dataset": "vstar",
+   "question": "What is the color of the straw?",
+   "options": [
+    "The color of the straw is red.",
+    "The color of the straw is white.",
+    "The color of the straw is pink.",
+    "The color of the straw is black."
+   ],
+   "answer_idx": 3,
+   "image_key": "direct_attributes/sa_68625.jpg",
+   "image_sha256": "9c7b7684c5d697679a8d8c884d0cb99863ef032407fa78e68384d6b5214ea4a0",
+   "image_cluster": "9c7b7684c5d69767",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1744,
+      920,
+      15,
+      48
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_69962",
+   "dataset": "vstar",
+   "question": "Is the telephone on the left or right side of the hand lamp?",
+   "options": [
+    "The telephone is on the right side of the hand lamp.",
+    "The telephone is on the left side of the hand lamp."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_69962.jpg",
+   "image_sha256": "1227289d1fea51078f0d0183058803bdcad16060d1de84a3e01a1da8ed390c08",
+   "image_cluster": "1227289d1fea5107",
+   "category": "relative_position",
+   "w": 2249,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1478,
+      386,
+      63,
+      121
+     ],
+     [
+      1778,
+      323,
+      150,
+      135
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_17108",
+   "dataset": "vstar",
+   "question": "What is the color of the truck?",
+   "options": [
+    "The color of the truck is silver.",
+    "The color of the truck is black.",
+    "The color of the truck is yellow.",
+    "The color of the truck is white."
+   ],
+   "answer_idx": 2,
+   "image_key": "direct_attributes/sa_17108.jpg",
+   "image_sha256": "951fc7b4a6b8f2c1caffb216d1d33afe0eec824c867ba35e9234151f0938b119",
+   "image_cluster": "951fc7b4a6b8f2c1",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1045,
+      1043,
+      87,
+      116
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_53509",
+   "dataset": "vstar",
+   "question": "Is the seesaw on the left or right side of the red vehicle?",
+   "options": [
+    "The seesaw is on the left side of the red vehicle.",
+    "The seesaw is on the right side of the red vehicle."
+   ],
+   "answer_idx": 1,
+   "image_key": "relative_position/sa_53509.jpg",
+   "image_sha256": "69a87b03bb8b46583abb956676e6d26fef0d00e6ef351415f77a7d3c0671bb99",
+   "image_cluster": "69a87b03bb8b4658",
+   "category": "relative_position",
+   "w": 2933,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      2625,
+      1002,
+      192,
+      76
+     ],
+     [
+      2388,
+      835,
+      80,
+      46
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_64897",
+   "dataset": "vstar",
+   "question": "What is the color of the umbrella?",
+   "options": [
+    "The color of the umbrella is blue.",
+    "The color of the umbrella is black.",
+    "The color of the umbrella is red.",
+    "The color of the umbrella is purple."
+   ],
+   "answer_idx": 3,
+   "image_key": "direct_attributes/sa_64897.jpg",
+   "image_sha256": "e152108fe195987badf1e5e68c5c079f8e047e6f70efae101f7a775635db2fb2",
+   "image_cluster": "e152108fe195987b",
+   "category": "direct_attributes",
+   "w": 2254,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      308,
+      792,
+      36,
+      28
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_16306",
+   "dataset": "vstar",
+   "question": "What is the color of the clock?",
+   "options": [
+    "The color of the clock is black.",
+    "The color of the clock is green.",
+    "The color of the clock is red.",
+    "The color of the clock is yellow."
+   ],
+   "answer_idx": 1,
+   "image_key": "direct_attributes/sa_16306.jpg",
+   "image_sha256": "0f948b7933e990a331a95012330c7e42e711eb276f13c71f300ecc64aec24de8",
+   "image_cluster": "0f948b7933e990a3",
+   "category": "direct_attributes",
+   "w": 2254,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1372,
+      832,
+      44,
+      29
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_5465",
+   "dataset": "vstar",
+   "question": "Is the red vehicle on the left or right side of the sculpture?",
+   "options": [
+    "The red vehicle is on the left side of the sculpture.",
+    "The red vehicle is on the right side of the sculpture."
+   ],
+   "answer_idx": 1,
+   "image_key": "relative_position/sa_5465.jpg",
+   "image_sha256": "66c53b754e8aecb020082e8b81416e7d9f4e01e236973d8827a355d8477565a0",
+   "image_cluster": "66c53b754e8aecb0",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1909,
+      610,
+      99,
+      33
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_50451",
+   "dataset": "vstar",
+   "question": "What is the color of the bucket?",
+   "options": [
+    "The color of the bucket is green.",
+    "The color of the bucket is white.",
+    "The color of the bucket is black.",
+    "The color of the bucket is red."
+   ],
+   "answer_idx": 1,
+   "image_key": "direct_attributes/sa_50451.jpg",
+   "image_sha256": "20f87897e8c8603d2650e678a9751d1361f99c3bfdbc5611d48ef04cfff577d8",
+   "image_cluster": "20f87897e8c8603d",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      543,
+      1032,
+      46,
+      44
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_62287",
+   "dataset": "vstar",
+   "question": "Is the switch on the left or right side of the towel?",
+   "options": [
+    "The switch is on the right side of the towel.",
+    "The switch is on the left side of the towel."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_62287.jpg",
+   "image_sha256": "d76f6f9875b7cd9e2b69e274202200d239c4920a5ac5e493383dc60026730952",
+   "image_cluster": "d76f6f9875b7cd9e",
+   "category": "relative_position",
+   "w": 1500,
+   "h": 2250,
+   "meta": {
+    "bbox": [
+     [
+      339,
+      1062,
+      147,
+      219
+     ],
+     [
+      776,
+      890,
+      35,
+      51
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_7428",
+   "dataset": "vstar",
+   "question": "What is the color of the man's helmet?",
+   "options": [
+    "The color of the man's helmet is blue.",
+    "The color of the man's helmet is yellow.",
+    "The color of the man's helmet is white.",
+    "The color of the man's helmet is red."
+   ],
+   "answer_idx": 1,
+   "image_key": "direct_attributes/sa_7428.jpg",
+   "image_sha256": "66899d728bd6ebcd063f3eccd67964b9c9500e1d4f62d2ab87c7a61972a55d2f",
+   "image_cluster": "66899d728bd6ebcd",
+   "category": "direct_attributes",
+   "w": 2023,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1332,
+      636,
+      21,
+      16
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_20519",
+   "dataset": "vstar",
+   "question": "What is the breed of the dog?",
+   "options": [
+    "The breed of the dog is corgi.",
+    "The breed of the dog is Dalmatian.",
+    "The breed of the dog is Husky.",
+    "The breed of the dog is golden retriever."
+   ],
+   "answer_idx": 3,
+   "image_key": "direct_attributes/sa_20519.jpg",
+   "image_sha256": "e30fe2d013e11a5da655a46e65930d77e40e098f8a8141a1a3fab36fa50249f4",
+   "image_cluster": "e30fe2d013e11a5d",
+   "category": "direct_attributes",
+   "w": 2265,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      652,
+      1250,
+      63,
+      39
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_87051",
+   "dataset": "vstar",
+   "question": "Is the green bucket on the left or right side of the red tent?",
+   "options": [
+    "The green bucket is on the right side of the red tent.",
+    "The green bucket is on the left side of the red tent."
+   ],
+   "answer_idx": 1,
+   "image_key": "relative_position/sa_87051.jpg",
+   "image_sha256": "7cf9cca5c863c5d5dc70e1ae11590ec3179e641641b91a4cfdb9b064379a28fa",
+   "image_cluster": "7cf9cca5c863c5d5",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      46,
+      1039,
+      55,
+      45
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_10701",
+   "dataset": "vstar",
+   "question": "What is the color of the paraglider?",
+   "options": [
+    "The color of the paraglider is pink.",
+    "The color of the paraglider is red.",
+    "The color of the paraglider is white.",
+    "The color of the paraglider is blue."
+   ],
+   "answer_idx": 3,
+   "image_key": "direct_attributes/sa_10701.jpg",
+   "image_sha256": "3982576f32813d6a0a5351ef6cdbcbeed0a4d68196ce4e742ae1680d1bde47c8",
+   "image_cluster": "3982576f32813d6a",
+   "category": "direct_attributes",
+   "w": 1500,
+   "h": 2250,
+   "meta": {
+    "bbox": [
+     [
+      1146,
+      785,
+      25,
+      27
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_10313",
+   "dataset": "vstar",
+   "question": "Is the umbrella on the left or right side of the traffic light?",
+   "options": [
+    "The umbrella is on the right side of the traffic light.",
+    "The umbrella is on the left side of the traffic light."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_10313.jpg",
+   "image_sha256": "5491aed21a5a7c4fca97489bb542ba29309ddb3ab4e1fda2b47a8734ae55bca8",
+   "image_cluster": "5491aed21a5a7c4f",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1772,
+      1152,
+      144,
+      100
+     ],
+     [
+      1479,
+      984,
+      42,
+      103
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_86882",
+   "dataset": "vstar",
+   "question": "What is the color of the mailbox?",
+   "options": [
+    "The color of the mailbox is red.",
+    "The color of the mailbox is black.",
+    "The color of the mailbox is yellow.",
+    "The color of the mailbox is white."
+   ],
+   "answer_idx": 1,
+   "image_key": "direct_attributes/sa_86882.jpg",
+   "image_sha256": "d9cdafae3804b8dc544390351fe66a3833972f1132d4fb3d4f5b7558c426a479",
+   "image_cluster": "d9cdafae3804b8dc",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1015,
+      1095,
+      50,
+      48
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_7429",
+   "dataset": "vstar",
+   "question": "What is the color of the comb?",
+   "options": [
+    "The color of the comb is purple.",
+    "The color of the comb is black.",
+    "The color of the comb is brown.",
+    "The color of the comb is red."
+   ],
+   "answer_idx": 0,
+   "image_key": "direct_attributes/sa_7429.jpg",
+   "image_sha256": "870500384ffae8497c8275db6a522e646c4675d10b7d0a00a11cd529f6f2483c",
+   "image_cluster": "870500384ffae849",
+   "category": "direct_attributes",
+   "w": 2254,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      909,
+      416,
+      178,
+      55
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_5613",
+   "dataset": "vstar",
+   "question": "Is the dog on the left or right side of the crosswalk?",
+   "options": [
+    "The dog is on the right side of the crosswalk.",
+    "The dog is on the left side of the crosswalk."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_5613.jpg",
+   "image_sha256": "9482ef5b7de421ece5d592df1b027001a31e8ccfc42aa7c470096f9948b9f230",
+   "image_cluster": "9482ef5b7de421ec",
+   "category": "relative_position",
+   "w": 2248,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      2136,
+      1099,
+      76,
+      51
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_717",
+   "dataset": "vstar",
+   "question": "What is the color of the dog?",
+   "options": [
+    "The color of the dog is golden.",
+    "The color of the dog is white.",
+    "The color of the dog is black.",
+    "The color of the dog is brown."
+   ],
+   "answer_idx": 1,
+   "image_key": "direct_attributes/sa_717.jpg",
+   "image_sha256": "22f0696025998e56fa24ffca4ed30a4da8ad8402a95aef67377bfa5815a4fd35",
+   "image_cluster": "22f0696025998e56",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      615,
+      634,
+      61,
+      58
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_33280",
+   "dataset": "vstar",
+   "question": "Is the scooter on the left or right side of the cyclist?",
+   "options": [
+    "The scooter is on the left side of the cyclist.",
+    "The scooter is on the right side of the cyclist."
+   ],
+   "answer_idx": 1,
+   "image_key": "relative_position/sa_33280.jpg",
+   "image_sha256": "9210728931a826428b0f17d2340f36418a5d64e0c1c88d5af9fd66b8412284c8",
+   "image_cluster": "9210728931a82642",
+   "category": "relative_position",
+   "w": 3976,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      3535,
+      763,
+      62,
+      114
+     ],
+     [
+      487,
+      763,
+      46,
+      82
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_11528",
+   "dataset": "vstar",
+   "question": "What is the color of the woman's bikini?",
+   "options": [
+    "The color of the woman's bikini is red.",
+    "The color of the woman's bikini is white.",
+    "The color of the woman's bikini is black.",
+    "The color of the woman's bikini is yellow."
+   ],
+   "answer_idx": 2,
+   "image_key": "direct_attributes/sa_11528.jpg",
+   "image_sha256": "7a7fe73b4b1aed8dfc42bfe7ef4d3a24cfdbaa1aa1dd84b7117b23db5fbf9d20",
+   "image_cluster": "7a7fe73b4b1aed8d",
+   "category": "direct_attributes",
+   "w": 1500,
+   "h": 2259,
+   "meta": {
+    "bbox": [
+     [
+      170,
+      1318,
+      19,
+      32
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_7081",
+   "dataset": "vstar",
+   "question": "What is the color of the trash can?",
+   "options": [
+    "The color of the trash can is yellow.",
+    "The color of the trash can is green.",
+    "The color of the trash can is black.",
+    "The color of the trash can is red."
+   ],
+   "answer_idx": 1,
+   "image_key": "direct_attributes/sa_7081.jpg",
+   "image_sha256": "0f751f49cd0e7bacae26bc7aabd0d737e869e1bfac8061dc4f86d7ea7e726fc7",
+   "image_cluster": "0f751f49cd0e7bac",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1088,
+      1018,
+      51,
+      66
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_7621",
+   "dataset": "vstar",
+   "question": "Is the blue mask on the left or right side of the black mask?",
+   "options": [
+    "The blue mask is on the left side of the black mask.",
+    "The blue mask is on the right side of the black mask."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_7621.jpg",
+   "image_sha256": "c221f27dfad9fe78a49ed2bce243dd6c380b2f73d23f6d56fab7903cef6cb5ac",
+   "image_cluster": "c221f27dfad9fe78",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      702,
+      387,
+      71,
+      101
+     ],
+     [
+      1457,
+      409,
+      86,
+      60
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_25219",
+   "dataset": "vstar",
+   "question": "What is the color of the flag?",
+   "options": [
+    "The color of the flag is blue and yellow.",
+    "The color of the flag is green and white.",
+    "The color of the flag is red and yellow.",
+    "The color of the flag is blue and red."
+   ],
+   "answer_idx": 0,
+   "image_key": "direct_attributes/sa_25219.jpg",
+   "image_sha256": "5a1dddfe2a7659af22371ed810f44ec00883e98761be3bcb41f902066a66e38e",
+   "image_cluster": "5a1dddfe2a7659af",
+   "category": "direct_attributes",
+   "w": 2000,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1634,
+      1140,
+      27,
+      31
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_83235",
+   "dataset": "vstar",
+   "question": "Is the blue luggage on the left or right side of the bus?",
+   "options": [
+    "The blue luggage is on the right side of the bus.",
+    "The blue luggage is on the left side of the bus."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_83235.jpg",
+   "image_sha256": "6f56c068c6b9b03743d7650406c6560dcdc81c26349b47b3bed65d2902cdd842",
+   "image_cluster": "6f56c068c6b9b037",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      2012,
+      909,
+      62,
+      47
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_30179",
+   "dataset": "vstar",
+   "question": "What is the color of the bicycle?",
+   "options": [
+    "The color of the bicycle is white.",
+    "The color of the bicycle is black.",
+    "The color of the bicycle is yellow.",
+    "The color of the bicycle is red."
+   ],
+   "answer_idx": 3,
+   "image_key": "direct_attributes/sa_30179.jpg",
+   "image_sha256": "8292c5f9f792a165c66d974a8f8ea0bbb9a3eafd2df7678246dac8cd24aa55fe",
+   "image_cluster": "8292c5f9f792a165",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1348,
+      1353,
+      46,
+      41
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_30935",
+   "dataset": "vstar",
+   "question": "What is the color of the scarf?",
+   "options": [
+    "The color of the scarf is yellow.",
+    "The color of the scarf is white.",
+    "The color of the scarf is green.",
+    "The color of the scarf is red."
+   ],
+   "answer_idx": 2,
+   "image_key": "direct_attributes/sa_30935.jpg",
+   "image_sha256": "4637032694d4df5d753ce867091e1b564efb3baf49dc222d645cb506a440b1cc",
+   "image_cluster": "4637032694d4df5d",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1091,
+      741,
+      50,
+      25
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_24464",
+   "dataset": "vstar",
+   "question": "Is the woman with a backpack on the left or right side of the person with a beanie?",
+   "options": [
+    "The woman with a backpack is on the right side of the person with a beanie.",
+    "The woman with a backpack is on the left side of the person with a beanie."
+   ],
+   "answer_idx": 1,
+   "image_key": "relative_position/sa_24464.jpg",
+   "image_sha256": "d5c7c6cee7746acf226e48897c89367eb4b4d30a322d40e9b4ce813e2457a53c",
+   "image_cluster": "d5c7c6cee7746acf",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1151,
+      1305,
+      28,
+      29
+     ],
+     [
+      1938,
+      1275,
+      26,
+      35
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_9611",
+   "dataset": "vstar",
+   "question": "What is the material of the stool?",
+   "options": [
+    "The material of the stool is plastic.",
+    "The material of the stool is bamboo.",
+    "The material of the stool is steel.",
+    "The material of the stool is wood."
+   ],
+   "answer_idx": 0,
+   "image_key": "direct_attributes/sa_9611.jpg",
+   "image_sha256": "d0742ff1ad44411264237aa4c6e6e0fdca690cfdc66266b1c1e09a12d0130699",
+   "image_cluster": "d0742ff1ad444112",
+   "category": "direct_attributes",
+   "w": 2169,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1505,
+      610,
+      85,
+      87
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_71151",
+   "dataset": "vstar",
+   "question": "Is the broom on the left or right side of the folded chair?",
+   "options": [
+    "The broom is on the left side of the folded chair.",
+    "The broom is on the right side of the folded chair."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_71151.jpg",
+   "image_sha256": "eee1069d186cd6f2cb666c3fb8ab54b623ac9ad2bc9a04f299bcea7ac1800dd6",
+   "image_cluster": "eee1069d186cd6f2",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      675,
+      723,
+      62,
+      227
+     ],
+     [
+      728,
+      760,
+      118,
+      215
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_30034",
+   "dataset": "vstar",
+   "question": "What is the color of the telephone?",
+   "options": [
+    "The color of the telephone is white.",
+    "The color of the telephone is green.",
+    "The color of the telephone is orange.",
+    "The color of the telephone is blue."
+   ],
+   "answer_idx": 2,
+   "image_key": "direct_attributes/sa_30034.jpg",
+   "image_sha256": "9e91780c84f13addf7deebfb452e066fe8b8f1b311431539b509232c667900e3",
+   "image_cluster": "9e91780c84f13add",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      806,
+      1076,
+      25,
+      28
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_70112",
+   "dataset": "vstar",
+   "question": "What is the color of the lock?",
+   "options": [
+    "The color of the lock is golden.",
+    "The color of the lock is red.",
+    "The color of the lock is yellow.",
+    "The color of the lock is silver."
+   ],
+   "answer_idx": 3,
+   "image_key": "direct_attributes/sa_70112.jpg",
+   "image_sha256": "35f816a2393e5ba31fb50718495336adaee52e5f3bbffee2ac0e71e4531a65c0",
+   "image_cluster": "35f816a2393e5ba3",
+   "category": "direct_attributes",
+   "w": 1500,
+   "h": 2001,
+   "meta": {
+    "bbox": [
+     [
+      587,
+      1305,
+      68,
+      56
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_23575",
+   "dataset": "vstar",
+   "question": "Is the small red car on the left or right side of the baby carriage?",
+   "options": [
+    "The small red car is on the left side of the baby carriage.",
+    "The small red car is on the right side of the baby carriage."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_23575.jpg",
+   "image_sha256": "e93342f9d7063a579ad86523e6514e5157590d0427026a8cad03fa26fc904085",
+   "image_cluster": "e93342f9d7063a57",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      675,
+      959,
+      50,
+      28
+     ],
+     [
+      837,
+      954,
+      39,
+      51
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_66699",
+   "dataset": "vstar",
+   "question": "What is the color of the motorcycle?",
+   "options": [
+    "The color of the motorcycle is white.",
+    "The color of the motorcycle is orange.",
+    "The color of the motorcycle is red.",
+    "The color of the motorcycle is black."
+   ],
+   "answer_idx": 3,
+   "image_key": "direct_attributes/sa_66699.jpg",
+   "image_sha256": "b4a4a836484cfa1f6c7cc56ca6f42b76f9bc92f32af2daa8aac50a1dff546261",
+   "image_cluster": "b4a4a836484cfa1f",
+   "category": "direct_attributes",
+   "w": 5759,
+   "h": 1440,
+   "meta": {
+    "bbox": [
+     [
+      1826,
+      1251,
+      48,
+      41
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_62783",
+   "dataset": "vstar",
+   "question": "Is the pillar box on the left or right side of the telephone booth?",
+   "options": [
+    "The pillar box is on the right side of the telephone booth.",
+    "The pillar box is on the left side of the telephone booth."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_62783.jpg",
+   "image_sha256": "c0e79858b9cbb8f2108d0234cd5bf44389c75cd219546d79e4ab8f8b9ee729b2",
+   "image_cluster": "c0e79858b9cbb8f2",
+   "category": "relative_position",
+   "w": 2256,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      532,
+      1033,
+      43,
+      99
+     ],
+     [
+      794,
+      1073,
+      24,
+      57
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_34040",
+   "dataset": "vstar",
+   "question": "What is the color of the bus?",
+   "options": [
+    "The color of the bus is white.",
+    "The color of the bus is yellow.",
+    "The color of the bus is red.",
+    "The color of the bus is blue."
+   ],
+   "answer_idx": 0,
+   "image_key": "direct_attributes/sa_34040.jpg",
+   "image_sha256": "5953e55ed420328a2a40f8ccd6930f80f2dd1ea82b83f2a0bc1c67aaa8acbca5",
+   "image_cluster": "5953e55ed420328a",
+   "category": "direct_attributes",
+   "w": 1500,
+   "h": 2250,
+   "meta": {
+    "bbox": [
+     [
+      655,
+      1207,
+      119,
+      55
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_11290",
+   "dataset": "vstar",
+   "question": "What is the color of the umbrella?",
+   "options": [
+    "The color of the umbrella is white.",
+    "The color of the umbrella is black.",
+    "The color of the umbrella is blue.",
+    "The color of the umbrella is red."
+   ],
+   "answer_idx": 2,
+   "image_key": "direct_attributes/sa_11290.jpg",
+   "image_sha256": "baa3403902f49d4e7d89e839b08627399195b677c4aa7f911346aa58230e7df2",
+   "image_cluster": "baa3403902f49d4e",
+   "category": "direct_attributes",
+   "w": 2241,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1973,
+      1232,
+      59,
+      37
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_40977",
+   "dataset": "vstar",
+   "question": "Is the vehicle on the left or right side of the blue umbrella?",
+   "options": [
+    "The vehicle is on the right side of the blue umbrella.",
+    "The vehicle is on the left side of the blue umbrella."
+   ],
+   "answer_idx": 1,
+   "image_key": "relative_position/sa_40977.jpg",
+   "image_sha256": "4933e8cdce2e5a82b882754dcacf8574a832017b23a0bf863be00a6ecb19e1f3",
+   "image_cluster": "4933e8cdce2e5a82",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      627,
+      707,
+      41,
+      18
+     ],
+     [
+      989,
+      806,
+      23,
+      27
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_29509",
+   "dataset": "vstar",
+   "question": "What is the color of the trash can?",
+   "options": [
+    "The color of the trash can is green.",
+    "The color of the trash can is yellow.",
+    "The color of the trash can is silver.",
+    "The color of the trash can is black."
+   ],
+   "answer_idx": 3,
+   "image_key": "direct_attributes/sa_29509.jpg",
+   "image_sha256": "e3aff5f93fbb9da76f8045ba8b897aa8e0cfe81560f31bfa7b2cfdae2d6f5936",
+   "image_cluster": "e3aff5f93fbb9da7",
+   "category": "direct_attributes",
+   "w": 2264,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      2067,
+      1002,
+      10,
+      19
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_6183",
+   "dataset": "vstar",
+   "question": "Is the motorcycle on the left or right side of the dog?",
+   "options": [
+    "The motorcycle is on the left side of the dog.",
+    "The motorcycle is on the right side of the dog."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_6183.jpg",
+   "image_sha256": "95e65f8223b3d0bdfaa4793e2791efd675d353707fc7e454f8f57b3051c60493",
+   "image_cluster": "95e65f8223b3d0bd",
+   "category": "relative_position",
+   "w": 2248,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1455,
+      1302,
+      117,
+      77
+     ],
+     [
+      684,
+      945,
+      150,
+      110
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_5346",
+   "dataset": "vstar",
+   "question": "What is the color of the man's cap?",
+   "options": [
+    "The color of the man's cap is red.",
+    "The color of the man's cap is yellow.",
+    "The color of the man's cap is green.",
+    "The color of the man's cap is gray."
+   ],
+   "answer_idx": 3,
+   "image_key": "direct_attributes/sa_5346.jpg",
+   "image_sha256": "b2f93dfe497314ed0085143652ca4526b8ae6ff4a9de546e9e05b66b4ce883bb",
+   "image_cluster": "b2f93dfe497314ed",
+   "category": "direct_attributes",
+   "w": 1690,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1069,
+      980,
+      44,
+      18
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_11370",
+   "dataset": "vstar",
+   "question": "What is the color of the earring?",
+   "options": [
+    "The color of the earring is silver.",
+    "The color of the earring is blue.",
+    "The color of the earring is red.",
+    "The color of the earring is pink."
+   ],
+   "answer_idx": 1,
+   "image_key": "direct_attributes/sa_11370.jpg",
+   "image_sha256": "d20c4e3ba61f2f73afeb2b7142bc3bb5d9a1337a074fd3c6696527f021ad26bd",
+   "image_cluster": "d20c4e3ba61f2f73",
+   "category": "direct_attributes",
+   "w": 1500,
+   "h": 2250,
+   "meta": {
+    "bbox": [
+     [
+      980,
+      613,
+      12,
+      43
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_24031",
+   "dataset": "vstar",
+   "question": "Is the dog on the left or right side of the river?",
+   "options": [
+    "The dog is on the left side of the river.",
+    "The dog is on the right side of the river."
+   ],
+   "answer_idx": 1,
+   "image_key": "relative_position/sa_24031.jpg",
+   "image_sha256": "a5ef8088df1cf73a56aeb351056f3ebc9e999fae4a9584026b15e1ac29b2e9dd",
+   "image_cluster": "a5ef8088df1cf73a",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1850,
+      702,
+      19,
+      35
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_39518",
+   "dataset": "vstar",
+   "question": "What is the color of the tissue box?",
+   "options": [
+    "The color of the tissue box is gray.",
+    "The color of the tissue box is blue.",
+    "The color of the tissue box is white.",
+    "The color of the tissue box is black."
+   ],
+   "answer_idx": 1,
+   "image_key": "direct_attributes/sa_39518.jpg",
+   "image_sha256": "4688897f16b029d95b767de2444f3ea3a7db843733d7393adb8dabb5c32eb525",
+   "image_cluster": "4688897f16b029d9",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1424,
+      740,
+      58,
+      37
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_65804",
+   "dataset": "vstar",
+   "question": "Is the white truck on the left or right side of the red truck?",
+   "options": [
+    "The white truck is on the right side of the red truck.",
+    "The white truck is on the left side of the red truck."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_65804.jpg",
+   "image_sha256": "cf3ec0b4a40090b4ad767eedaf8d6ea4979e760af4cd5402193242accc08f4b7",
+   "image_cluster": "cf3ec0b4a40090b4",
+   "category": "relative_position",
+   "w": 4755,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      2638,
+      618,
+      33,
+      18
+     ],
+     [
+      114,
+      736,
+      54,
+      22
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_10919",
+   "dataset": "vstar",
+   "question": "What is the color of the SUV car?",
+   "options": [
+    "The color of the SUV car is silver.",
+    "The color of the SUV car is blue.",
+    "The color of the SUV car is red.",
+    "The color of the SUV car is black."
+   ],
+   "answer_idx": 0,
+   "image_key": "direct_attributes/sa_10919.jpg",
+   "image_sha256": "705f2c7a2af535a98214e554454935f8deb979dd5e9f5336788d7d02ffe1b737",
+   "image_cluster": "705f2c7a2af535a9",
+   "category": "direct_attributes",
+   "w": 1500,
+   "h": 2246,
+   "meta": {
+    "bbox": [
+     [
+      1403,
+      723,
+      63,
+      32
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_65476",
+   "dataset": "vstar",
+   "question": "What is the color of the toothbrush?",
+   "options": [
+    "The color of the toothbrush is green.",
+    "The color of the toothbrush is blue.",
+    "The color of the toothbrush is red.",
+    "The color of the toothbrush is yellow."
+   ],
+   "answer_idx": 2,
+   "image_key": "direct_attributes/sa_65476.jpg",
+   "image_sha256": "7253f9bcdef974ea271249d87f2369e7637a964bda7f619d76933ed8574ae9ce",
+   "image_cluster": "7253f9bcdef974ea",
+   "category": "direct_attributes",
+   "w": 3000,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      270,
+      629,
+      50,
+      8
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_64257",
+   "dataset": "vstar",
+   "question": "Is the baby carriage on the left or right side of the cyclist?",
+   "options": [
+    "The baby carriage is on the right side of the cyclist.",
+    "The baby carriage is on the left side of the cyclist."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_64257.jpg",
+   "image_sha256": "b1ed607f11f22db5e06098ef7ae02a99429ea4d7a687d6bf5b1c9f0ee65f656b",
+   "image_cluster": "b1ed607f11f22db5",
+   "category": "relative_position",
+   "w": 2622,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      678,
+      870,
+      32,
+      42
+     ],
+     [
+      1819,
+      868,
+      44,
+      26
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_10997",
+   "dataset": "vstar",
+   "question": "What kind of animal is in the poster?",
+   "options": [
+    "The animal in the poster is a dove.",
+    "The animal in the poster is a cat.",
+    "The animal in the poster is a dog.",
+    "The animal in the poster is a horse."
+   ],
+   "answer_idx": 0,
+   "image_key": "direct_attributes/sa_10997.jpg",
+   "image_sha256": "d50bcbb7f9a78ad7cd4f7c150691d30c7d5c836a6905d6e0185184486f6696d6",
+   "image_cluster": "d50bcbb7f9a78ad7",
+   "category": "direct_attributes",
+   "w": 2247,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      661,
+      880,
+      73,
+      150
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/direct_attributes/sa_6422",
+   "dataset": "vstar",
+   "question": "Is the color of the motorcycle orange or green?",
+   "options": [
+    "The color of the motorcycle is green.",
+    "The color of the motorcycle is orange."
+   ],
+   "answer_idx": 1,
+   "image_key": "direct_attributes/sa_6422.jpg",
+   "image_sha256": "5620308f53d7fcd62d66d195a5bd0e37733b3b44d6bc3e4e2fee85eb39ce5d5a",
+   "image_cluster": "5620308f53d7fcd6",
+   "category": "direct_attributes",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      410,
+      740,
+      109,
+      101
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "vstar/relative_position/sa_25747",
+   "dataset": "vstar",
+   "question": "Is the dog on the left or right side of the train?",
+   "options": [
+    "The dog is on the right side of the train.",
+    "The dog is on the left side of the train."
+   ],
+   "answer_idx": 0,
+   "image_key": "relative_position/sa_25747.jpg",
+   "image_sha256": "941f61e7145d29ecdfc839c8e35006c13f48af76ab832422ad4ffea8859a4aa9",
+   "image_cluster": "941f61e7145d29ec",
+   "category": "relative_position",
+   "w": 2250,
+   "h": 1500,
+   "meta": {
+    "bbox": [
+     [
+      1863,
+      797,
+      23,
+      31
+     ]
+    ]
+   }
+  },
+  {
+   "qid": "hrbench4k/628",
+   "dataset": "hrbench4k",
+   "question": "On the provided map, which two numbered locations belong to the same country?",
+   "options": [
+    "Locations 2 and 4",
+    "Locations 2 and 3",
+    "Locations 1 and 2",
+    "Locations 1 and 3"
+   ],
+   "answer_idx": 3,
+   "image_key": "628",
+   "image_sha256": "58918ffb3d5d0e488fa52320df28141327d004a46f5d388a18dfe2fb3acd0970",
+   "image_cluster": "0f3d5dadd949dc98",
+   "category": "cross",
+   "w": 4032,
+   "h": 2139,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/24",
+   "dataset": "hrbench4k",
+   "question": "What is the license plate number of the car?",
+   "options": [
+    "PK 879",
+    "RK 789",
+    "RK 879",
+    "RK 876"
+   ],
+   "answer_idx": 2,
+   "image_key": "24",
+   "image_sha256": "b4fe7c5c4d6ec7586304a7dc18e3508e76af7301ff1e05e0e89269c35f7d6cb5",
+   "image_cluster": "b4fe7c5c4d6ec758",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/756",
+   "dataset": "hrbench4k",
+   "question": "What is the position of the blue backpack relative to the umbrella?",
+   "options": [
+    "Below and to the right of the umbrella",
+    "Below and to the left of the umbrella",
+    "Upon and to the right of the umbrella",
+    "Upon and to the left of the umbrella"
+   ],
+   "answer_idx": 0,
+   "image_key": "756",
+   "image_sha256": "aa816a14597071d065942006747f0c3b5e01542dcadc99f3bc1359baec43aad1",
+   "image_cluster": "aa816a14597071d0",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/248",
+   "dataset": "hrbench4k",
+   "question": "What is written on the black and white sign above the parking garage entrance?",
+   "options": [
+    "No Entry",
+    "Loading Zone",
+    "Reserved Parking",
+    "Public Parking"
+   ],
+   "answer_idx": 3,
+   "image_key": "248",
+   "image_sha256": "0e04f08edbfc22f74f7f93d69628ae657dfd21eed166fb4e7be1c26f54dff6ae",
+   "image_cluster": "0e04f08edbfc22f7",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/48",
+   "dataset": "hrbench4k",
+   "question": "Where is the person standing in relation to the recycle bin?",
+   "options": [
+    "To the left of the recycle bin",
+    "To the right of the recycle bin",
+    "In front of the recycle bin",
+    "Behind the recycle bin"
+   ],
+   "answer_idx": 2,
+   "image_key": "48",
+   "image_sha256": "c3463eb83865d8fad368c9165d6db549a6634672e2511877391c746bf859bd98",
+   "image_cluster": "c3463eb83865d8fa",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/180",
+   "dataset": "hrbench4k",
+   "question": "What's the number written on the boat?",
+   "options": [
+    "5",
+    "15",
+    "25",
+    "10"
+   ],
+   "answer_idx": 1,
+   "image_key": "180",
+   "image_sha256": "3b6c5f16a8abc4bcfb505074da5246a10c5ede52e571c04c386437d74919c840",
+   "image_cluster": "3b6c5f16a8abc4bc",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/464",
+   "dataset": "hrbench4k",
+   "question": "What is located to the right of the main house in the image?",
+   "options": [
+    "A smaller building",
+    "A large tree",
+    "A boat",
+    "A car"
+   ],
+   "answer_idx": 0,
+   "image_key": "464",
+   "image_sha256": "5ee228b23d156905f99eff49d458a7797c8565206ab63c3e6ee2d6178da62688",
+   "image_cluster": "5ee228b23d156905",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/516",
+   "dataset": "hrbench4k",
+   "question": "What is the license plate number of the car?",
+   "options": [
+    "217722-RMA",
+    "21722-ROMA",
+    "217722-ROM",
+    "217722-ROMA"
+   ],
+   "answer_idx": 3,
+   "image_key": "516",
+   "image_sha256": "ccaff0317fdef79058eb27a140fff67779776cf095144aa6b2177f7e45fecead",
+   "image_cluster": "ccaff0317fdef790",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/692",
+   "dataset": "hrbench4k",
+   "question": "What is the sum of the sales for Item 1 and Item 6?",
+   "options": [
+    "97",
+    "94",
+    "95",
+    "96"
+   ],
+   "answer_idx": 0,
+   "image_key": "692",
+   "image_sha256": "4846cdbc0e6d079472639caec343ed35b2c45b5447d400170fe1b02b51ea609e",
+   "image_cluster": "4846cdbc0e6d0794",
+   "category": "cross",
+   "w": 4032,
+   "h": 2858,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/116",
+   "dataset": "hrbench4k",
+   "question": "What is the time shown on the clock?",
+   "options": [
+    "Approximately 11:00",
+    "Approximately 12:15",
+    "Approximately 12:00",
+    "Approximately 11:10"
+   ],
+   "answer_idx": 0,
+   "image_key": "116",
+   "image_sha256": "4ed39dcdf1ab47f9dbdcc1c4f0e5619b7825e266f65d164263a291b20260a138",
+   "image_cluster": "4ed39dcdf1ab47f9",
+   "category": "single",
+   "w": 4032,
+   "h": 2188,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/740",
+   "dataset": "hrbench4k",
+   "question": "Which country's naval ship is depicted in the image based on the flag shown?",
+   "options": [
+    "Netherlands",
+    "Germany",
+    "France",
+    "Belgium"
+   ],
+   "answer_idx": 0,
+   "image_key": "740",
+   "image_sha256": "f90429a8304d923582a89718231e246ea3ae1af4850e56d84cbe99da5883a249",
+   "image_cluster": "f90429a8304d9235",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/348",
+   "dataset": "hrbench4k",
+   "question": "What is the color of the flag?",
+   "options": [
+    "Red",
+    "White",
+    "Black",
+    "Blue"
+   ],
+   "answer_idx": 0,
+   "image_key": "348",
+   "image_sha256": "d890650948e4f71173d39a3b40b689b690a76790838ca75c11e1660ff891d187",
+   "image_cluster": "d890650948e4f711",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/120",
+   "dataset": "hrbench4k",
+   "question": "Which direction is the river flowing relative to the clock tower?",
+   "options": [
+    "To the right",
+    "Towards the clock tower",
+    "To the left",
+    "Away from the clock tower"
+   ],
+   "answer_idx": 0,
+   "image_key": "120",
+   "image_sha256": "4ed39dcdf1ab47f9dbdcc1c4f0e5619b7825e266f65d164263a291b20260a138",
+   "image_cluster": "4ed39dcdf1ab47f9",
+   "category": "cross",
+   "w": 4032,
+   "h": 2188,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/296",
+   "dataset": "hrbench4k",
+   "question": "Tell me the text on the white building.",
+   "options": [
+    "The text on the white building is \"AB\"",
+    "The text on the white building is \"CB\"",
+    "The text on the white building is \"DB\"",
+    "The text on the white building is \"DE\""
+   ],
+   "answer_idx": 2,
+   "image_key": "296",
+   "image_sha256": "5f3b2272dc2bce92aa438181d2bebdabf83fd42040be7bc025e7f9f12b937d99",
+   "image_cluster": "5f3b2272dc2bce92",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/396",
+   "dataset": "hrbench4k",
+   "question": "What is the relative position of the black motorcycle compared to the silver car?",
+   "options": [
+    "To the left of the silver car",
+    "In front of the silver car",
+    "To the right of the silver car",
+    "Behind the silver car"
+   ],
+   "answer_idx": 0,
+   "image_key": "396",
+   "image_sha256": "0d826b604da5b307848843da49756f2313b209eb699e9bb1f0ae86352944512f",
+   "image_cluster": "0d826b604da5b307",
+   "category": "cross",
+   "w": 4032,
+   "h": 1152,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/72",
+   "dataset": "hrbench4k",
+   "question": "What color is the neon \"OPEN\" sign hanging above the items for sale?",
+   "options": [
+    "Red and blue",
+    "White and blue",
+    "Blue and green",
+    "Yellow and green"
+   ],
+   "answer_idx": 0,
+   "image_key": "72",
+   "image_sha256": "cdbfc0ecbe7195dd8bc0286ea3285e30564c69bdefdab00e4032edf6d408d1b8",
+   "image_cluster": "cdbfc0ecbe7195dd",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/432",
+   "dataset": "hrbench4k",
+   "question": "What type of structure is visible to the right of the image?",
+   "options": [
+    "A car",
+    "An elephant statue",
+    "A house",
+    "A bridge"
+   ],
+   "answer_idx": 1,
+   "image_key": "432",
+   "image_sha256": "e0aee10c4ab5beba81f669f43fa6313816b0716298f62a3cea0af0cd8c74d8ed",
+   "image_cluster": "e0aee10c4ab5beba",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/40",
+   "dataset": "hrbench4k",
+   "question": "What is the text written above the logo on the jacket's sleeve?",
+   "options": [
+    "epoc MIX",
+    "epig MIX",
+    "epog MIX",
+    "epio MIX"
+   ],
+   "answer_idx": 3,
+   "image_key": "40",
+   "image_sha256": "76025db501dad6a71225f1e6074f3b3fd16a71bcd29d5168d4c7021a8aa042df",
+   "image_cluster": "76025db501dad6a7",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/764",
+   "dataset": "hrbench4k",
+   "question": "What is the position of the wooden jewelry box relative to the clock?",
+   "options": [
+    "Below the clock",
+    "To the right of the clock",
+    "To the left of the clock",
+    "Over the clock"
+   ],
+   "answer_idx": 2,
+   "image_key": "764",
+   "image_sha256": "fd80b6a06b239df9e2ea0550db49df15b5fead6ea88b6f1ab0eff876608493aa",
+   "image_cluster": "fd80b6a06b239df9",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/88",
+   "dataset": "hrbench4k",
+   "question": "What's color of the bike in the image?",
+   "options": [
+    "Black",
+    "Blue",
+    "Red",
+    "Yellow"
+   ],
+   "answer_idx": 3,
+   "image_key": "88",
+   "image_sha256": "8d5bdee88f332a4aab5727e1d8911889ea5a85fa927167080bccd4c46ff9b904",
+   "image_cluster": "8d5bdee88f332a4a",
+   "category": "single",
+   "w": 4032,
+   "h": 2304,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/580",
+   "dataset": "hrbench4k",
+   "question": "What does the label in the red circle signify?",
+   "options": [
+    "The manufacturer assures the quality of the product and may offer a refund or relpacement if the consumer is not satisfied",
+    "The label indicates that the water is 100% pure with no additives",
+    "The bottle is made from 100% recycled materials",
+    "The label guarantees that the bottle will not leak"
+   ],
+   "answer_idx": 0,
+   "image_key": "580",
+   "image_sha256": "64665e2b5aacc24f75dd2a831de8d5d68407e676fe9be6124a86fff86f8b5bba",
+   "image_cluster": "439ba5c4d75b887b",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/360",
+   "dataset": "hrbench4k",
+   "question": "What is the name written on the front of the boat?",
+   "options": [
+    "Froodom",
+    "Liberty",
+    "Freedom",
+    "Independence"
+   ],
+   "answer_idx": 2,
+   "image_key": "360",
+   "image_sha256": "3bf2344bd274cbf8227df6e735e905c681e5ac73c7484961b245b04324185b23",
+   "image_cluster": "3bf2344bd274cbf8",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/596",
+   "dataset": "hrbench4k",
+   "question": "On the provided map, which two numbered locations belong to the same country?",
+   "options": [
+    "Locations 1 and 2",
+    "Locations 3 and 4",
+    "Locations 1 and 4",
+    "Locations 2 and 4"
+   ],
+   "answer_idx": 0,
+   "image_key": "596",
+   "image_sha256": "f67bbc9bdcb97de8ba5bc637a2fb92f09aaea8d1cc61acb9d2566ccdbafef8b7",
+   "image_cluster": "f67bbc9bdcb97de8",
+   "category": "cross",
+   "w": 4032,
+   "h": 2485,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/104",
+   "dataset": "hrbench4k",
+   "question": "What is the name of the place mentioned on the signboard above the left door?",
+   "options": [
+    "ABRI PATAUD",
+    "ABRI PATARD",
+    "ABRI PRATARD",
+    "ABRI PATEAU"
+   ],
+   "answer_idx": 0,
+   "image_key": "104",
+   "image_sha256": "6f0f3bc88647eae9bca1e6c64cf2ba341e5a5cc4b1907f1a47c9da59799a6298",
+   "image_cluster": "6f0f3bc88647eae9",
+   "category": "single",
+   "w": 4032,
+   "h": 1612,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/408",
+   "dataset": "hrbench4k",
+   "question": "How many computers are visible on the table?",
+   "options": [
+    "Two computers",
+    "Three computers",
+    "Five computers",
+    "Four computers"
+   ],
+   "answer_idx": 2,
+   "image_key": "408",
+   "image_sha256": "f73ea0e421d83391a21c6f2a396a4cbb9fb53a501e33ebe38b51cb318c5b5474",
+   "image_cluster": "f73ea0e421d83391",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/496",
+   "dataset": "hrbench4k",
+   "question": "What word is visible on the suitcase?",
+   "options": [
+    "Dally",
+    "Dolly",
+    "Daily",
+    "Rally"
+   ],
+   "answer_idx": 1,
+   "image_key": "496",
+   "image_sha256": "930083afcf8dc9b0dae497017bd047050b14fb7cbfb8309a27307b5786989eb1",
+   "image_cluster": "930083afcf8dc9b0",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/420",
+   "dataset": "hrbench4k",
+   "question": "What is the position of the totem pole in relation to the bear statue?",
+   "options": [
+    "In front of the bear statue",
+    "To the right of the bear statue",
+    "Behind the bear statue",
+    "To the left of the bear statue"
+   ],
+   "answer_idx": 3,
+   "image_key": "420",
+   "image_sha256": "9a7bc7501476ab5d16c2437cd1ef4ea473b975e682e01372e4ac055c48941588",
+   "image_cluster": "9a7bc7501476ab5d",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/128",
+   "dataset": "hrbench4k",
+   "question": "What is the speed limit indicated by the sign in the image?",
+   "options": [
+    "30 km/h",
+    "25 km/h",
+    "20 km/h",
+    "15 km/h"
+   ],
+   "answer_idx": 2,
+   "image_key": "128",
+   "image_sha256": "b4efb934503815c0d1bee1f5ead8325c1e919154ba82e473fe24e2226203a57a",
+   "image_cluster": "b4efb934503815c0",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/428",
+   "dataset": "hrbench4k",
+   "question": "What is the relative position of the person in the red jacket compared to the large tree?",
+   "options": [
+    "To the right of the large tree",
+    "In front of the large tree",
+    "To the left of the large tree",
+    "Behind the large tree"
+   ],
+   "answer_idx": 0,
+   "image_key": "428",
+   "image_sha256": "93cfd8c0a1c038eeec231395970d0b937848e600dbd90bbc9bfc0efb969e1e09",
+   "image_cluster": "93cfd8c0a1c038ee",
+   "category": "cross",
+   "w": 4032,
+   "h": 2721,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/320",
+   "dataset": "hrbench4k",
+   "question": "What is the color of the cup?",
+   "options": [
+    "Red",
+    "Black",
+    "Brown",
+    "Blue"
+   ],
+   "answer_idx": 2,
+   "image_key": "320",
+   "image_sha256": "247fbdea5a6a3f05587f60187d62aa1c95b3ec7812f5f3ab935ffdc6fd9285ad",
+   "image_cluster": "247fbdea5a6a3f05",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/620",
+   "dataset": "hrbench4k",
+   "question": "On the provided map, which two numbered locations belong to the same country?",
+   "options": [
+    "Locations 1 and 3",
+    "Locations 1 and 4",
+    "Locations 1 and 2",
+    "Locations 2 and 4"
+   ],
+   "answer_idx": 1,
+   "image_key": "620",
+   "image_sha256": "4938797d7b858b2718d3d42d2b3579b1a451221d1b085f07ea898c4b22d92e18",
+   "image_cluster": "0f3d5dadd949dc98",
+   "category": "cross",
+   "w": 4032,
+   "h": 2139,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/328",
+   "dataset": "hrbench4k",
+   "question": "What is the object located in the center of the grassy area?",
+   "options": [
+    "A fountain",
+    "A rockery",
+    "A tree",
+    "A statue"
+   ],
+   "answer_idx": 3,
+   "image_key": "328",
+   "image_sha256": "a3ee7ff0f8b060dcbb03a8a2d3b48949a95d75f67f06021c4462372c966d17ee",
+   "image_cluster": "a3ee7ff0f8b060dc",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/612",
+   "dataset": "hrbench4k",
+   "question": "On the provided map, which two numbered locations belong to the same country?",
+   "options": [
+    "Locations 2 and 4",
+    "Locations 1 and 3",
+    "Locations 2 and 3",
+    "Locations 1 and 2"
+   ],
+   "answer_idx": 3,
+   "image_key": "612",
+   "image_sha256": "d4380bd1a273872cfe5bef5a42ce4bce4639698b506abdc9d4ac1c19494ae9ab",
+   "image_cluster": "0f3d5dadd949dc98",
+   "category": "cross",
+   "w": 4032,
+   "h": 2139,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/160",
+   "dataset": "hrbench4k",
+   "question": "What color is the girl's shirt?",
+   "options": [
+    "Pink",
+    "White",
+    "Yellow",
+    "Blue"
+   ],
+   "answer_idx": 0,
+   "image_key": "160",
+   "image_sha256": "aba8b29db0dab97e5697495a07f13817bbfb458ccdb6006eea0308f00f0949d1",
+   "image_cluster": "aba8b29db0dab97e",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/760",
+   "dataset": "hrbench4k",
+   "question": "What is the position of the blue backpack relative to the wooden box?",
+   "options": [
+    "On top of the wooden box",
+    "Below the wooden box",
+    "To the right of the wooden box",
+    "To the left of the wooden box"
+   ],
+   "answer_idx": 0,
+   "image_key": "760",
+   "image_sha256": "25ff4fbe3eb596a15dec7290478775766caf4a0885f942139545cddfbb123899",
+   "image_cluster": "25ff4fbe3eb596a1",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/96",
+   "dataset": "hrbench4k",
+   "question": "What's the text written on the signboard in the image?",
+   "options": [
+    "frankfurt botschaft",
+    "frankfurter botschaft",
+    "frankfurter botshaft",
+    "frankfurt botshaft"
+   ],
+   "answer_idx": 1,
+   "image_key": "96",
+   "image_sha256": "8d5bdee88f332a4aab5727e1d8911889ea5a85fa927167080bccd4c46ff9b904",
+   "image_cluster": "8d5bdee88f332a4a",
+   "category": "single",
+   "w": 4032,
+   "h": 2304,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/664",
+   "dataset": "hrbench4k",
+   "question": "Which president's face is highlighted in the red rectangle on Mount Rushmore?",
+   "options": [
+    "George Washington",
+    "Abraham Lincoln",
+    "Thomas Jefferson",
+    "Theodore Roosevelt"
+   ],
+   "answer_idx": 1,
+   "image_key": "664",
+   "image_sha256": "c009a31a7cfd057d2da22ef4aace3acc34cf1b8550754f134e63e2355f32111f",
+   "image_cluster": "7b243e4392f8931e",
+   "category": "cross",
+   "w": 4032,
+   "h": 2688,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/232",
+   "dataset": "hrbench4k",
+   "question": "What is the registration number of the boat?",
+   "options": [
+    "TN-01-00216",
+    "TN-01-00026",
+    "TN-02-00056",
+    "TN-03-00026"
+   ],
+   "answer_idx": 1,
+   "image_key": "232",
+   "image_sha256": "f4a8bf7bdf02a1b220020e4ee9509ef2c00a93f274d8a9a44e22db30be5b6011",
+   "image_cluster": "f4a8bf7bdf02a1b2",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/452",
+   "dataset": "hrbench4k",
+   "question": "What is the object directly to the right of the main entrance of the church?",
+   "options": [
+    "A window",
+    "A lamp post",
+    "A statue of a saint",
+    "A dog"
+   ],
+   "answer_idx": 2,
+   "image_key": "452",
+   "image_sha256": "e2a67139d60aa88243b730ea5435154b11f871cdc105aa5c47a08abe93c1f700",
+   "image_cluster": "e2a67139d60aa882",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/168",
+   "dataset": "hrbench4k",
+   "question": "What's the primary color of the person's clothing in the image?",
+   "options": [
+    "Blue",
+    "White",
+    "Green",
+    "Yellow"
+   ],
+   "answer_idx": 0,
+   "image_key": "168",
+   "image_sha256": "6148fb51b26f716f1365214fe74aed46192889efbea017bb2c7a13e800383c96",
+   "image_cluster": "6148fb51b26f716f",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/768",
+   "dataset": "hrbench4k",
+   "question": "How many chairs are there in the image?",
+   "options": [
+    "Three",
+    "Four",
+    "One",
+    "Two"
+   ],
+   "answer_idx": 3,
+   "image_key": "768",
+   "image_sha256": "600f61b59c7260ab65e567762f2bd5e1190ffcc3bf55eabe81ae532a99f1aa14",
+   "image_cluster": "600f61b59c7260ab",
+   "category": "cross",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/340",
+   "dataset": "hrbench4k",
+   "question": "What color is the car?",
+   "options": [
+    "Blue",
+    "Black",
+    "Red",
+    "White"
+   ],
+   "answer_idx": 3,
+   "image_key": "340",
+   "image_sha256": "aca691ceb09f0c7712920148f7e24bd03ed02cdb0a0afe23f8183acc9a3bd3da",
+   "image_cluster": "aca691ceb09f0c77",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/732",
+   "dataset": "hrbench4k",
+   "question": "Which country's flag is on the left?",
+   "options": [
+    "Germany",
+    "United Kingdom",
+    "Japan",
+    "American"
+   ],
+   "answer_idx": 0,
+   "image_key": "732",
+   "image_sha256": "f7ddbc87d28a27d6a34f5dfb9e2904c7222573add36bb98a2acb1816e776e116",
+   "image_cluster": "f7ddbc87d28a27d6",
+   "category": "cross",
+   "w": 4032,
+   "h": 1967,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/536",
+   "dataset": "hrbench4k",
+   "question": "What word is written on the building to the left in the image?",
+   "options": [
+    "five",
+    "family",
+    "office",
+    "house"
+   ],
+   "answer_idx": 1,
+   "image_key": "536",
+   "image_sha256": "d620d282920961df017708b74736962df7c8b8ec03923e284f6498c0bd7ef5d6",
+   "image_cluster": "d620d282920961df",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/568",
+   "dataset": "hrbench4k",
+   "question": "What is the position of the car relative to the central tower of the building?",
+   "options": [
+    "Behind the building",
+    "Right",
+    "Left",
+    "In front of the building"
+   ],
+   "answer_idx": 2,
+   "image_key": "568",
+   "image_sha256": "359cd718aba86645073bf3fa364f62272361cd446fa77fb28d6b9bee32a4d9fb",
+   "image_cluster": "359cd718aba86645",
+   "category": "cross",
+   "w": 4032,
+   "h": 3212,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/716",
+   "dataset": "hrbench4k",
+   "question": "What is the color of the house?",
+   "options": [
+    "blue",
+    "white",
+    "red",
+    "green"
+   ],
+   "answer_idx": 1,
+   "image_key": "716",
+   "image_sha256": "25f81531696be98017615fa17b516363a202a64ee4b706f7d15b01a3bc4ce11f",
+   "image_cluster": "25f81531696be980",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/652",
+   "dataset": "hrbench4k",
+   "question": "Which president's face is highlighted in the red rectangle on Mount Rushmore?",
+   "options": [
+    "George Washington",
+    "Abraham Lincoln",
+    "Theodore Roosevelt",
+    "Thomas Jefferson"
+   ],
+   "answer_idx": 0,
+   "image_key": "652",
+   "image_sha256": "8869bfed5ae6faddfdc4ec070078eeef8f90d63ec783952babc725fcf9ab9a62",
+   "image_cluster": "7b243e4392f8931e",
+   "category": "cross",
+   "w": 4032,
+   "h": 2688,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/492",
+   "dataset": "hrbench4k",
+   "question": "What word is visible on the suitcase?",
+   "options": [
+    "Rally",
+    "Daily",
+    "Dally",
+    "Dolly"
+   ],
+   "answer_idx": 2,
+   "image_key": "492",
+   "image_sha256": "dc24b5022ba6604a4192a7c0937ee3de5df5bbd4baf9acafa7a1ee1efc9e5088",
+   "image_cluster": "930083afcf8dc9b0",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/520",
+   "dataset": "hrbench4k",
+   "question": "Where is the bird positioned in relation to the car?",
+   "options": [
+    "To the right side of the car",
+    "On top of the car",
+    "To the left side on the ground in front of the car",
+    "Behind the car"
+   ],
+   "answer_idx": 2,
+   "image_key": "520",
+   "image_sha256": "3c5d92b8bcc62cce2d225c50674692bd08df973fe2600e957a45fe5c7b6c61de",
+   "image_cluster": "3c5d92b8bcc62cce",
+   "category": "cross",
+   "w": 4032,
+   "h": 3455,
+   "meta": {
+    "orig_answer": "A"
+   }
+  },
+  {
+   "qid": "hrbench4k/196",
+   "dataset": "hrbench4k",
+   "question": "What's the color of the visible vehicle in the image?",
+   "options": [
+    "Red",
+    "Black",
+    "Blue",
+    "White"
+   ],
+   "answer_idx": 3,
+   "image_key": "196",
+   "image_sha256": "a7f0b36178a96f8c1d43143ba449eb662fe470a6b95cb237d73b9acd0a741da3",
+   "image_cluster": "a7f0b36178a96f8c",
+   "category": "single",
+   "w": 4032,
+   "h": 4032,
+   "meta": {
+    "orig_answer": "A"
+   }
+  }
+ ]
+}
